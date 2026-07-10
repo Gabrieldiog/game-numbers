@@ -17,7 +17,7 @@
   justify-content: space-between;
 }
 .marca {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: var(--f-display);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.02em;
@@ -57,21 +57,21 @@
   align-items: flex-end;
 }
 .hud__label {
-  font-family: "Martian Mono", monospace;
+  font-family: var(--f-mono);
   font-size: 0.62rem;
   text-transform: uppercase;
   letter-spacing: 0.16em;
   color: var(--muted);
 }
 .hud__valor {
-  font-family: "Martian Mono", monospace;
+  font-family: var(--f-mono);
   font-weight: 600;
   font-size: 1.5rem;
   color: var(--nevoa);
 }
 
 .kicker {
-  font-family: "Martian Mono", monospace;
+  font-family: var(--f-mono);
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.14em;
@@ -130,7 +130,7 @@
   border-radius: 14px;
   display: grid;
   place-items: center;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: var(--f-display);
   font-weight: 700;
   font-size: 1.2rem;
   color: var(--voltagem);
@@ -145,7 +145,7 @@
 }
 
 .carta__nome {
-  font-family: "Sora", sans-serif;
+  font-family: var(--f-sans);
   font-weight: 600;
   font-size: clamp(1rem, 4.4vw, 1.3rem);
   line-height: 1.15;
@@ -161,7 +161,7 @@
   justify-content: center;
 }
 .carta__numero .tnum {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: var(--f-mono);
   font-weight: 700;
   font-size: clamp(2.4rem, 12vw, 4rem);
   line-height: 0.95;
@@ -188,20 +188,20 @@
   animation: pop 0.32s var(--ease);
 }
 .carta__unidade {
-  font-family: "Martian Mono", monospace;
+  font-family: var(--f-mono);
   font-size: 0.64rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--muted);
 }
 .carta__interro {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: var(--f-display);
   font-weight: 700;
   font-size: clamp(2.6rem, 13vw, 4rem);
   color: color-mix(in srgb, var(--nevoa) 30%, transparent);
 }
 .carta__fato {
-  font-family: "Sora", sans-serif;
+  font-family: var(--f-sans);
   font-size: 0.82rem;
   line-height: 1.35;
   color: var(--muted);
@@ -215,7 +215,7 @@
   z-index: 2;
 }
 .versus span {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: var(--f-display);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -250,7 +250,7 @@
   gap: 12px;
 }
 .btn {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: var(--f-sans);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -299,7 +299,7 @@
 .fonte {
   margin: auto 0 0;
   text-align: center;
-  font-family: "Martian Mono", monospace;
+  font-family: var(--f-mono);
   font-size: 0.68rem;
   letter-spacing: 0.04em;
   color: var(--muted);
@@ -352,14 +352,14 @@
   align-items: center;
 }
 .fim__recorde {
-  font-family: "Martian Mono", monospace;
+  font-family: var(--f-mono);
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--pulso);
 }
 .fim__titulo {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: var(--f-display);
   font-weight: 700;
   font-size: clamp(2rem, 9vw, 2.6rem);
   color: var(--nevoa);
@@ -374,14 +374,14 @@
   gap: 2px;
 }
 .fim__num {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: var(--f-display);
   font-weight: 700;
   font-size: 2rem;
   color: var(--voltagem);
   text-shadow: 0 0 16px color-mix(in srgb, var(--voltagem) 40%, transparent);
 }
 .fim__cap {
-  font-family: "Martian Mono", monospace;
+  font-family: var(--f-mono);
   font-size: 0.62rem;
   text-transform: uppercase;
   letter-spacing: 0.14em;
@@ -493,137 +493,267 @@
   align-items: center;
 }
 
-/* ---------- tela de seleção de categoria ---------- */
+/* ---------- tela de seleção ---------- */
 .selecao {
-  gap: 20px;
+  max-width: 920px; /* mais largo no desktop; no mobile o padding segura */
+  gap: 26px;
 }
-.selecao__sub {
-  margin: -6px 0 0;
-  text-align: center;
-  color: var(--muted);
-  font-size: 1rem;
-}
-.selecao__grupo {
+
+/* hero */
+.hero {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 12px;
+  text-align: center;
+  padding: 14px 0 2px;
 }
-.selecao__grupo-titulo {
+.hero__marca {
   margin: 0;
-  font-family: "Martian Mono", monospace;
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  color: var(--voltagem);
+  font-family: var(--f-display);
+  font-weight: 800;
+  font-size: clamp(2.1rem, 7.5vw, 3.9rem);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+  background: linear-gradient(180deg, var(--nevoa), color-mix(in srgb, var(--voltagem) 62%, var(--nevoa)));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  filter: drop-shadow(0 0 34px color-mix(in srgb, var(--voltagem) 30%, transparent));
 }
-.selecao__grid {
+.hero__marca em {
+  font-style: normal;
+  -webkit-text-fill-color: var(--ciano);
+  color: var(--ciano);
+}
+.hero__tag {
+  margin: 0;
+  max-width: 46ch;
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+/* destaques (desafio do dia + 1v1) */
+.destaques {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 12px;
+  gap: 14px;
 }
-.deck-card {
+.destaque {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 6px;
+  align-items: center;
+  gap: 14px;
   text-align: left;
-  padding: 16px;
-  border-radius: 18px;
   min-width: 0;
-  background: color-mix(in srgb, var(--aco) 82%, transparent);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  padding: 18px;
+  border-radius: 18px;
   border: 1px solid var(--linha);
+  background: color-mix(in srgb, var(--aco) 86%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   color: var(--nevoa);
-  box-shadow: 0 12px 44px -26px rgba(0, 0, 0, 0.9);
   transition:
     transform 0.14s var(--ease),
     border-color 0.2s var(--ease),
     box-shadow 0.2s var(--ease);
 }
-.deck-card:hover {
-  border-color: color-mix(in srgb, var(--voltagem) 55%, var(--linha));
-  box-shadow: 0 0 26px -8px color-mix(in srgb, var(--voltagem) 45%, transparent);
-  transform: translateY(-2px);
+.destaque--diario {
+  --acento: var(--voltagem);
 }
-.deck-card:active {
+.destaque--multi {
+  --acento: var(--pulso);
+}
+.destaque:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--acento) 55%, var(--linha));
+  box-shadow: 0 0 30px -8px color-mix(in srgb, var(--acento) 55%, transparent);
+}
+.destaque:active {
   transform: translateY(0) scale(0.99);
 }
-.deck-card__emoji {
-  font-size: 1.8rem;
-  line-height: 1;
-}
-.deck-card__titulo {
-  font-family: "Sora", sans-serif;
-  font-weight: 600;
-  font-size: 1rem;
-  line-height: 1.15;
-}
-.deck-card__meta {
-  font-family: "Martian Mono", monospace;
-  font-size: 0.6rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--muted);
-}
-.selecao__nota {
-  margin: auto 0 0;
-  text-align: center;
-  font-family: "Martian Mono", monospace;
-  font-size: 0.64rem;
-  letter-spacing: 0.04em;
-  color: var(--muted);
-}
-
-/* ---------- botão do desafio do dia ---------- */
-.diario-btn {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  width: 100%;
-  text-align: left;
-  padding: 16px 18px;
-  border-radius: 18px;
-  border: 1px solid color-mix(in srgb, var(--voltagem) 45%, var(--linha));
-  background: color-mix(in srgb, var(--voltagem) 10%, var(--aco));
-  color: var(--nevoa);
-  box-shadow: 0 0 26px -10px color-mix(in srgb, var(--voltagem) 55%, transparent);
-  transition:
-    transform 0.14s var(--ease),
-    box-shadow 0.2s var(--ease);
-}
-.diario-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 0 32px -8px color-mix(in srgb, var(--voltagem) 65%, transparent);
-}
-.diario-btn:active {
-  transform: translateY(0) scale(0.99);
-}
-.diario-btn__emoji {
-  font-size: 1.8rem;
-  line-height: 1;
-}
-.diario-btn__txt {
+.destaque__txt {
   display: flex;
   flex-direction: column;
   gap: 2px;
   flex: 1;
   min-width: 0;
 }
-.diario-btn__txt strong {
-  font-family: "Chakra Petch", sans-serif;
+.destaque__txt strong {
+  font-family: var(--f-display);
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  font-size: 1.05rem;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
 }
-.diario-btn__txt span {
+.destaque__txt span {
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: 0.82rem;
 }
-.diario-btn__seta {
-  color: var(--voltagem);
+.destaque__seta {
+  color: var(--acento);
   font-size: 1.3rem;
+}
+
+/* caixinha de ícone (destaques, decks, modos) */
+.destaque__icone,
+.deck-card__icone,
+.modo-card__icone {
+  flex: none;
+  display: grid;
+  place-items: center;
+  border-radius: 13px;
+  color: var(--acento, var(--voltagem));
+  background: color-mix(in srgb, var(--acento, var(--voltagem)) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--acento, var(--voltagem)) 30%, transparent);
+}
+.destaque__icone,
+.modo-card__icone {
+  width: 46px;
+  height: 46px;
+}
+.deck-card__icone {
+  width: 42px;
+  height: 42px;
+}
+.destaque__icone svg,
+.modo-card__icone svg {
+  width: 24px;
+  height: 24px;
+}
+.deck-card__icone svg {
+  width: 22px;
+  height: 22px;
+}
+
+.selecao__sub {
+  margin: 2px 0 -8px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* grupos + grade de categorias */
+.grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.grupo--brasil {
+  --acento: var(--pulso);
+}
+.grupo--mundo {
+  --acento: var(--voltagem);
+}
+.grupo--diversao {
+  --acento: var(--ciano);
+}
+.grupo__titulo {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--f-mono);
+  font-weight: 600;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--acento);
+}
+.grupo__titulo::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--acento) 45%, transparent), transparent);
+}
+.grupo__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 14px;
+}
+.deck-card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  text-align: left;
+  padding: 18px;
+  border-radius: 18px;
+  min-width: 0;
+  background: color-mix(in srgb, var(--aco) 85%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--linha);
+  color: var(--nevoa);
+  box-shadow: 0 12px 40px -28px rgba(0, 0, 0, 0.9);
+  transition:
+    transform 0.14s var(--ease),
+    border-color 0.2s var(--ease),
+    box-shadow 0.2s var(--ease);
+}
+.deck-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  background: radial-gradient(80% 65% at 100% 0%, color-mix(in srgb, var(--acento) 15%, transparent), transparent 70%);
+  transition: opacity 0.2s var(--ease);
+}
+.deck-card:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--acento) 55%, var(--linha));
+  box-shadow:
+    0 16px 44px -24px #000,
+    0 0 26px -10px color-mix(in srgb, var(--acento) 55%, transparent);
+}
+.deck-card:hover::before {
+  opacity: 1;
+}
+.deck-card:active {
+  transform: translateY(-1px) scale(0.99);
+}
+.deck-card__titulo {
+  font-family: var(--f-sans);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+.deck-card__meta {
+  font-family: var(--f-mono);
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+/* rodapé */
+.rodape {
+  margin-top: 6px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.rodape p {
+  margin: 0;
+  font-family: var(--f-mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+.rodape__nota {
+  opacity: 0.72;
+}
+
+/* nas telas estreitas, os destaques empilham */
+@media (max-width: 560px) {
+  .destaques {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ---------- progresso do desafio ---------- */
@@ -648,7 +778,7 @@
   transition: width 0.35s var(--ease);
 }
 .progresso__texto {
-  font-family: "Martian Mono", monospace;
+  font-family: var(--f-mono);
   font-size: 0.8rem;
   color: var(--muted);
   font-weight: 600;
@@ -669,21 +799,21 @@
   max-width: 360px;
 }
 .resultado__kicker {
-  font-family: "Martian Mono", monospace;
+  font-family: var(--f-mono);
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.14em;
   color: var(--voltagem);
 }
 .resultado__nota {
-  font-family: "Martian Mono", monospace;
+  font-family: var(--f-mono);
   font-size: 0.66rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--muted);
 }
 .resultado__placar {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: var(--f-display);
   font-weight: 700;
   font-size: clamp(3rem, 16vw, 4.5rem);
   line-height: 0.9;
@@ -720,7 +850,7 @@
   background: none;
   border: none;
   color: var(--muted);
-  font-family: "Sora", sans-serif;
+  font-family: var(--f-sans);
   font-size: 0.9rem;
   text-decoration: underline;
   padding: 4px;
@@ -733,6 +863,7 @@
   gap: 12px;
 }
 .modo-card {
+  --acento: var(--voltagem);
   display: flex;
   align-items: center;
   gap: 14px;
@@ -741,28 +872,33 @@
   padding: 18px;
   border-radius: 18px;
   min-width: 0;
-  background: color-mix(in srgb, var(--aco) 82%, transparent);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: color-mix(in srgb, var(--aco) 85%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   border: 1px solid var(--linha);
   color: var(--nevoa);
-  box-shadow: 0 12px 44px -26px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 12px 40px -28px rgba(0, 0, 0, 0.9);
   transition:
     transform 0.14s var(--ease),
     border-color 0.2s var(--ease),
     box-shadow 0.2s var(--ease);
 }
+.modo-card--classico {
+  --acento: var(--voltagem);
+}
+.modo-card--vidas {
+  --acento: var(--coral);
+}
+.modo-card--blitz {
+  --acento: var(--ciano);
+}
 .modo-card:hover {
-  border-color: color-mix(in srgb, var(--voltagem) 55%, var(--linha));
+  border-color: color-mix(in srgb, var(--acento) 55%, var(--linha));
   transform: translateY(-2px);
-  box-shadow: 0 0 26px -8px color-mix(in srgb, var(--voltagem) 45%, transparent);
+  box-shadow: 0 0 28px -8px color-mix(in srgb, var(--acento) 50%, transparent);
 }
 .modo-card:active {
   transform: translateY(0) scale(0.99);
-}
-.modo-card__emoji {
-  font-size: 1.8rem;
-  line-height: 1;
 }
 .modo-card__txt {
   display: flex;
@@ -772,18 +908,17 @@
   min-width: 0;
 }
 .modo-card__txt strong {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: var(--f-display);
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  font-size: 1.1rem;
+  letter-spacing: -0.01em;
+  font-size: 1.05rem;
 }
 .modo-card__txt span {
   color: var(--muted);
   font-size: 0.82rem;
 }
 .modo-card__seta {
-  color: var(--voltagem);
+  color: var(--acento);
   font-size: 1.3rem;
 }
 
@@ -838,7 +973,7 @@
   box-shadow: 0 0 12px color-mix(in srgb, var(--coral) 60%, transparent);
 }
 .blitz-barra__tempo {
-  font-family: "Martian Mono", monospace;
+  font-family: var(--f-mono);
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--nevoa);
@@ -847,7 +982,7 @@
   color: var(--coral);
 }
 .blitz-combo {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: var(--f-display);
   font-weight: 700;
   text-transform: uppercase;
   font-size: 0.85rem;
@@ -861,19 +996,6 @@
 }
 
 /* ---------- multijogador ---------- */
-.multi-btn {
-  border-color: color-mix(in srgb, var(--pulso) 45%, var(--linha));
-  background: color-mix(in srgb, var(--pulso) 10%, var(--aco));
-  box-shadow: 0 0 26px -10px color-mix(in srgb, var(--pulso) 55%, transparent);
-}
-.multi-btn:hover {
-  border-color: color-mix(in srgb, var(--pulso) 60%, var(--linha));
-  box-shadow: 0 0 32px -8px color-mix(in srgb, var(--pulso) 65%, transparent);
-}
-.multi-btn .diario-btn__seta {
-  color: var(--pulso);
-}
-
 .multi-centro {
   margin: auto;
   display: flex;
@@ -890,7 +1012,7 @@
 }
 .multi-titulo {
   margin: 0;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: var(--f-display);
   font-weight: 700;
   font-size: clamp(1.4rem, 6vw, 2rem);
   text-wrap: balance;
@@ -919,7 +1041,7 @@
   background: color-mix(in srgb, var(--aco) 80%, transparent);
   border: 1px solid var(--linha);
   color: var(--nevoa);
-  font-family: "Sora", sans-serif;
+  font-family: var(--f-sans);
   font-size: 1.1rem;
   text-align: center;
 }
@@ -959,7 +1081,7 @@
   align-items: flex-end;
 }
 .placar-vs__nome {
-  font-family: "Martian Mono", monospace;
+  font-family: var(--f-mono);
   font-size: 0.66rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -970,7 +1092,7 @@
   white-space: nowrap;
 }
 .placar-vs__pts {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: var(--f-display);
   font-weight: 700;
   font-size: 1.8rem;
   color: var(--nevoa);
@@ -979,7 +1101,7 @@
   color: var(--voltagem);
 }
 .placar-vs__x {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: var(--f-display);
   color: var(--coral);
   font-size: 0.85rem;
   text-transform: uppercase;
@@ -999,24 +1121,24 @@
   gap: 2px;
 }
 .placar-final__nome {
-  font-family: "Martian Mono", monospace;
+  font-family: var(--f-mono);
   font-size: 0.62rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--muted);
 }
 .placar-final__pts {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: var(--f-display);
   font-weight: 700;
   font-size: 2.4rem;
   color: var(--nevoa);
 }
 .placar-final__x {
   color: var(--muted);
-  font-family: "Chakra Petch", sans-serif;
+  font-family: var(--f-display);
 }
 .multi-resultado {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: var(--f-display);
   font-weight: 700;
   font-size: clamp(1.8rem, 8vw, 2.6rem);
 }

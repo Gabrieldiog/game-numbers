@@ -23,10 +23,16 @@
     { "nome": "Rondônia", "valor": 237765, "fato": "Fronteira com a Bolívia." },
     { "nome": "Roraima", "valor": 223644, "fato": "O estado mais ao norte." },
     { "nome": "Paraná", "valor": 199298, "fato": "Divide as Cataratas do Iguaçu." },
+    { "nome": "Acre", "valor": 164173, "fato": "Tem fuso próprio: 2h atrás de Brasília." },
     { "nome": "Ceará", "valor": 148894, "fato": "Praias no caminho da linha do Equador." },
+    { "nome": "Amapá", "valor": 142471, "fato": "Cortado pela linha do Equador." },
     { "nome": "Pernambuco", "valor": 98067, "fato": "Vai do litoral ao sertão do São Francisco." },
     { "nome": "Santa Catarina", "valor": 95730, "fato": "Serra, praia e colonização europeia." },
+    { "nome": "Paraíba", "valor": 56467, "fato": "Tem o ponto mais a leste das Américas." },
+    { "nome": "Rio Grande do Norte", "valor": 52810, "fato": "A 'esquina' do continente, sol o ano todo." },
+    { "nome": "Espírito Santo", "valor": 46074, "fato": "Montanhas capixabas e litoral numa tira só." },
     { "nome": "Rio de Janeiro", "valor": 43750, "fato": "Pequeno em área, enorme em gente." },
+    { "nome": "Alagoas", "valor": 27831, "fato": "Praias e lagoas que batizam o estado." },
     { "nome": "Sergipe", "valor": 21938, "fato": "O menor estado do Brasil." },
     { "nome": "Distrito Federal", "valor": 5760, "fato": "A menor unidade da federação." }
   ]

@@ -1,14 +1,22 @@
+/* Paleta azul elétrico / neon, no mesmo mundo do Algo Shorts. O escuro é o
+   protagonista. Os tokens abaixo alimentam todo o App.css. */
 :root {
-  --breu: #0a0e1a;
-  --voltagem: #1fb6ff;
-  --coral: #ff5b4a;
-  --pulso: #2df07a;
-  --nevoa: #eaf0ff;
-  --aco: #1b2236;
-  --linha: color-mix(in srgb, var(--nevoa) 12%, transparent);
-  --muted: color-mix(in srgb, var(--nevoa) 55%, transparent);
+  --breu: #05060f; /* fundo quase preto, azulado */
+  --aco: #0c0e1d; /* superfície dos cards */
+  --aco-2: #14172e; /* superfície um degrau acima */
+  --nevoa: #e7ecff; /* texto */
+  --voltagem: #5b7fff; /* azul elétrico (primária) */
+  --ciano: #2ee6ff; /* ciano neon (acento) */
+  --pulso: #3ef08a; /* verde neon (maior / acerto) */
+  --coral: #ff6b6b; /* vermelho suave (menor / erro) */
+  --linha: #222746;
+  --muted: #8b93b8;
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
   color-scheme: dark;
+
+  --f-display: "Unbounded", system-ui, sans-serif;
+  --f-sans: "Sora", system-ui, -apple-system, sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, monospace;
 }
 
 * {
@@ -24,29 +32,35 @@ body,
 body {
   margin: 0;
   background-color: var(--breu);
+  /* dois brilhos radiais (azul no topo-esquerda, ciano no topo-direita) dão a
+     atmosfera; sem grade dura no fundo — a grade fica no ::before, mascarada */
   background-image:
-    radial-gradient(65% 55% at 12% -5%, color-mix(in srgb, var(--voltagem) 18%, transparent), transparent 70%),
-    radial-gradient(65% 55% at 105% 105%, color-mix(in srgb, var(--coral) 14%, transparent), transparent 70%),
-    linear-gradient(var(--linha) 1px, transparent 1px),
-    linear-gradient(90deg, var(--linha) 1px, transparent 1px);
-  background-size: 100% 100%, 100% 100%, 44px 44px, 44px 44px;
-  background-position: center;
+    radial-gradient(58% 48% at 10% -8%, color-mix(in srgb, var(--voltagem) 26%, transparent), transparent 66%),
+    radial-gradient(52% 44% at 106% 4%, color-mix(in srgb, var(--ciano) 18%, transparent), transparent 70%);
   background-attachment: fixed;
   color: var(--nevoa);
-  font-family: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: var(--f-sans);
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
   -webkit-tap-highlight-color: transparent;
   overflow-x: hidden;
 }
 
-/* vinheta: apaga o grid nas bordas, dá profundidade sem poluir */
-body::after {
+/* grade fina e discreta, que some pras bordas via máscara radial — dá textura
+   sem virar aquele xadrez chapado */
+body::before {
   content: "";
   position: fixed;
   inset: 0;
-  pointer-events: none;
   z-index: 0;
-  background: radial-gradient(75% 65% at 50% 42%, transparent 45%, var(--breu) 100%);
+  pointer-events: none;
+  background-image:
+    linear-gradient(to right, color-mix(in srgb, var(--linha) 60%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in srgb, var(--linha) 60%, transparent) 1px, transparent 1px);
+  background-size: 46px 46px;
+  -webkit-mask-image: radial-gradient(130% 100% at 50% -10%, #000 32%, transparent 76%);
+  mask-image: radial-gradient(130% 100% at 50% -10%, #000 32%, transparent 76%);
+  opacity: 0.55;
 }
 
 button {
@@ -54,8 +68,13 @@ button {
   cursor: pointer;
 }
 
+::selection {
+  background: color-mix(in srgb, var(--voltagem) 32%, transparent);
+  color: var(--nevoa);
+}
+
 :focus-visible {
-  outline: 2px solid var(--voltagem);
+  outline: 2px solid var(--ciano);
   outline-offset: 3px;
 }
 
