@@ -1,0 +1,217 @@
+{
+  "id": "paises-area",
+  "titulo": "Área dos países",
+  "unidade": "km²",
+  "pergunta": "Tem MAIS ou MENOS área?",
+  "fonte": "Banco Mundial",
+  "fonte_url": "https://data.worldbank.org/indicator/AG.SRF.TOTL.K2",
+  "atualizado_em": "2023",
+  "itens": [
+    {
+      "nome": "Rússia",
+      "valor": 17125190,
+      "fato": "É o maior país do mundo e seu território se espalha por 11 fusos horários."
+    },
+    {
+      "nome": "Canadá",
+      "valor": 9984670,
+      "fato": "Segundo maior país do planeta, tem a costa litorânea mais extensa do mundo."
+    },
+    {
+      "nome": "Estados Unidos",
+      "valor": 9831510
+    },
+    {
+      "nome": "China",
+      "valor": 9562910
+    },
+    {
+      "nome": "Brasil",
+      "valor": 8510420,
+      "fato": "Ocupa quase metade da América do Sul e faz fronteira com 10 países."
+    },
+    {
+      "nome": "Austrália",
+      "valor": 7741220,
+      "fato": "É ao mesmo tempo um país e um continente inteiro."
+    },
+    {
+      "nome": "Índia",
+      "valor": 3287260
+    },
+    {
+      "nome": "Argentina",
+      "valor": 2780400
+    },
+    {
+      "nome": "Arábia Saudita",
+      "valor": 2149690
+    },
+    {
+      "nome": "México",
+      "valor": 1957193.9
+    },
+    {
+      "nome": "Indonésia",
+      "valor": 1916906.77
+    },
+    {
+      "nome": "Irã",
+      "valor": 1745150
+    },
+    {
+      "nome": "Peru",
+      "valor": 1285215.6
+    },
+    {
+      "nome": "África do Sul",
+      "valor": 1219090
+    },
+    {
+      "nome": "Colômbia",
+      "valor": 1140619.1
+    },
+    {
+      "nome": "Bolívia",
+      "valor": 1098580
+    },
+    {
+      "nome": "Egito",
+      "valor": 1001450
+    },
+    {
+      "nome": "Nigéria",
+      "valor": 923770
+    },
+    {
+      "nome": "Venezuela",
+      "valor": 912050
+    },
+    {
+      "nome": "Paquistão",
+      "valor": 796100
+    },
+    {
+      "nome": "Turquia",
+      "valor": 785350
+    },
+    {
+      "nome": "Chile",
+      "valor": 757244.88
+    },
+    {
+      "nome": "Noruega",
+      "valor": 624500
+    },
+    {
+      "nome": "França",
+      "valor": 606410
+    },
+    {
+      "nome": "Ucrânia",
+      "valor": 603550,
+      "fato": "É o maior país inteiramente dentro da Europa em área."
+    },
+    {
+      "nome": "Suécia",
+      "valor": 528660
+    },
+    {
+      "nome": "Tailândia",
+      "valor": 513115.021
+    },
+    {
+      "nome": "Espanha",
+      "valor": 505975.98
+    },
+    {
+      "nome": "Paraguai",
+      "valor": 406752
+    },
+    {
+      "nome": "Japão",
+      "valor": 377969.27
+    },
+    {
+      "nome": "Alemanha",
+      "valor": 357680
+    },
+    {
+      "nome": "Vietnã",
+      "valor": 331338.31
+    },
+    {
+      "nome": "Malásia",
+      "valor": 330411
+    },
+    {
+      "nome": "Polônia",
+      "valor": 313930
+    },
+    {
+      "nome": "Itália",
+      "valor": 302070
+    },
+    {
+      "nome": "Filipinas",
+      "valor": 300000
+    },
+    {
+      "nome": "Nova Zelândia",
+      "valor": 267710
+    },
+    {
+      "nome": "Equador",
+      "valor": 256370
+    },
+    {
+      "nome": "Reino Unido",
+      "valor": 243610
+    },
+    {
+      "nome": "Uruguai",
+      "valor": 176220
+    },
+    {
+      "nome": "Bangladesh",
+      "valor": 147570
+    },
+    {
+      "nome": "Grécia",
+      "valor": 131960
+    },
+    {
+      "nome": "Coreia do Sul",
+      "valor": 100450
+    },
+    {
+      "nome": "Emirados Árabes",
+      "valor": 98647.9
+    },
+    {
+      "nome": "Portugal",
+      "valor": 92230
+    },
+    {
+      "nome": "Holanda",
+      "valor": 41540
+    },
+    {
+      "nome": "Suíça",
+      "valor": 41290.7
+    },
+    {
+      "nome": "Bélgica",
+      "valor": 30689
+    },
+    {
+      "nome": "Israel",
+      "valor": 22070
+    },
+    {
+      "nome": "Cingapura",
+      "valor": 728,
+      "fato": "É uma cidade-estado e o menor país desta lista, menor que muitas capitais."
+    }
+  ]
+}
