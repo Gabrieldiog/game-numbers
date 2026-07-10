@@ -1,0 +1,32 @@
+{
+  "id": "ibge-populacao-municipios",
+  "titulo": "População dos municípios",
+  "descricao": "As maiores cidades do Brasil pelo Censo 2022.",
+  "unidade": "habitantes",
+  "pergunta": "Tem MAIS ou MENOS habitantes?",
+  "fonte": "IBGE — Censo Demográfico 2022",
+  "fonte_url": "https://censo2022.ibge.gov.br",
+  "atualizado_em": "2023-06-28",
+  "itens": [
+    { "nome": "São Paulo (SP)", "valor": 11451245, "fato": "A maior cidade do país e das Américas." },
+    { "nome": "Rio de Janeiro (RJ)", "valor": 6211423, "fato": "Perdeu população de 2010 a 2022." },
+    { "nome": "Brasília (DF)", "valor": 2817381, "fato": "Capital federal, planejada nos anos 1950." },
+    { "nome": "Fortaleza (CE)", "valor": 2428708, "fato": "A mais populosa do Nordeste." },
+    { "nome": "Salvador (BA)", "valor": 2417678, "fato": "Foi a primeira capital do Brasil." },
+    { "nome": "Belo Horizonte (MG)", "valor": 2315560, "fato": "Primeira capital planejada da República." },
+    { "nome": "Manaus (AM)", "valor": 2063547, "fato": "A grande metrópole da Amazônia." },
+    { "nome": "Curitiba (PR)", "valor": 1773718, "fato": "Referência em transporte urbano." },
+    { "nome": "Recife (PE)", "valor": 1488920, "fato": "Cortada por rios e pontes." },
+    { "nome": "Goiânia (GO)", "valor": 1437237, "fato": "Também nasceu planejada, nos anos 1930." },
+    { "nome": "Belém (PA)", "valor": 1303403, "fato": "Porta de entrada da Amazônia oriental." },
+    { "nome": "Porto Alegre (RS)", "valor": 1332570, "fato": "Capital mais ao sul entre as grandes." },
+    { "nome": "Guarulhos (SP)", "valor": 1291771, "fato": "Abriga o maior aeroporto do país." },
+    { "nome": "Campinas (SP)", "valor": 1139047, "fato": "Polo de tecnologia e pesquisa." },
+    { "nome": "São Luís (MA)", "valor": 1037775, "fato": "Fundada por franceses em 1612." },
+    { "nome": "Maceió (AL)", "valor": 957916, "fato": "Litoral de águas verdes." },
+    { "nome": "Natal (RN)", "valor": 751300, "fato": "Perto do ponto mais a leste do país." },
+    { "nome": "Teresina (PI)", "valor": 866300, "fato": "Única capital nordestina fora do litoral." },
+    { "nome": "Campo Grande (MS)", "valor": 897938, "fato": "Portal do Pantanal." },
+    { "nome": "João Pessoa (PB)", "valor": 833932, "fato": "Perto do ponto mais oriental das Américas." }
+  ]
+}

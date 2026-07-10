@@ -1,0 +1,33 @@
+{
+  "id": "ibge-area-estados",
+  "titulo": "Tamanho dos estados",
+  "descricao": "A área territorial de cada unidade da federação.",
+  "unidade": "km²",
+  "pergunta": "Tem MAIS ou MENOS área?",
+  "fonte": "IBGE — Áreas territoriais",
+  "fonte_url": "https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/15761-areas-dos-municipios.html",
+  "atualizado_em": "2023-01-01",
+  "itens": [
+    { "nome": "Amazonas", "valor": 1559167, "fato": "O maior estado do Brasil." },
+    { "nome": "Pará", "valor": 1245870, "fato": "Segundo maior, todo na Amazônia." },
+    { "nome": "Mato Grosso", "valor": 903202, "fato": "Cerrado, Pantanal e floresta num só estado." },
+    { "nome": "Minas Gerais", "valor": 586521, "fato": "O maior fora da região Norte." },
+    { "nome": "Bahia", "valor": 564760, "fato": "O maior do Nordeste." },
+    { "nome": "Mato Grosso do Sul", "valor": 357125, "fato": "Coração do Pantanal." },
+    { "nome": "Goiás", "valor": 340242, "fato": "Cerca a capital federal." },
+    { "nome": "Maranhão", "valor": 329642, "fato": "Transição entre Nordeste e Amazônia." },
+    { "nome": "Rio Grande do Sul", "valor": 281730, "fato": "O estado mais ao sul." },
+    { "nome": "Tocantins", "valor": 277423, "fato": "O estado mais novo, criado em 1988." },
+    { "nome": "Piauí", "valor": 251755, "fato": "Litoral curtíssimo, de ~66 km." },
+    { "nome": "São Paulo", "valor": 248219, "fato": "O estado mais populoso e rico." },
+    { "nome": "Rondônia", "valor": 237765, "fato": "Fronteira com a Bolívia." },
+    { "nome": "Roraima", "valor": 223644, "fato": "O estado mais ao norte." },
+    { "nome": "Paraná", "valor": 199298, "fato": "Divide as Cataratas do Iguaçu." },
+    { "nome": "Ceará", "valor": 148894, "fato": "Praias no caminho da linha do Equador." },
+    { "nome": "Pernambuco", "valor": 98067, "fato": "Vai do litoral ao sertão do São Francisco." },
+    { "nome": "Santa Catarina", "valor": 95730, "fato": "Serra, praia e colonização europeia." },
+    { "nome": "Rio de Janeiro", "valor": 43750, "fato": "Pequeno em área, enorme em gente." },
+    { "nome": "Sergipe", "valor": 21938, "fato": "O menor estado do Brasil." },
+    { "nome": "Distrito Federal", "valor": 5760, "fato": "A menor unidade da federação." }
+  ]
+}
