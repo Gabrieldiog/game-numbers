@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { montarDesafioDiario, type RodadaDiaria } from "../lib/jogo/diario";
 import { DECKS } from "../lib/jogo/decks/registro";
 import type { MsgPar, MsgServidor, Palpite, Resultado, RodadaView } from "../lib/multiplayer/protocolo";
-import { BALCAO_WS } from "../lib/multiplayer/host";
+import { BALCAO_HEALTH, BALCAO_WS } from "../lib/multiplayer/host";
 import { som } from "../som/audioEngine";
 
 export type FaseMulti =
@@ -93,6 +93,10 @@ export function useMultiplayer(): MultiView {
   const oppFinalRef = useRef(0);
   const querRematchRef = useRef(false);
   const oppQuerRematchRef = useRef(false);
+  // token monotônico de cada tentativa de conexão: se a pessoa cancela, procura
+  // de novo ou desmonta enquanto o servidor acorda, o token muda e a abertura
+  // pendente do socket é descartada.
+  const aberturaRef = useRef(0);
 
   // faseRef acompanha o estado pra os guards (ex.: ignorar clique duplo) lerem a
   // fase atual sem esperar o re-render.
@@ -102,6 +106,7 @@ export function useMultiplayer(): MultiView {
 
   useEffect(() => {
     return () => {
+      aberturaRef.current += 1; // descarta qualquer abertura ainda pré-aquecendo
       fecharWs();
       if (timerRef.current) window.clearTimeout(timerRef.current);
     };
@@ -227,6 +232,24 @@ export function useMultiplayer(): MultiView {
     geracaoRef.current = 0;
     faseRef.current = "acordando";
     setSt({ ...INICIAL, nome, fase: "acordando" });
+    const token = (aberturaRef.current += 1);
+    void abrir(nome, token);
+  }
+
+  async function abrir(nome: string, token: number) {
+    // pré-aquece o Render antes de abrir o socket: o free tier dorme, e um GET no
+    // /health acorda ele de forma mais confiável que o upgrade do WebSocket no
+    // meio do cold-start. no-cors porque o Balcão não libera esta origem no CORS
+    // — só precisamos disparar a requisição, não ler a resposta.
+    if (BALCAO_HEALTH) {
+      try {
+        await fetch(BALCAO_HEALTH, { mode: "no-cors", cache: "no-store" });
+      } catch {
+        /* sem problema: tenta o socket mesmo assim */
+      }
+    }
+    // desistiram (cancelar / procurar de novo / desmontou) enquanto acordava
+    if (aberturaRef.current !== token) return;
 
     const ws = new WebSocket(`${BALCAO_WS}?nome=${encodeURIComponent(nome)}`);
     wsRef.current = ws;
@@ -249,6 +272,7 @@ export function useMultiplayer(): MultiView {
   }
 
   function cancelar() {
+    aberturaRef.current += 1; // descarta uma abertura que ainda esteja pré-aquecendo
     fecharWs();
     if (timerRef.current) window.clearTimeout(timerRef.current);
     faseRef.current = "nome";
