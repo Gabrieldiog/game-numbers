@@ -574,3 +574,154 @@
   letter-spacing: 0.04em;
   color: var(--muted);
 }
+
+/* ---------- botão do desafio do dia ---------- */
+.diario-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  text-align: left;
+  padding: 16px 18px;
+  border-radius: 18px;
+  border: 1px solid color-mix(in srgb, var(--voltagem) 45%, var(--linha));
+  background: color-mix(in srgb, var(--voltagem) 10%, var(--aco));
+  color: var(--nevoa);
+  box-shadow: 0 0 26px -10px color-mix(in srgb, var(--voltagem) 55%, transparent);
+  transition:
+    transform 0.14s var(--ease),
+    box-shadow 0.2s var(--ease);
+}
+.diario-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 32px -8px color-mix(in srgb, var(--voltagem) 65%, transparent);
+}
+.diario-btn:active {
+  transform: translateY(0) scale(0.99);
+}
+.diario-btn__emoji {
+  font-size: 1.8rem;
+  line-height: 1;
+}
+.diario-btn__txt {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+.diario-btn__txt strong {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 1.05rem;
+}
+.diario-btn__txt span {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+.diario-btn__seta {
+  color: var(--voltagem);
+  font-size: 1.3rem;
+}
+
+/* ---------- progresso do desafio ---------- */
+.progresso {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.progresso__barra {
+  flex: 1;
+  height: 6px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--nevoa) 12%, transparent);
+  overflow: hidden;
+}
+.progresso__barra span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: var(--voltagem);
+  box-shadow: 0 0 12px color-mix(in srgb, var(--voltagem) 60%, transparent);
+  transition: width 0.35s var(--ease);
+}
+.progresso__texto {
+  font-family: "Martian Mono", monospace;
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+/* ---------- resultado do desafio ---------- */
+.diario-fim {
+  justify-content: center;
+}
+.resultado {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  text-align: center;
+  width: 100%;
+  max-width: 360px;
+}
+.resultado__kicker {
+  font-family: "Martian Mono", monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--voltagem);
+}
+.resultado__nota {
+  font-family: "Martian Mono", monospace;
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}
+.resultado__placar {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-size: clamp(3rem, 16vw, 4.5rem);
+  line-height: 0.9;
+  color: var(--nevoa);
+  text-shadow: 0 0 22px color-mix(in srgb, var(--voltagem) 45%, transparent);
+}
+.resultado__placar span {
+  color: var(--muted);
+  font-size: 0.45em;
+}
+.resultado__grade {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  width: 100%;
+  max-width: 240px;
+}
+.gq {
+  aspect-ratio: 1;
+  border-radius: 8px;
+}
+.gq--ok {
+  background: var(--pulso);
+  box-shadow: 0 0 12px -2px color-mix(in srgb, var(--pulso) 55%, transparent);
+}
+.gq--erro {
+  background: var(--coral);
+  box-shadow: 0 0 12px -2px color-mix(in srgb, var(--coral) 55%, transparent);
+}
+.resultado .btn--jogar {
+  width: 100%;
+}
+.resultado__voltar {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-family: "Sora", sans-serif;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  padding: 4px;
+}

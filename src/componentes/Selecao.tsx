@@ -3,11 +3,12 @@ import { DECKS, type GrupoDeck } from "../lib/jogo/decks/registro";
 
 interface Props {
   onEscolher: (deck: Deck) => void;
+  onDiario: () => void;
 }
 
 const GRUPOS: GrupoDeck[] = ["Brasil", "Mundo"];
 
-export function Selecao({ onEscolher }: Props) {
+export function Selecao({ onEscolher, onDiario }: Props) {
   return (
     <div className="app selecao">
       <header className="topo">
@@ -16,7 +17,20 @@ export function Selecao({ onEscolher }: Props) {
         </div>
       </header>
 
-      <p className="selecao__sub">Escolha uma categoria</p>
+      <button className="diario-btn" onClick={onDiario}>
+        <span className="diario-btn__emoji" aria-hidden="true">
+          🗓️
+        </span>
+        <span className="diario-btn__txt">
+          <strong>Desafio do dia</strong>
+          <span>10 rodadas, iguais pra todo mundo hoje</span>
+        </span>
+        <span className="diario-btn__seta" aria-hidden="true">
+          →
+        </span>
+      </button>
+
+      <p className="selecao__sub">ou escolha uma categoria</p>
 
       {GRUPOS.map((grupo) => (
         <section key={grupo} className="selecao__grupo">
