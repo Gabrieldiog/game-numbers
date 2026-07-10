@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState } from "react";
-import { inteiroBR } from "../util/formato";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { formatadorPara } from "../util/formato";
 import { som } from "../som/audioEngine";
 
 interface Props {
@@ -16,6 +16,7 @@ const prefereReduzido = () =>
 /** Conta de 0 até `valor` com easing, tocando o tique do som em sincronia. */
 export function NumeroAnimado({ valor, duracao = 1200, comSom = false, onDone, className }: Props) {
   const [display, setDisplay] = useState(0);
+  const fmt = useMemo(() => formatadorPara(valor), [valor]);
   const onDoneRef = useRef(onDone);
   onDoneRef.current = onDone;
 
@@ -46,5 +47,5 @@ export function NumeroAnimado({ valor, duracao = 1200, comSom = false, onDone, c
     return () => cancelAnimationFrame(raf);
   }, [valor, duracao, comSom]);
 
-  return <span className={className}>{inteiroBR(display)}</span>;
+  return <span className={className}>{fmt(display)}</span>;
 }

@@ -485,3 +485,92 @@
 .carta__nome {
   overflow-wrap: anywhere;
 }
+
+/* ---------- ações do topo (trocar categoria + som) ---------- */
+.topo__acoes {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* ---------- tela de seleção de categoria ---------- */
+.selecao {
+  gap: 20px;
+}
+.selecao__sub {
+  margin: -6px 0 0;
+  text-align: center;
+  color: var(--muted);
+  font-size: 1rem;
+}
+.selecao__grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.selecao__grupo-titulo {
+  margin: 0;
+  font-family: "Martian Mono", monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--voltagem);
+}
+.selecao__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.deck-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  text-align: left;
+  padding: 16px;
+  border-radius: 18px;
+  min-width: 0;
+  background: color-mix(in srgb, var(--aco) 82%, transparent);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--linha);
+  color: var(--nevoa);
+  box-shadow: 0 12px 44px -26px rgba(0, 0, 0, 0.9);
+  transition:
+    transform 0.14s var(--ease),
+    border-color 0.2s var(--ease),
+    box-shadow 0.2s var(--ease);
+}
+.deck-card:hover {
+  border-color: color-mix(in srgb, var(--voltagem) 55%, var(--linha));
+  box-shadow: 0 0 26px -8px color-mix(in srgb, var(--voltagem) 45%, transparent);
+  transform: translateY(-2px);
+}
+.deck-card:active {
+  transform: translateY(0) scale(0.99);
+}
+.deck-card__emoji {
+  font-size: 1.8rem;
+  line-height: 1;
+}
+.deck-card__titulo {
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.15;
+}
+.deck-card__meta {
+  font-family: "Martian Mono", monospace;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+.selecao__nota {
+  margin: auto 0 0;
+  text-align: center;
+  font-family: "Martian Mono", monospace;
+  font-size: 0.64rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
