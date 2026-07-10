@@ -21,6 +21,8 @@ export interface Deck {
   fonte_url: string; // link pra fonte (crédito honesto)
   descricao?: string; // subtítulo opcional
   atualizado_em?: string; // ISO date opcional (quando o dado foi puxado)
+  imagem?: "foto" | "logo"; // "logo" = imagem com fundo transparente (marcas): a
+  // carta usa fundo branco + object-fit contain, pra o logo caber inteiro. Default "foto".
   itens: ItemDeck[]; // >= 2, senão não dá pra formar par
 }
 

@@ -19,6 +19,7 @@ export interface RodadaView {
   unidade: string;
   fonte: string;
   fonteUrl: string;
+  logo?: boolean;
   ancora: { nome: string; valor: number; img?: string };
   desafiante: { nome: string; img?: string };
 }

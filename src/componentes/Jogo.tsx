@@ -91,7 +91,7 @@ export function Jogo({ deck, modo, onTrocar }: Props) {
       <div className="kicker">{deck.titulo}</div>
 
       <main className={`palco ${treme ? "palco--treme" : ""}`}>
-        <Carta item={ancora} papel="ancora" estado="ancora">
+        <Carta item={ancora} papel="ancora" estado="ancora" logo={deck.imagem === "logo"}>
           <span className="tnum">{formatar(ancora.valor)}</span>
           <span className="carta__unidade">{unidade}</span>
         </Carta>
@@ -100,7 +100,7 @@ export function Jogo({ deck, modo, onTrocar }: Props) {
           <span>vs</span>
         </div>
 
-        <Carta item={desafiante} papel="desafiante" estado={estadoDesafiante}>
+        <Carta item={desafiante} papel="desafiante" estado={estadoDesafiante} logo={deck.imagem === "logo"}>
           {fase === "jogando" ? (
             <span className="carta__interro">?</span>
           ) : fase === "fim" ? (

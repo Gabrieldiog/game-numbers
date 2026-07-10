@@ -89,6 +89,36 @@ const DECK_ICONES: Record<string, ReactNode> = {
       <ellipse cx="12" cy="12" rx="11" ry="4" transform="rotate(-24 12 12)" />
     </>
   ),
+  // longevidade — ampulheta
+  "animais-longevidade": (
+    <>
+      <path d="M7 3h10M7 21h10" />
+      <path d="M8 3c0 5 8 6 8 9s-8 4-8 9M16 3c0 5-8 6-8 9s8 4 8 9" />
+    </>
+  ),
+  // novelas — televisão
+  "novelas-capitulos": (
+    <>
+      <rect x="2.5" y="7" width="19" height="13" rx="2.5" />
+      <path d="M8 3.5L12 7l4-3.5" />
+    </>
+  ),
+  // videogames — controle
+  "videogames-vendas": (
+    <>
+      <rect x="2" y="8" width="20" height="9" rx="4.5" />
+      <path d="M6.5 11v3M5 12.5h3" />
+      <circle cx="16" cy="12" r="1" fill="currentColor" stroke="none" />
+      <circle cx="18.5" cy="14" r="1" fill="currentColor" stroke="none" />
+    </>
+  ),
+  // marcas — etiqueta
+  "marcas-idade": (
+    <>
+      <path d="M3 3h8l10 10-8 8L3 11z" />
+      <circle cx="7.5" cy="7.5" r="1.4" />
+    </>
+  ),
   // instagram — câmera
   "instagram-seguidores": (
     <>
