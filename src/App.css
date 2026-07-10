@@ -143,6 +143,15 @@
   height: 100%;
   object-fit: cover;
 }
+/* quando o item tem foto (deck da fama), o medalhão vira um retrato maior */
+.carta__medalhao--foto {
+  width: clamp(78px, 22vw, 96px);
+  height: clamp(78px, 22vw, 96px);
+  border-radius: 18px;
+  border-color: color-mix(in srgb, var(--nevoa) 14%, transparent);
+  background: color-mix(in srgb, var(--nevoa) 6%, transparent);
+  box-shadow: 0 10px 26px -14px #000;
+}
 
 .carta__nome {
   font-family: var(--f-sans);
@@ -639,6 +648,9 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+.grupo--fama {
+  --acento: #ffca4d; /* dourado de holofote — a categoria estrela se destaca */
 }
 .grupo--brasil {
   --acento: var(--pulso);

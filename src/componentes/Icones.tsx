@@ -89,6 +89,14 @@ const DECK_ICONES: Record<string, ReactNode> = {
       <ellipse cx="12" cy="12" rx="11" ry="4" transform="rotate(-24 12 12)" />
     </>
   ),
+  // fama — pessoa com um brilho de estrela
+  "wiki-mais-visto": (
+    <>
+      <circle cx="10" cy="8" r="3.6" />
+      <path d="M3.5 20.5c0-3.6 2.9-6.5 6.5-6.5 2 0 3.8.9 5 2.3" />
+      <path d="M18 3.2l.9 2 2.1.3-1.5 1.5.4 2.1-1.9-1-1.9 1 .4-2.1-1.5-1.5 2.1-.3z" />
+    </>
+  ),
 };
 
 export function IconeDeck({ id, className }: { id: string; className?: string }) {

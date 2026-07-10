@@ -8,8 +8,8 @@ interface Props {
   onMultiplayer: () => void;
 }
 
-const GRUPOS: GrupoDeck[] = ["Brasil", "Mundo", "Diversão"];
-const SLUG: Record<GrupoDeck, string> = { Brasil: "brasil", Mundo: "mundo", Diversão: "diversao" };
+const GRUPOS: GrupoDeck[] = ["Fama", "Brasil", "Mundo", "Diversão"];
+const SLUG: Record<GrupoDeck, string> = { Fama: "fama", Brasil: "brasil", Mundo: "mundo", Diversão: "diversao" };
 
 export function Selecao({ onEscolher, onDiario, onMultiplayer }: Props) {
   return (
