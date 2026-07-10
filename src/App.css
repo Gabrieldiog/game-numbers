@@ -900,6 +900,11 @@
   color: var(--muted);
   font-size: 0.95rem;
 }
+/* cada frase do "acordando o servidor" entra com um fade (troca por key={i}) */
+.multi-sub--gira {
+  min-height: 2.6em;
+  animation: fadein 0.4s ease;
+}
 .multi-form {
   display: flex;
   flex-direction: column;

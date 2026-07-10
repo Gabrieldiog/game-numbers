@@ -1,10 +1,10 @@
 # Deploy do frontend no Netlify.
 #
-# IMPORTANTE: defina a variável de ambiente VITE_PARTY_HOST nas configurações do
-# site (Site configuration > Environment variables) com o host do servidor
-# PartyKit publicado — ex.: "maior-ou-menor.SEU-USUARIO.partykit.dev" (só o host,
-# sem https://). Sem isso, o multijogador aponta pro localhost e não conecta em
-# produção. O Vite lê essa variável no momento do build.
+# IMPORTANTE: defina a variável de ambiente VITE_BALCAO_WS nas configurações do
+# site (Site configuration > Environment variables) com a URL WebSocket do relay
+# 1v1 no Balcão publicado — ex.: "wss://SEU-BALCAO.onrender.com/ws/1v1" (a URL
+# completa, com wss:// e o caminho /ws/1v1). Sem isso, o multijogador aponta pro
+# localhost e não conecta em produção. O Vite lê essa variável no build.
 
 [build]
   command = "npm run build"
