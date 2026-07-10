@@ -725,3 +725,83 @@
   text-decoration: underline;
   padding: 4px;
 }
+
+/* ---------- escolha de modo ---------- */
+.modos {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.modo-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  text-align: left;
+  padding: 18px;
+  border-radius: 18px;
+  min-width: 0;
+  background: color-mix(in srgb, var(--aco) 82%, transparent);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--linha);
+  color: var(--nevoa);
+  box-shadow: 0 12px 44px -26px rgba(0, 0, 0, 0.9);
+  transition:
+    transform 0.14s var(--ease),
+    border-color 0.2s var(--ease),
+    box-shadow 0.2s var(--ease);
+}
+.modo-card:hover {
+  border-color: color-mix(in srgb, var(--voltagem) 55%, var(--linha));
+  transform: translateY(-2px);
+  box-shadow: 0 0 26px -8px color-mix(in srgb, var(--voltagem) 45%, transparent);
+}
+.modo-card:active {
+  transform: translateY(0) scale(0.99);
+}
+.modo-card__emoji {
+  font-size: 1.8rem;
+  line-height: 1;
+}
+.modo-card__txt {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex: 1;
+  min-width: 0;
+}
+.modo-card__txt strong {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 1.1rem;
+}
+.modo-card__txt span {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+.modo-card__seta {
+  color: var(--voltagem);
+  font-size: 1.3rem;
+}
+
+/* ---------- vidas (corações) ---------- */
+.vidas {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+.vida {
+  font-size: 1.4rem;
+  line-height: 1;
+  color: color-mix(in srgb, var(--nevoa) 16%, transparent);
+  transition:
+    color 0.2s var(--ease),
+    transform 0.2s var(--ease);
+}
+.vida--cheia {
+  color: var(--coral);
+  text-shadow: 0 0 12px color-mix(in srgb, var(--coral) 55%, transparent);
+}

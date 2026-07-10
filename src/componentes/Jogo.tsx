@@ -1,5 +1,5 @@
 import type { Deck } from "../lib/jogo";
-import { useJogo } from "../hooks/useJogo";
+import { useJogo, type ModoPartida } from "../hooks/useJogo";
 import { useSom } from "../som/useSom";
 import { Hud } from "./Hud";
 import { Carta } from "./Carta";
@@ -11,15 +11,17 @@ import { formatar } from "../util/formato";
 
 interface Props {
   deck: Deck;
+  modo: ModoPartida;
   onTrocar: () => void;
 }
 
-export function Jogo({ deck, onTrocar }: Props) {
+export function Jogo({ deck, modo, onTrocar }: Props) {
   const {
     ancora,
     desafiante,
     pontos,
     recorde,
+    vidas,
     fase,
     resultado,
     desfechoVisivel,
@@ -28,7 +30,7 @@ export function Jogo({ deck, onTrocar }: Props) {
     palpitar,
     concluirContagem,
     reiniciarJogo,
-  } = useJogo(deck);
+  } = useJogo(deck, modo);
   const { mudo, alternar } = useSom();
 
   const estadoDesafiante =
@@ -60,6 +62,16 @@ export function Jogo({ deck, onTrocar }: Props) {
       </header>
 
       <Hud pontos={pontos} recorde={recorde} />
+
+      {modo === "vidas" ? (
+        <div className="vidas" aria-label={`${vidas} de 3 vidas`}>
+          {[1, 2, 3].map((i) => (
+            <span key={i} className={`vida ${i <= vidas ? "vida--cheia" : ""}`} aria-hidden="true">
+              ♥
+            </span>
+          ))}
+        </div>
+      ) : null}
 
       <div className="kicker">{deck.titulo}</div>
 
