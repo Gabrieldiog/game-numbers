@@ -1,0 +1,217 @@
+{
+  "id": "paises-populacao",
+  "titulo": "População dos países",
+  "unidade": "habitantes",
+  "pergunta": "Tem MAIS ou MENOS habitantes?",
+  "fonte": "Banco Mundial",
+  "fonte_url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+  "atualizado_em": "2025",
+  "itens": [
+    {
+      "nome": "Índia",
+      "valor": 1463865525,
+      "fato": "Ultrapassou a China por volta de 2023 e virou o país mais populoso do mundo."
+    },
+    {
+      "nome": "China",
+      "valor": 1406585000,
+      "fato": "Foi o país mais populoso do mundo por décadas, até ser ultrapassada pela Índia."
+    },
+    {
+      "nome": "Estados Unidos",
+      "valor": 341784857,
+      "fato": "Terceiro país mais populoso do mundo, atrás de Índia e China."
+    },
+    {
+      "nome": "Indonésia",
+      "valor": 285721236
+    },
+    {
+      "nome": "Paquistão",
+      "valor": 255219554
+    },
+    {
+      "nome": "Nigéria",
+      "valor": 237527782,
+      "fato": "É o país mais populoso da África."
+    },
+    {
+      "nome": "Brasil",
+      "valor": 212812405,
+      "fato": "É o país mais populoso da América do Sul."
+    },
+    {
+      "nome": "Bangladesh",
+      "valor": 175686899
+    },
+    {
+      "nome": "Rússia",
+      "valor": 143513328
+    },
+    {
+      "nome": "México",
+      "valor": 131946900
+    },
+    {
+      "nome": "Japão",
+      "valor": 123366734
+    },
+    {
+      "nome": "Egito",
+      "valor": 118365995
+    },
+    {
+      "nome": "Filipinas",
+      "valor": 116786962
+    },
+    {
+      "nome": "Vietnã",
+      "valor": 101598527
+    },
+    {
+      "nome": "Irã",
+      "valor": 92417681
+    },
+    {
+      "nome": "Turquia",
+      "valor": 85878556
+    },
+    {
+      "nome": "Alemanha",
+      "valor": 83491249
+    },
+    {
+      "nome": "Tailândia",
+      "valor": 71619863
+    },
+    {
+      "nome": "Reino Unido",
+      "valor": 69487000
+    },
+    {
+      "nome": "França",
+      "valor": 68720337
+    },
+    {
+      "nome": "África do Sul",
+      "valor": 64747319
+    },
+    {
+      "nome": "Itália",
+      "valor": 58915656
+    },
+    {
+      "nome": "Colômbia",
+      "valor": 53425635
+    },
+    {
+      "nome": "Coreia do Sul",
+      "valor": 51684564
+    },
+    {
+      "nome": "Espanha",
+      "valor": 49355143
+    },
+    {
+      "nome": "Argentina",
+      "valor": 45851378
+    },
+    {
+      "nome": "Canadá",
+      "valor": 41651653
+    },
+    {
+      "nome": "Ucrânia",
+      "valor": 38980376
+    },
+    {
+      "nome": "Arábia Saudita",
+      "valor": 36973555
+    },
+    {
+      "nome": "Polônia",
+      "valor": 36435861
+    },
+    {
+      "nome": "Malásia",
+      "valor": 35977838
+    },
+    {
+      "nome": "Peru",
+      "valor": 34576665
+    },
+    {
+      "nome": "Venezuela",
+      "valor": 28516896
+    },
+    {
+      "nome": "Austrália",
+      "valor": 27614411
+    },
+    {
+      "nome": "Chile",
+      "valor": 19859921
+    },
+    {
+      "nome": "Equador",
+      "valor": 18289896
+    },
+    {
+      "nome": "Holanda",
+      "valor": 18087633
+    },
+    {
+      "nome": "Bolívia",
+      "valor": 12581843
+    },
+    {
+      "nome": "Bélgica",
+      "valor": 11941781
+    },
+    {
+      "nome": "Emirados Árabes",
+      "valor": 11513149
+    },
+    {
+      "nome": "Portugal",
+      "valor": 10804871
+    },
+    {
+      "nome": "Suécia",
+      "valor": 10596620
+    },
+    {
+      "nome": "Grécia",
+      "valor": 10413962
+    },
+    {
+      "nome": "Israel",
+      "valor": 10122800
+    },
+    {
+      "nome": "Suíça",
+      "valor": 9092436
+    },
+    {
+      "nome": "Paraguai",
+      "valor": 7013078
+    },
+    {
+      "nome": "Cingapura",
+      "valor": 6111175,
+      "fato": "Cidade-estado, é um dos países mais densamente povoados do mundo."
+    },
+    {
+      "nome": "Noruega",
+      "valor": 5610870
+    },
+    {
+      "nome": "Nova Zelândia",
+      "valor": 5324700
+    },
+    {
+      "nome": "Uruguai",
+      "valor": 3384688
+    }
+  ]
+}

@@ -1,6 +1,4 @@
-import { useMemo } from "react";
-import bruto from "./lib/jogo/decks/ibge-populacao-municipios.json";
-import { parseDeck } from "./lib/jogo";
+import { deckPadrao } from "./lib/jogo/decks/registro";
 import { useJogo } from "./hooks/useJogo";
 import { useSom } from "./som/useSom";
 import { Hud } from "./componentes/Hud";
@@ -13,7 +11,7 @@ import { inteiroBR } from "./util/formato";
 import "./App.css";
 
 export default function App() {
-  const deck = useMemo(() => parseDeck(bruto), []);
+  const deck = deckPadrao;
   const {
     ancora,
     desafiante,
