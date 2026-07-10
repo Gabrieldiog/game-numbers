@@ -10,109 +10,134 @@
     {
       "nome": "Falcão-peregrino",
       "valor": 389,
-      "fato": "No mergulho de caça, é o animal mais rápido do planeta."
+      "fato": "No mergulho de caça, é o animal mais rápido do planeta.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg/330px-Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg"
     },
     {
       "nome": "Águia-real",
-      "valor": 240
+      "valor": 240,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/015_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_%28Switzerland%29_Photo_by_Giles_Laurent.jpg/330px-015_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_%28Switzerland%29_Photo_by_Giles_Laurent.jpg"
     },
     {
       "nome": "Andorinhão-de-cauda-espinhosa",
       "valor": 169,
-      "fato": "A ave mais veloz em voo horizontal, sem contar mergulhos."
+      "fato": "A ave mais veloz em voo horizontal, sem contar mergulhos.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/White-throated_Needletail_kobble_jan05.jpg/330px-White-throated_Needletail_kobble_jan05.jpg"
     },
     {
       "nome": "Morcego-de-cauda-livre",
       "valor": 160,
-      "fato": "O mamífero mais rápido já registrado — e ele bate o recorde voando."
+      "fato": "O mamífero mais rápido já registrado — e ele bate o recorde voando.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/43/Tadarida_brasiliensis.jpg"
     },
     {
       "nome": "Pombo-correio",
-      "valor": 149
+      "valor": 149,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Pigeon_Messengers_%28Harper%27s_Engraving%29.png/330px-Pigeon_Messengers_%28Harper%27s_Engraving%29.png"
     },
     {
       "nome": "Marlim-negro",
-      "valor": 129
+      "valor": 129,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Maind_u0.gif/330px-Maind_u0.gif"
     },
     {
       "nome": "Albatroz",
-      "valor": 127
+      "valor": 127,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Short_tailed_albatross.jpg/330px-Short_tailed_albatross.jpg"
     },
     {
       "nome": "Guepardo",
       "valor": 120,
-      "fato": "O animal terrestre mais rápido, mas só aguenta o pique por alguns segundos."
+      "fato": "O animal terrestre mais rápido, mas só aguenta o pique por alguns segundos.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Male_cheetah_facing_left_in_South_Africa.jpg/330px-Male_cheetah_facing_left_in_South_Africa.jpg"
     },
     {
       "nome": "Peixe-veleiro",
-      "valor": 109
+      "valor": 109,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Istiophorus_platypterus.jpg/330px-Istiophorus_platypterus.jpg"
     },
     {
       "nome": "Beija-flor",
-      "valor": 98
+      "valor": 98,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Haeckel_Trochilidae.jpg/330px-Haeckel_Trochilidae.jpg"
     },
     {
       "nome": "Espadarte",
-      "valor": 97
+      "valor": 97,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Ichthyologie%3B_ou%2C_Histoire_naturelle_des_poissons_%28Plate_76%29_%287064433129%29.jpg/330px-Ichthyologie%3B_ou%2C_Histoire_naturelle_des_poissons_%28Plate_76%29_%287064433129%29.jpg"
     },
     {
       "nome": "Antílope-americano",
       "valor": 88,
-      "fato": "O corredor de resistência da natureza: mantém alta velocidade por vários quilômetros."
+      "fato": "O corredor de resistência da natureza: mantém alta velocidade por vários quilômetros.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Antilocapra_americana.jpg/330px-Antilocapra_americana.jpg"
     },
     {
       "nome": "Leão",
-      "valor": 80
+      "valor": 80,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/330px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg"
     },
     {
       "nome": "Cavalo",
-      "valor": 76
+      "valor": 76,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Nokota_Horses_cropped.jpg/330px-Nokota_Horses_cropped.jpg"
     },
     {
       "nome": "Galgo",
-      "valor": 74
+      "valor": 74,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhippetWhiteSaddled_wb.jpg/330px-WhippetWhiteSaddled_wb.jpg"
     },
     {
       "nome": "Lebre-europeia",
-      "valor": 72
+      "valor": 72,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Feldhase.jpg/330px-Feldhase.jpg"
     },
     {
       "nome": "Avestruz",
-      "valor": 70
+      "valor": 70,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Struthio_camelus_-_Etosha_2014_%283%29.jpg/330px-Struthio_camelus_-_Etosha_2014_%283%29.jpg"
     },
     {
       "nome": "Canguru",
-      "valor": 68
+      "valor": 68,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Kangaroo_and_joey03.jpg/330px-Kangaroo_and_joey03.jpg"
     },
     {
       "nome": "Zebra",
-      "valor": 64
+      "valor": 64,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Zebra_standing_alone_crop.jpg/330px-Zebra_standing_alone_crop.jpg"
     },
     {
       "nome": "Girafa",
-      "valor": 60
+      "valor": 60,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/330px-Giraffe_Mikumi_National_Park.jpg"
     },
     {
       "nome": "Ser humano",
-      "valor": 44
+      "valor": 44,
+      "img": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Man_on_the_Moon%2C_AS11-40-5903_(cropped).jpg?width=400"
     },
     {
       "nome": "Elefante",
       "valor": 40,
-      "fato": "Mesmo apressado, nunca tira as quatro patas do chão ao mesmo tempo: não galopa."
+      "fato": "Mesmo apressado, nunca tira as quatro patas do chão ao mesmo tempo: não galopa.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/330px-African_Bush_Elephant.jpg"
     },
     {
       "nome": "Tartaruga-gigante",
-      "valor": 0.3
+      "valor": 0.3,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Geochelone_gigantea-cornelle.jpg/330px-Geochelone_gigantea-cornelle.jpg"
     },
     {
       "nome": "Bicho-preguiça",
       "valor": 0.24,
-      "fato": "Move-se tão devagar que algas chegam a crescer no seu pelo."
+      "fato": "Move-se tão devagar que algas chegam a crescer no seu pelo.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Bicho-pregui%C3%A7a_3.jpg/330px-Bicho-pregui%C3%A7a_3.jpg"
     },
     {
       "nome": "Caracol-de-jardim",
-      "valor": 0.05
+      "valor": 0.05,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Snail1web.jpg/330px-Snail1web.jpg"
     }
   ]
 }

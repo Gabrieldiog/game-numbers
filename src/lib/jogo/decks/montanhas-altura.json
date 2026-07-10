@@ -10,93 +10,114 @@
     {
       "nome": "Monte Everest",
       "valor": 8849,
-      "fato": "A mais alta do mundo: 8.848,86 m, altura oficial anunciada por Nepal e China em 2020."
+      "fato": "A mais alta do mundo: 8.848,86 m, altura oficial anunciada por Nepal e China em 2020.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg/330px-Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg"
     },
     {
       "nome": "K2",
       "valor": 8611,
-      "fato": "Segunda mais alta, mas considerada bem mais difícil e mortal de escalar que o Everest."
+      "fato": "Segunda mais alta, mas considerada bem mais difícil e mortal de escalar que o Everest.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/K2_2006b.jpg/330px-K2_2006b.jpg"
     },
     {
       "nome": "Kangchenjunga",
-      "valor": 8586
+      "valor": 8586,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Kangchenjunga_PangPema.JPG/330px-Kangchenjunga_PangPema.JPG"
     },
     {
       "nome": "Lhotse",
-      "valor": 8516
+      "valor": 8516,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Lhotse-fromChukhungRi.jpg/330px-Lhotse-fromChukhungRi.jpg"
     },
     {
       "nome": "Makalu",
-      "valor": 8485
+      "valor": 8485,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Makalu.jpg/330px-Makalu.jpg"
     },
     {
       "nome": "Cho Oyu",
-      "valor": 8188
+      "valor": 8188,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/ChoOyu-fromGokyo.jpg/330px-ChoOyu-fromGokyo.jpg"
     },
     {
       "nome": "Dhaulagiri",
-      "valor": 8167
+      "valor": 8167,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Dhaulagiri_I.jpg/330px-Dhaulagiri_I.jpg"
     },
     {
       "nome": "Manaslu",
-      "valor": 8163
+      "valor": 8163,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Manaslu_%288%2C163m%29.jpg/330px-Manaslu_%288%2C163m%29.jpg"
     },
     {
       "nome": "Nanga Parbat",
       "valor": 8125,
-      "fato": "Apelidada de 'Montanha Assassina' pelo grande número de mortes nas primeiras tentativas."
+      "fato": "Apelidada de 'Montanha Assassina' pelo grande número de mortes nas primeiras tentativas.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Nanga_Parbat_The_Killer_Mountain.jpg/330px-Nanga_Parbat_The_Killer_Mountain.jpg"
     },
     {
       "nome": "Annapurna",
-      "valor": 8091
+      "valor": 8091,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/AnnapurnaSouthMountain.jos.500pix.jpg/330px-AnnapurnaSouthMountain.jos.500pix.jpg"
     },
     {
       "nome": "Aconcágua",
       "valor": 6961,
-      "fato": "A montanha mais alta das Américas e a mais alta do mundo fora da Ásia."
+      "fato": "A montanha mais alta das Américas e a mais alta do mundo fora da Ásia.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Monte_Aconcagua.jpg/330px-Monte_Aconcagua.jpg"
     },
     {
       "nome": "Chimborazo",
       "valor": 6263,
-      "fato": "Seu cume é o ponto da superfície mais distante do centro da Terra, por causa do bojo equatorial."
+      "fato": "Seu cume é o ponto da superfície mais distante do centro da Terra, por causa do bojo equatorial.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Volc%C3%A1n_Chimborazo%2C_%22El_Taita_Chimborazo%22.jpg/330px-Volc%C3%A1n_Chimborazo%2C_%22El_Taita_Chimborazo%22.jpg"
     },
     {
       "nome": "Denali",
-      "valor": 6190
+      "valor": 6190,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wonder_Lake_and_Denali.jpg/330px-Wonder_Lake_and_Denali.jpg"
     },
     {
       "nome": "Kilimanjaro",
       "valor": 5895,
-      "fato": "Montanha mais alta da África: um vulcão isolado que se ergue sozinho sobre a savana."
+      "fato": "Montanha mais alta da África: um vulcão isolado que se ergue sozinho sobre a savana.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Elephants_at_Amboseli_national_park_against_Mount_Kilimanjaro.jpg/330px-Elephants_at_Amboseli_national_park_against_Mount_Kilimanjaro.jpg"
     },
     {
       "nome": "Monte Elbrus",
-      "valor": 5642
+      "valor": 5642,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Mount_Elbrus_May_2008.jpg/330px-Mount_Elbrus_May_2008.jpg"
     },
     {
       "nome": "Monte Vinson",
-      "valor": 4892
+      "valor": 4892,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Vinson_Massif_from_space.jpg/330px-Vinson_Massif_from_space.jpg"
     },
     {
       "nome": "Puncak Jaya",
-      "valor": 4884
+      "valor": 4884,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Carstenzs_Piramida_Mountain.jpg/330px-Carstenzs_Piramida_Mountain.jpg"
     },
     {
       "nome": "Mont Blanc",
-      "valor": 4808
+      "valor": 4808,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Mont_Blanc_and_Dome_du_Gouter.jpg/330px-Mont_Blanc_and_Dome_du_Gouter.jpg"
     },
     {
       "nome": "Cervino (Matterhorn)",
-      "valor": 4478
+      "valor": 4478,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matterhorn%2C_March_2019_%2801%29.jpg/330px-Matterhorn%2C_March_2019_%2801%29.jpg"
     },
     {
       "nome": "Monte Fuji",
-      "valor": 3776
+      "valor": 3776,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Mount_Fuji_from_Lake_Shoji_%2815443819010%29.jpg/330px-Mount_Fuji_from_Lake_Shoji_%2815443819010%29.jpg"
     },
     {
       "nome": "Pico da Neblina",
       "valor": 2995,
-      "fato": "Ponto mais alto do Brasil, na fronteira com a Venezuela, dentro do Amazonas."
+      "fato": "Ponto mais alto do Brasil, na fronteira com a Venezuela, dentro do Amazonas.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Pico_da_Neblina_%28FAB%29.jpg/330px-Pico_da_Neblina_%28FAB%29.jpg"
     }
   ]
 }

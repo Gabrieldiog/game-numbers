@@ -8,32 +8,167 @@
   "fonte_url": "https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/15761-areas-dos-municipios.html",
   "atualizado_em": "2023-01-01",
   "itens": [
-    { "nome": "Amazonas", "valor": 1559167, "fato": "O maior estado do Brasil." },
-    { "nome": "Pará", "valor": 1245870, "fato": "Segundo maior, todo na Amazônia." },
-    { "nome": "Mato Grosso", "valor": 903202, "fato": "Cerrado, Pantanal e floresta num só estado." },
-    { "nome": "Minas Gerais", "valor": 586521, "fato": "O maior fora da região Norte." },
-    { "nome": "Bahia", "valor": 564760, "fato": "O maior do Nordeste." },
-    { "nome": "Mato Grosso do Sul", "valor": 357125, "fato": "Coração do Pantanal." },
-    { "nome": "Goiás", "valor": 340242, "fato": "Cerca a capital federal." },
-    { "nome": "Maranhão", "valor": 329642, "fato": "Transição entre Nordeste e Amazônia." },
-    { "nome": "Rio Grande do Sul", "valor": 281730, "fato": "O estado mais ao sul." },
-    { "nome": "Tocantins", "valor": 277423, "fato": "O estado mais novo, criado em 1988." },
-    { "nome": "Piauí", "valor": 251755, "fato": "Litoral curtíssimo, de ~66 km." },
-    { "nome": "São Paulo", "valor": 248219, "fato": "O estado mais populoso e rico." },
-    { "nome": "Rondônia", "valor": 237765, "fato": "Fronteira com a Bolívia." },
-    { "nome": "Roraima", "valor": 223644, "fato": "O estado mais ao norte." },
-    { "nome": "Paraná", "valor": 199298, "fato": "Divide as Cataratas do Iguaçu." },
-    { "nome": "Acre", "valor": 164173, "fato": "Tem fuso próprio: 2h atrás de Brasília." },
-    { "nome": "Ceará", "valor": 148894, "fato": "Praias no caminho da linha do Equador." },
-    { "nome": "Amapá", "valor": 142471, "fato": "Cortado pela linha do Equador." },
-    { "nome": "Pernambuco", "valor": 98067, "fato": "Vai do litoral ao sertão do São Francisco." },
-    { "nome": "Santa Catarina", "valor": 95730, "fato": "Serra, praia e colonização europeia." },
-    { "nome": "Paraíba", "valor": 56467, "fato": "Tem o ponto mais a leste das Américas." },
-    { "nome": "Rio Grande do Norte", "valor": 52810, "fato": "A 'esquina' do continente, sol o ano todo." },
-    { "nome": "Espírito Santo", "valor": 46074, "fato": "Montanhas capixabas e litoral numa tira só." },
-    { "nome": "Rio de Janeiro", "valor": 43750, "fato": "Pequeno em área, enorme em gente." },
-    { "nome": "Alagoas", "valor": 27831, "fato": "Praias e lagoas que batizam o estado." },
-    { "nome": "Sergipe", "valor": 21938, "fato": "O menor estado do Brasil." },
-    { "nome": "Distrito Federal", "valor": 5760, "fato": "A menor unidade da federação." }
+    {
+      "nome": "Amazonas",
+      "valor": 1559167,
+      "fato": "O maior estado do Brasil.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bandeira_do_Amazonas.svg/langpt-330px-Bandeira_do_Amazonas.svg.png"
+    },
+    {
+      "nome": "Pará",
+      "valor": 1245870,
+      "fato": "Segundo maior, todo na Amazônia.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bandeira_do_Par%C3%A1.svg/langpt-330px-Bandeira_do_Par%C3%A1.svg.png"
+    },
+    {
+      "nome": "Mato Grosso",
+      "valor": 903202,
+      "fato": "Cerrado, Pantanal e floresta num só estado.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Bandeira_de_Mato_Grosso.svg/langpt-330px-Bandeira_de_Mato_Grosso.svg.png"
+    },
+    {
+      "nome": "Minas Gerais",
+      "valor": 586521,
+      "fato": "O maior fora da região Norte.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bandeira_de_Minas_Gerais.svg/langpt-330px-Bandeira_de_Minas_Gerais.svg.png"
+    },
+    {
+      "nome": "Bahia",
+      "valor": 564760,
+      "fato": "O maior do Nordeste.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bandeira_da_Bahia.svg/langpt-330px-Bandeira_da_Bahia.svg.png"
+    },
+    {
+      "nome": "Mato Grosso do Sul",
+      "valor": 357125,
+      "fato": "Coração do Pantanal.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Bandeira_de_Mato_Grosso_do_Sul.svg/langpt-330px-Bandeira_de_Mato_Grosso_do_Sul.svg.png"
+    },
+    {
+      "nome": "Goiás",
+      "valor": 340242,
+      "fato": "Cerca a capital federal.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_Goi%C3%A1s.svg/langpt-330px-Flag_of_Goi%C3%A1s.svg.png"
+    },
+    {
+      "nome": "Maranhão",
+      "valor": 329642,
+      "fato": "Transição entre Nordeste e Amazônia.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Bandeira_do_Maranh%C3%A3o.svg/langpt-330px-Bandeira_do_Maranh%C3%A3o.svg.png"
+    },
+    {
+      "nome": "Rio Grande do Sul",
+      "valor": 281730,
+      "fato": "O estado mais ao sul.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Bandeira_do_Rio_Grande_do_Sul.svg/langpt-330px-Bandeira_do_Rio_Grande_do_Sul.svg.png"
+    },
+    {
+      "nome": "Tocantins",
+      "valor": 277423,
+      "fato": "O estado mais novo, criado em 1988.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Bandeira_do_Tocantins.svg/langpt-330px-Bandeira_do_Tocantins.svg.png"
+    },
+    {
+      "nome": "Piauí",
+      "valor": 251755,
+      "fato": "Litoral curtíssimo, de ~66 km.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bandeira_do_Piau%C3%AD.svg/langpt-330px-Bandeira_do_Piau%C3%AD.svg.png"
+    },
+    {
+      "nome": "São Paulo",
+      "valor": 248219,
+      "fato": "O estado mais populoso e rico.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg/langpt-330px-Bandeira_do_estado_de_S%C3%A3o_Paulo.svg.png"
+    },
+    {
+      "nome": "Rondônia",
+      "valor": 237765,
+      "fato": "Fronteira com a Bolívia.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Bandeira_de_Rond%C3%B4nia.svg/langpt-330px-Bandeira_de_Rond%C3%B4nia.svg.png"
+    },
+    {
+      "nome": "Roraima",
+      "valor": 223644,
+      "fato": "O estado mais ao norte.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Bandeira_de_Roraima.svg/langpt-330px-Bandeira_de_Roraima.svg.png"
+    },
+    {
+      "nome": "Paraná",
+      "valor": 199298,
+      "fato": "Divide as Cataratas do Iguaçu.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bandeira_do_Paran%C3%A1.svg/langpt-330px-Bandeira_do_Paran%C3%A1.svg.png"
+    },
+    {
+      "nome": "Acre",
+      "valor": 164173,
+      "fato": "Tem fuso próprio: 2h atrás de Brasília.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bandeira_do_Acre.svg/langpt-330px-Bandeira_do_Acre.svg.png"
+    },
+    {
+      "nome": "Ceará",
+      "valor": 148894,
+      "fato": "Praias no caminho da linha do Equador.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bandeira_do_Cear%C3%A1.svg/langpt-330px-Bandeira_do_Cear%C3%A1.svg.png"
+    },
+    {
+      "nome": "Amapá",
+      "valor": 142471,
+      "fato": "Cortado pela linha do Equador.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Bandeira_do_Amap%C3%A1.svg/langpt-330px-Bandeira_do_Amap%C3%A1.svg.png"
+    },
+    {
+      "nome": "Pernambuco",
+      "valor": 98067,
+      "fato": "Vai do litoral ao sertão do São Francisco.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bandeira_de_Pernambuco.svg/langpt-330px-Bandeira_de_Pernambuco.svg.png"
+    },
+    {
+      "nome": "Santa Catarina",
+      "valor": 95730,
+      "fato": "Serra, praia e colonização europeia.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bandeira_de_Santa_Catarina.svg/langpt-330px-Bandeira_de_Santa_Catarina.svg.png"
+    },
+    {
+      "nome": "Paraíba",
+      "valor": 56467,
+      "fato": "Tem o ponto mais a leste das Américas.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Bandeira_da_Para%C3%ADba.svg/langpt-330px-Bandeira_da_Para%C3%ADba.svg.png"
+    },
+    {
+      "nome": "Rio Grande do Norte",
+      "valor": 52810,
+      "fato": "A 'esquina' do continente, sol o ano todo.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bandeira_do_Rio_Grande_do_Norte.svg/langpt-330px-Bandeira_do_Rio_Grande_do_Norte.svg.png"
+    },
+    {
+      "nome": "Espírito Santo",
+      "valor": 46074,
+      "fato": "Montanhas capixabas e litoral numa tira só.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Bandeira_do_Esp%C3%ADrito_Santo.svg/langpt-330px-Bandeira_do_Esp%C3%ADrito_Santo.svg.png"
+    },
+    {
+      "nome": "Rio de Janeiro",
+      "valor": 43750,
+      "fato": "Pequeno em área, enorme em gente.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg/langpt-330px-Bandeira_do_estado_do_Rio_de_Janeiro.svg.png"
+    },
+    {
+      "nome": "Alagoas",
+      "valor": 27831,
+      "fato": "Praias e lagoas que batizam o estado.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bandeira_de_Alagoas.svg/langpt-330px-Bandeira_de_Alagoas.svg.png"
+    },
+    {
+      "nome": "Sergipe",
+      "valor": 21938,
+      "fato": "O menor estado do Brasil.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Bandeira_de_Sergipe.svg/langpt-330px-Bandeira_de_Sergipe.svg.png"
+    },
+    {
+      "nome": "Distrito Federal",
+      "valor": 5760,
+      "fato": "A menor unidade da federação.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Bandeira_do_Distrito_Federal_%28Brasil%29.svg/langpt-330px-Bandeira_do_Distrito_Federal_%28Brasil%29.svg.png"
+    }
   ]
 }

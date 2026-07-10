@@ -10,209 +10,259 @@
     {
       "nome": "Estados Unidos",
       "valor": 30769700000000,
-      "fato": "Maior economia do mundo: sozinha responde por cerca de um quarto de todo o PIB global."
+      "fato": "Maior economia do mundo: sozinha responde por cerca de um quarto de todo o PIB global.",
+      "img": "https://flagcdn.com/w320/us.png"
     },
     {
       "nome": "China",
       "valor": 19498039388042.6,
-      "fato": "Segunda maior economia do planeta e principal parque industrial do mundo."
+      "fato": "Segunda maior economia do planeta e principal parque industrial do mundo.",
+      "img": "https://flagcdn.com/w320/cn.png"
     },
     {
       "nome": "Alemanha",
       "valor": 5050922925047.05,
-      "fato": "Maior economia da Europa."
+      "fato": "Maior economia da Europa.",
+      "img": "https://flagcdn.com/w320/de.png"
     },
     {
       "nome": "Japão",
       "valor": 4435162999976.94,
-      "fato": "Foi a segunda maior economia do mundo até ser ultrapassado pela China em 2010."
+      "fato": "Foi a segunda maior economia do mundo até ser ultrapassado pela China em 2010.",
+      "img": "https://flagcdn.com/w320/jp.png"
     },
     {
       "nome": "Reino Unido",
-      "valor": 4002587541846.01
+      "valor": 4002587541846.01,
+      "img": "https://flagcdn.com/w320/gb.png"
     },
     {
       "nome": "Índia",
       "valor": 3956067115771.63,
-      "fato": "Uma das economias que mais cresce e um dos países mais populosos do mundo."
+      "fato": "Uma das economias que mais cresce e um dos países mais populosos do mundo.",
+      "img": "https://flagcdn.com/w320/in.png"
     },
     {
       "nome": "França",
-      "valor": 3366315927447.33
+      "valor": 3366315927447.33,
+      "img": "https://flagcdn.com/w320/fr.png"
     },
     {
       "nome": "Rússia",
-      "valor": 2561310169358.74
+      "valor": 2561310169358.74,
+      "img": "https://flagcdn.com/w320/ru.png"
     },
     {
       "nome": "Itália",
-      "valor": 2551556954100.35
+      "valor": 2551556954100.35,
+      "img": "https://flagcdn.com/w320/it.png"
     },
     {
       "nome": "Canadá",
-      "valor": 2319899772425.92
+      "valor": 2319899772425.92,
+      "img": "https://flagcdn.com/w320/ca.png"
     },
     {
       "nome": "Brasil",
       "valor": 2279920092492.13,
-      "fato": "Maior economia da América Latina."
+      "fato": "Maior economia da América Latina.",
+      "img": "https://flagcdn.com/w320/br.png"
     },
     {
       "nome": "Espanha",
-      "valor": 1906453309985.88
+      "valor": 1906453309985.88,
+      "img": "https://flagcdn.com/w320/es.png"
     },
     {
       "nome": "Coreia do Sul",
-      "valor": 1872374961553.15
+      "valor": 1872374961553.15,
+      "img": "https://flagcdn.com/w320/kr.png"
     },
     {
       "nome": "México",
-      "valor": 1832641364775.52
+      "valor": 1832641364775.52,
+      "img": "https://flagcdn.com/w320/mx.png"
     },
     {
       "nome": "Austrália",
-      "valor": 1798518933689.21
+      "valor": 1798518933689.21,
+      "img": "https://flagcdn.com/w320/au.png"
     },
     {
       "nome": "Turquia",
-      "valor": 1597293229287
+      "valor": 1597293229287,
+      "img": "https://flagcdn.com/w320/tr.png"
     },
     {
       "nome": "Indonésia",
-      "valor": 1445642584163.81
+      "valor": 1445642584163.81,
+      "img": "https://flagcdn.com/w320/id.png"
     },
     {
       "nome": "Holanda",
-      "valor": 1332767651100.39
+      "valor": 1332767651100.39,
+      "img": "https://flagcdn.com/w320/nl.png"
     },
     {
       "nome": "Arábia Saudita",
-      "valor": 1276942933333.33
+      "valor": 1276942933333.33,
+      "img": "https://flagcdn.com/w320/sa.png"
     },
     {
       "nome": "Suíça",
-      "valor": 1043529899250.92
+      "valor": 1043529899250.92,
+      "img": "https://flagcdn.com/w320/ch.png"
     },
     {
       "nome": "Polônia",
-      "valor": 1035491784197.44
+      "valor": 1035491784197.44,
+      "img": "https://flagcdn.com/w320/pl.png"
     },
     {
       "nome": "Bélgica",
-      "valor": 725466462859.646
+      "valor": 725466462859.646,
+      "img": "https://flagcdn.com/w320/be.png"
     },
     {
       "nome": "Argentina",
-      "valor": 683097891618.597
+      "valor": 683097891618.597,
+      "img": "https://flagcdn.com/w320/ar.png"
     },
     {
       "nome": "Suécia",
-      "valor": 668998664082.081
+      "valor": 668998664082.081,
+      "img": "https://flagcdn.com/w320/se.png"
     },
     {
       "nome": "Israel",
-      "valor": 610777842873.595
+      "valor": 610777842873.595,
+      "img": "https://flagcdn.com/w320/il.png"
     },
     {
       "nome": "Cingapura",
       "valor": 603869516998.738,
-      "fato": "Cidade-Estado minúscula que virou um dos maiores centros financeiros do mundo."
+      "fato": "Cidade-Estado minúscula que virou um dos maiores centros financeiros do mundo.",
+      "img": "https://flagcdn.com/w320/sg.png"
     },
     {
       "nome": "Tailândia",
-      "valor": 577009981112.015
+      "valor": 577009981112.015,
+      "img": "https://flagcdn.com/w320/th.png"
     },
     {
       "nome": "Emirados Árabes",
-      "valor": 552324919095.872
+      "valor": 552324919095.872,
+      "img": "https://flagcdn.com/w320/ae.png"
     },
     {
       "nome": "Noruega",
-      "valor": 530755719438.879
+      "valor": 530755719438.879,
+      "img": "https://flagcdn.com/w320/no.png"
     },
     {
       "nome": "Vietnã",
-      "valor": 514697215165.065
+      "valor": 514697215165.065,
+      "img": "https://flagcdn.com/w320/vn.png"
     },
     {
       "nome": "Filipinas",
-      "valor": 487086123720.417
+      "valor": 487086123720.417,
+      "img": "https://flagcdn.com/w320/ph.png"
     },
     {
       "nome": "Malásia",
-      "valor": 472193128644.597
+      "valor": 472193128644.597,
+      "img": "https://flagcdn.com/w320/my.png"
     },
     {
       "nome": "Colômbia",
-      "valor": 457410034202.523
+      "valor": 457410034202.523,
+      "img": "https://flagcdn.com/w320/co.png"
     },
     {
       "nome": "Bangladesh",
-      "valor": 456319229255.578
+      "valor": 456319229255.578,
+      "img": "https://flagcdn.com/w320/bd.png"
     },
     {
       "nome": "África do Sul",
-      "valor": 427184325997.307
+      "valor": 427184325997.307,
+      "img": "https://flagcdn.com/w320/za.png"
     },
     {
       "nome": "Paquistão",
-      "valor": 407307214476.222
+      "valor": 407307214476.222,
+      "img": "https://flagcdn.com/w320/pk.png"
     },
     {
       "nome": "Egito",
-      "valor": 365254630179.737
+      "valor": 365254630179.737,
+      "img": "https://flagcdn.com/w320/eg.png"
     },
     {
       "nome": "Irã",
-      "valor": 362682115433.364
+      "valor": 362682115433.364,
+      "img": "https://flagcdn.com/w320/ir.png"
     },
     {
       "nome": "Chile",
-      "valor": 357371159574.862
+      "valor": 357371159574.862,
+      "img": "https://flagcdn.com/w320/cl.png"
     },
     {
       "nome": "Portugal",
-      "valor": 346639825141.821
+      "valor": 346639825141.821,
+      "img": "https://flagcdn.com/w320/pt.png"
     },
     {
       "nome": "Peru",
-      "valor": 334854659181.893
+      "valor": 334854659181.893,
+      "img": "https://flagcdn.com/w320/pe.png"
     },
     {
       "nome": "Nigéria",
-      "valor": 290794361542.112
+      "valor": 290794361542.112,
+      "img": "https://flagcdn.com/w320/ng.png"
     },
     {
       "nome": "Grécia",
-      "valor": 280635521324.441
+      "valor": 280635521324.441,
+      "img": "https://flagcdn.com/w320/gr.png"
     },
     {
       "nome": "Nova Zelândia",
-      "valor": 264057413739.965
+      "valor": 264057413739.965,
+      "img": "https://flagcdn.com/w320/nz.png"
     },
     {
       "nome": "Ucrânia",
-      "valor": 214233312784.397
+      "valor": 214233312784.397,
+      "img": "https://flagcdn.com/w320/ua.png"
     },
     {
       "nome": "Equador",
-      "valor": 130320560400
+      "valor": 130320560400,
+      "img": "https://flagcdn.com/w320/ec.png"
     },
     {
       "nome": "Venezuela",
-      "valor": 99661244155.6306
+      "valor": 99661244155.6306,
+      "img": "https://flagcdn.com/w320/ve.png"
     },
     {
       "nome": "Uruguai",
-      "valor": 85347696277.6859
+      "valor": 85347696277.6859,
+      "img": "https://flagcdn.com/w320/uy.png"
     },
     {
       "nome": "Bolívia",
-      "valor": 64768947525.3256
+      "valor": 64768947525.3256,
+      "img": "https://flagcdn.com/w320/bo.png"
     },
     {
       "nome": "Paraguai",
-      "valor": 49278227554.3339
+      "valor": 49278227554.3339,
+      "img": "https://flagcdn.com/w320/py.png"
     }
   ]
 }

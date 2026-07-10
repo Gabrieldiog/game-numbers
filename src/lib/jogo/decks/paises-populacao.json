@@ -10,208 +10,258 @@
     {
       "nome": "Índia",
       "valor": 1463865525,
-      "fato": "Ultrapassou a China por volta de 2023 e virou o país mais populoso do mundo."
+      "fato": "Ultrapassou a China por volta de 2023 e virou o país mais populoso do mundo.",
+      "img": "https://flagcdn.com/w320/in.png"
     },
     {
       "nome": "China",
       "valor": 1406585000,
-      "fato": "Foi o país mais populoso do mundo por décadas, até ser ultrapassada pela Índia."
+      "fato": "Foi o país mais populoso do mundo por décadas, até ser ultrapassada pela Índia.",
+      "img": "https://flagcdn.com/w320/cn.png"
     },
     {
       "nome": "Estados Unidos",
       "valor": 341784857,
-      "fato": "Terceiro país mais populoso do mundo, atrás de Índia e China."
+      "fato": "Terceiro país mais populoso do mundo, atrás de Índia e China.",
+      "img": "https://flagcdn.com/w320/us.png"
     },
     {
       "nome": "Indonésia",
-      "valor": 285721236
+      "valor": 285721236,
+      "img": "https://flagcdn.com/w320/id.png"
     },
     {
       "nome": "Paquistão",
-      "valor": 255219554
+      "valor": 255219554,
+      "img": "https://flagcdn.com/w320/pk.png"
     },
     {
       "nome": "Nigéria",
       "valor": 237527782,
-      "fato": "É o país mais populoso da África."
+      "fato": "É o país mais populoso da África.",
+      "img": "https://flagcdn.com/w320/ng.png"
     },
     {
       "nome": "Brasil",
       "valor": 212812405,
-      "fato": "É o país mais populoso da América do Sul."
+      "fato": "É o país mais populoso da América do Sul.",
+      "img": "https://flagcdn.com/w320/br.png"
     },
     {
       "nome": "Bangladesh",
-      "valor": 175686899
+      "valor": 175686899,
+      "img": "https://flagcdn.com/w320/bd.png"
     },
     {
       "nome": "Rússia",
-      "valor": 143513328
+      "valor": 143513328,
+      "img": "https://flagcdn.com/w320/ru.png"
     },
     {
       "nome": "México",
-      "valor": 131946900
+      "valor": 131946900,
+      "img": "https://flagcdn.com/w320/mx.png"
     },
     {
       "nome": "Japão",
-      "valor": 123366734
+      "valor": 123366734,
+      "img": "https://flagcdn.com/w320/jp.png"
     },
     {
       "nome": "Egito",
-      "valor": 118365995
+      "valor": 118365995,
+      "img": "https://flagcdn.com/w320/eg.png"
     },
     {
       "nome": "Filipinas",
-      "valor": 116786962
+      "valor": 116786962,
+      "img": "https://flagcdn.com/w320/ph.png"
     },
     {
       "nome": "Vietnã",
-      "valor": 101598527
+      "valor": 101598527,
+      "img": "https://flagcdn.com/w320/vn.png"
     },
     {
       "nome": "Irã",
-      "valor": 92417681
+      "valor": 92417681,
+      "img": "https://flagcdn.com/w320/ir.png"
     },
     {
       "nome": "Turquia",
-      "valor": 85878556
+      "valor": 85878556,
+      "img": "https://flagcdn.com/w320/tr.png"
     },
     {
       "nome": "Alemanha",
-      "valor": 83491249
+      "valor": 83491249,
+      "img": "https://flagcdn.com/w320/de.png"
     },
     {
       "nome": "Tailândia",
-      "valor": 71619863
+      "valor": 71619863,
+      "img": "https://flagcdn.com/w320/th.png"
     },
     {
       "nome": "Reino Unido",
-      "valor": 69487000
+      "valor": 69487000,
+      "img": "https://flagcdn.com/w320/gb.png"
     },
     {
       "nome": "França",
-      "valor": 68720337
+      "valor": 68720337,
+      "img": "https://flagcdn.com/w320/fr.png"
     },
     {
       "nome": "África do Sul",
-      "valor": 64747319
+      "valor": 64747319,
+      "img": "https://flagcdn.com/w320/za.png"
     },
     {
       "nome": "Itália",
-      "valor": 58915656
+      "valor": 58915656,
+      "img": "https://flagcdn.com/w320/it.png"
     },
     {
       "nome": "Colômbia",
-      "valor": 53425635
+      "valor": 53425635,
+      "img": "https://flagcdn.com/w320/co.png"
     },
     {
       "nome": "Coreia do Sul",
-      "valor": 51684564
+      "valor": 51684564,
+      "img": "https://flagcdn.com/w320/kr.png"
     },
     {
       "nome": "Espanha",
-      "valor": 49355143
+      "valor": 49355143,
+      "img": "https://flagcdn.com/w320/es.png"
     },
     {
       "nome": "Argentina",
-      "valor": 45851378
+      "valor": 45851378,
+      "img": "https://flagcdn.com/w320/ar.png"
     },
     {
       "nome": "Canadá",
-      "valor": 41651653
+      "valor": 41651653,
+      "img": "https://flagcdn.com/w320/ca.png"
     },
     {
       "nome": "Ucrânia",
-      "valor": 38980376
+      "valor": 38980376,
+      "img": "https://flagcdn.com/w320/ua.png"
     },
     {
       "nome": "Arábia Saudita",
-      "valor": 36973555
+      "valor": 36973555,
+      "img": "https://flagcdn.com/w320/sa.png"
     },
     {
       "nome": "Polônia",
-      "valor": 36435861
+      "valor": 36435861,
+      "img": "https://flagcdn.com/w320/pl.png"
     },
     {
       "nome": "Malásia",
-      "valor": 35977838
+      "valor": 35977838,
+      "img": "https://flagcdn.com/w320/my.png"
     },
     {
       "nome": "Peru",
-      "valor": 34576665
+      "valor": 34576665,
+      "img": "https://flagcdn.com/w320/pe.png"
     },
     {
       "nome": "Venezuela",
-      "valor": 28516896
+      "valor": 28516896,
+      "img": "https://flagcdn.com/w320/ve.png"
     },
     {
       "nome": "Austrália",
-      "valor": 27614411
+      "valor": 27614411,
+      "img": "https://flagcdn.com/w320/au.png"
     },
     {
       "nome": "Chile",
-      "valor": 19859921
+      "valor": 19859921,
+      "img": "https://flagcdn.com/w320/cl.png"
     },
     {
       "nome": "Equador",
-      "valor": 18289896
+      "valor": 18289896,
+      "img": "https://flagcdn.com/w320/ec.png"
     },
     {
       "nome": "Holanda",
-      "valor": 18087633
+      "valor": 18087633,
+      "img": "https://flagcdn.com/w320/nl.png"
     },
     {
       "nome": "Bolívia",
-      "valor": 12581843
+      "valor": 12581843,
+      "img": "https://flagcdn.com/w320/bo.png"
     },
     {
       "nome": "Bélgica",
-      "valor": 11941781
+      "valor": 11941781,
+      "img": "https://flagcdn.com/w320/be.png"
     },
     {
       "nome": "Emirados Árabes",
-      "valor": 11513149
+      "valor": 11513149,
+      "img": "https://flagcdn.com/w320/ae.png"
     },
     {
       "nome": "Portugal",
-      "valor": 10804871
+      "valor": 10804871,
+      "img": "https://flagcdn.com/w320/pt.png"
     },
     {
       "nome": "Suécia",
-      "valor": 10596620
+      "valor": 10596620,
+      "img": "https://flagcdn.com/w320/se.png"
     },
     {
       "nome": "Grécia",
-      "valor": 10413962
+      "valor": 10413962,
+      "img": "https://flagcdn.com/w320/gr.png"
     },
     {
       "nome": "Israel",
-      "valor": 10122800
+      "valor": 10122800,
+      "img": "https://flagcdn.com/w320/il.png"
     },
     {
       "nome": "Suíça",
-      "valor": 9092436
+      "valor": 9092436,
+      "img": "https://flagcdn.com/w320/ch.png"
     },
     {
       "nome": "Paraguai",
-      "valor": 7013078
+      "valor": 7013078,
+      "img": "https://flagcdn.com/w320/py.png"
     },
     {
       "nome": "Cingapura",
       "valor": 6111175,
-      "fato": "Cidade-estado, é um dos países mais densamente povoados do mundo."
+      "fato": "Cidade-estado, é um dos países mais densamente povoados do mundo.",
+      "img": "https://flagcdn.com/w320/sg.png"
     },
     {
       "nome": "Noruega",
-      "valor": 5610870
+      "valor": 5610870,
+      "img": "https://flagcdn.com/w320/no.png"
     },
     {
       "nome": "Nova Zelândia",
-      "valor": 5324700
+      "valor": 5324700,
+      "img": "https://flagcdn.com/w320/nz.png"
     },
     {
       "nome": "Uruguai",
-      "valor": 3384688
+      "valor": 3384688,
+      "img": "https://flagcdn.com/w320/uy.png"
     }
   ]
 }
