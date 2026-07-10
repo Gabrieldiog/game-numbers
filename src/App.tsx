@@ -5,13 +5,15 @@ import { Selecao } from "./componentes/Selecao";
 import { EscolhaModo } from "./componentes/EscolhaModo";
 import { Jogo } from "./componentes/Jogo";
 import { Diario } from "./componentes/Diario";
+import { Multijogador } from "./componentes/Multijogador";
 import "./App.css";
 
 type Tela =
   | { t: "selecao" }
   | { t: "modo"; deck: Deck }
   | { t: "jogo"; deck: Deck; modo: ModoPartida }
-  | { t: "diario" };
+  | { t: "diario" }
+  | { t: "multi" };
 
 export default function App() {
   const [tela, setTela] = useState<Tela>({ t: "selecao" });
@@ -32,5 +34,14 @@ export default function App() {
   if (tela.t === "diario") {
     return <Diario onVoltar={selecao} />;
   }
-  return <Selecao onEscolher={(deck) => setTela({ t: "modo", deck })} onDiario={() => setTela({ t: "diario" })} />;
+  if (tela.t === "multi") {
+    return <Multijogador onSair={selecao} />;
+  }
+  return (
+    <Selecao
+      onEscolher={(deck) => setTela({ t: "modo", deck })}
+      onDiario={() => setTela({ t: "diario" })}
+      onMultiplayer={() => setTela({ t: "multi" })}
+    />
+  );
 }

@@ -859,3 +859,169 @@
   border: 1px solid color-mix(in srgb, var(--pulso) 35%, transparent);
   white-space: nowrap;
 }
+
+/* ---------- multijogador ---------- */
+.multi-btn {
+  border-color: color-mix(in srgb, var(--pulso) 45%, var(--linha));
+  background: color-mix(in srgb, var(--pulso) 10%, var(--aco));
+  box-shadow: 0 0 26px -10px color-mix(in srgb, var(--pulso) 55%, transparent);
+}
+.multi-btn:hover {
+  border-color: color-mix(in srgb, var(--pulso) 60%, var(--linha));
+  box-shadow: 0 0 32px -8px color-mix(in srgb, var(--pulso) 65%, transparent);
+}
+.multi-btn .diario-btn__seta {
+  color: var(--pulso);
+}
+
+.multi-centro {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+  max-width: 340px;
+  width: 100%;
+}
+.multi-emoji {
+  font-size: 3rem;
+  line-height: 1;
+}
+.multi-titulo {
+  margin: 0;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.4rem, 6vw, 2rem);
+  text-wrap: balance;
+}
+.multi-sub {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.multi-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  margin-top: 8px;
+}
+.multi-input {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--aco) 80%, transparent);
+  border: 1px solid var(--linha);
+  color: var(--nevoa);
+  font-family: "Sora", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.multi-input:focus {
+  outline: none;
+  border-color: var(--voltagem);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--voltagem) 25%, transparent);
+}
+.multi-spinner {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 4px solid color-mix(in srgb, var(--nevoa) 12%, transparent);
+  border-top-color: var(--voltagem);
+  animation: girar 0.9s linear infinite;
+}
+@keyframes girar {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* placar dos dois durante a partida */
+.placar-vs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.placar-vs__lado {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.placar-vs__lado--dir {
+  text-align: right;
+  align-items: flex-end;
+}
+.placar-vs__nome {
+  font-family: "Martian Mono", monospace;
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  max-width: 12ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.placar-vs__pts {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: var(--nevoa);
+}
+.placar-vs__lado:first-child .placar-vs__pts {
+  color: var(--voltagem);
+}
+.placar-vs__x {
+  font-family: "Chakra Petch", sans-serif;
+  color: var(--coral);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* resultado da partida */
+.placar-final {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.placar-final__lado {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.placar-final__nome {
+  font-family: "Martian Mono", monospace;
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}
+.placar-final__pts {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: var(--nevoa);
+}
+.placar-final__x {
+  color: var(--muted);
+  font-family: "Chakra Petch", sans-serif;
+}
+.multi-resultado {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.8rem, 8vw, 2.6rem);
+}
+.multi-resultado--ganhou {
+  color: var(--pulso);
+  text-shadow: 0 0 20px color-mix(in srgb, var(--pulso) 45%, transparent);
+}
+.multi-resultado--perdeu {
+  color: var(--coral);
+}
+.multi-resultado--empate {
+  color: var(--nevoa);
+}
