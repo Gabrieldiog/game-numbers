@@ -45,7 +45,7 @@ Como o Balcão fica no plano grátis do Render (dorme quando ninguém usa), a pr
 
 O frontend é estático; o backend do 1v1 é o Balcão, que já está publicado à parte. Então aqui é um deploy só:
 
-- **Frontend (Netlify):** conecte o repositório ao Netlify (build `npm run build`, publish `dist` — já no `netlify.toml`) e defina a variável de ambiente **`VITE_BALCAO_WS`** com a URL WebSocket do relay, ex.: `wss://SEU-BALCAO.onrender.com/ws/1v1`. O Vite lê essa variável no build.
+- **Frontend (Vercel):** importe o repositório na Vercel (o preset Vite já é detectado — build `npm run build`, output `dist`, mais o rewrite de SPA, tudo no `vercel.json`) e defina a variável de ambiente **`VITE_BALCAO_WS`** com a URL WebSocket do relay: `wss://balcao-api.onrender.com/ws/1v1`. O Vite lê essa variável no build, então depois de definir é preciso refazer o deploy.
 
 ## Fases
 
