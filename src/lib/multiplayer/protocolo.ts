@@ -19,8 +19,8 @@ export interface RodadaView {
   unidade: string;
   fonte: string;
   fonteUrl: string;
-  ancora: { nome: string; valor: number };
-  desafiante: { nome: string };
+  ancora: { nome: string; valor: number; img?: string };
+  desafiante: { nome: string; img?: string };
 }
 
 // Controle, emitido pelo servidor (o relay do Balcão).

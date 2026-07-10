@@ -73,7 +73,7 @@ export function PartidaOnline({ mp, onSair }: Props) {
       <div className="kicker">{r.deckTitulo}</div>
 
       <main className={`palco ${treme ? "palco--treme" : ""}`}>
-        <Carta item={{ nome: r.ancora.nome, valor: r.ancora.valor }} papel="ancora" estado="ancora">
+        <Carta item={{ nome: r.ancora.nome, valor: r.ancora.valor, img: r.ancora.img }} papel="ancora" estado="ancora">
           <span className="tnum">{formatar(r.ancora.valor)}</span>
           <span className="carta__unidade">{r.unidade}</span>
         </Carta>
@@ -82,7 +82,7 @@ export function PartidaOnline({ mp, onSair }: Props) {
           <span>vs</span>
         </div>
 
-        <Carta item={{ nome: r.desafiante.nome, valor: 0 }} papel="desafiante" estado={estadoDesafiante}>
+        <Carta item={{ nome: r.desafiante.nome, valor: 0, img: r.desafiante.img }} papel="desafiante" estado={estadoDesafiante}>
           {!revelando ? (
             <span className="carta__interro">?</span>
           ) : (
