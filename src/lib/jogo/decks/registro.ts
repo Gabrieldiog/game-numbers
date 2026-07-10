@@ -15,8 +15,9 @@ import filmesBilheteria from "./filmes-bilheteria.json";
 import montanhasAltura from "./montanhas-altura.json";
 import prediosAltura from "./predios-altura.json";
 import planetasDiametro from "./planetas-diametro.json";
+import wikiMaisVisto from "./wiki-mais-visto.json";
 
-export type GrupoDeck = "Brasil" | "Mundo" | "Diversão";
+export type GrupoDeck = "Fama" | "Brasil" | "Mundo" | "Diversão";
 
 export interface DeckRegistrado {
   deck: Deck;
@@ -34,6 +35,7 @@ const cru: { fonte: unknown; grupo: GrupoDeck }[] = [
   { fonte: montanhasAltura, grupo: "Diversão" },
   { fonte: prediosAltura, grupo: "Diversão" },
   { fonte: planetasDiametro, grupo: "Diversão" },
+  { fonte: wikiMaisVisto, grupo: "Fama" },
 ];
 
 export const DECKS: DeckRegistrado[] = cru.map((c) => ({

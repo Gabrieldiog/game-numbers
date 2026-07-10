@@ -17,8 +17,8 @@ export function Carta({ item, papel, estado, children }: Props) {
 
   return (
     <div className={`carta carta--${papel} carta--${estado}`}>
-      <div className="carta__medalhao" aria-hidden="true">
-        {item.img ? <img src={item.img} alt="" /> : <span>{inicial}</span>}
+      <div className={`carta__medalhao ${item.img ? "carta__medalhao--foto" : ""}`} aria-hidden="true">
+        {item.img ? <img src={item.img} alt="" loading="lazy" /> : <span>{inicial}</span>}
       </div>
       <div className="carta__nome">{item.nome}</div>
       <div className="carta__numero">{children}</div>
