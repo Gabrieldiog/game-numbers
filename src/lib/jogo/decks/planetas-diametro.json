@@ -10,52 +10,63 @@
     {
       "nome": "Sol",
       "valor": 1391000,
-      "fato": "Cabem mais de um milhão de Terras dentro dele."
+      "fato": "Cabem mais de um milhão de Terras dentro dele.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/The_Sun_in_white_light.jpg/330px-The_Sun_in_white_light.jpg"
     },
     {
       "nome": "Júpiter",
       "valor": 139820,
-      "fato": "É o maior planeta: caberiam todos os outros dentro dele."
+      "fato": "É o maior planeta: caberiam todos os outros dentro dele.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/330px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg"
     },
     {
       "nome": "Saturno",
       "valor": 116460,
-      "fato": "É tão pouco denso que flutuaria na água."
+      "fato": "É tão pouco denso que flutuaria na água.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/330px-Saturn_during_Equinox.jpg"
     },
     {
       "nome": "Urano",
-      "valor": 50724
+      "valor": 50724,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Uranus_Voyager2_color_calibrated.png/330px-Uranus_Voyager2_color_calibrated.png"
     },
     {
       "nome": "Netuno",
-      "valor": 49244
+      "valor": 49244,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Neptune_Voyager2_color_calibrated.png/330px-Neptune_Voyager2_color_calibrated.png"
     },
     {
       "nome": "Terra",
       "valor": 12742,
-      "fato": "Único planeta conhecido com vida."
+      "fato": "Único planeta conhecido com vida.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Meteosat-12-fci-march-equinox-2025-noon.jpg/330px-Meteosat-12-fci-march-equinox-2025-noon.jpg"
     },
     {
       "nome": "Vênus",
-      "valor": 12104
+      "valor": 12104,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Venus_2_Approach_Image.jpg/330px-Venus_2_Approach_Image.jpg"
     },
     {
       "nome": "Marte",
-      "valor": 6779
+      "valor": 6779,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/330px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png"
     },
     {
       "nome": "Mercúrio",
-      "valor": 4879
+      "valor": 4879,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/330px-Mercury_in_true_color.jpg"
     },
     {
       "nome": "Lua",
       "valor": 3474,
-      "fato": "Único lugar além da Terra onde humanos já pisaram."
+      "fato": "Único lugar além da Terra onde humanos já pisaram.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/330px-FullMoon2010.jpg"
     },
     {
       "nome": "Plutão",
       "valor": 2377,
-      "fato": "Perdeu o posto de planeta em 2006 e virou planeta anão."
+      "fato": "Perdeu o posto de planeta em 2006 e virou planeta anão.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/330px-Pluto_in_True_Color_-_High-Res.jpg"
     }
   ]
 }

@@ -10,90 +10,110 @@
     {
       "nome": "Burj Khalifa (Dubai)",
       "valor": 828,
-      "fato": "É o prédio mais alto do mundo, com 163 andares habitáveis."
+      "fato": "É o prédio mais alto do mundo, com 163 andares habitáveis.",
+      "img": "https://upload.wikimedia.org/wikipedia/pt/9/93/Burj_Khalifa.jpg"
     },
     {
       "nome": "Merdeka 118 (Kuala Lumpur)",
       "valor": 679,
-      "fato": "Inaugurado em 2023, é o segundo prédio mais alto do mundo."
+      "fato": "Inaugurado em 2023, é o segundo prédio mais alto do mundo.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Merdeka_118_20240603.jpg/330px-Merdeka_118_20240603.jpg"
     },
     {
       "nome": "Shanghai Tower (Xangai)",
-      "valor": 632
+      "valor": 632,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Shanghai_-_Shanghai_Tower_-_0003_%28cropped_2%29.jpg/330px-Shanghai_-_Shanghai_Tower_-_0003_%28cropped_2%29.jpg"
     },
     {
       "nome": "Torre do Relógio Real de Meca",
-      "valor": 601
+      "valor": 601,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/b/bf/Abraj-al-bait-2.jpg/330px-Abraj-al-bait-2.jpg"
     },
     {
       "nome": "Ping An Finance Centre (Shenzhen)",
-      "valor": 599
+      "valor": 599,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Pingan_International_Finance_Center2020_%28cropped%29.jpg/330px-Pingan_International_Finance_Center2020_%28cropped%29.jpg"
     },
     {
       "nome": "Lotte World Tower (Seul)",
-      "valor": 555
+      "valor": 555,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/7/71/Lotte_World_Tower.jpg"
     },
     {
       "nome": "One World Trade Center (Nova York)",
       "valor": 541,
-      "fato": "É o prédio mais alto dos Estados Unidos; sua altura de 1.776 pés lembra o ano da independência americana."
+      "fato": "É o prédio mais alto dos Estados Unidos; sua altura de 1.776 pés lembra o ano da independência americana.",
+      "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lower_Manhattan_from_Jersey_City_September_2020_HDR_panorama_(cropped2).jpg?width=400"
     },
     {
       "nome": "Guangzhou CTF Finance Centre (Cantão)",
-      "valor": 530
+      "valor": 530,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/02540-Guangzhou_CTF_Center.jpg/330px-02540-Guangzhou_CTF_Center.jpg"
     },
     {
       "nome": "CITIC Tower (Pequim)",
-      "valor": 528
+      "valor": 528,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/China_Zun_in_2020_%28cropped%29.jpg/330px-China_Zun_in_2020_%28cropped%29.jpg"
     },
     {
       "nome": "Taipei 101 (Taipé)",
       "valor": 508,
-      "fato": "Foi o prédio mais alto do mundo de 2004 a 2010, até ser superado pelo Burj Khalifa."
+      "fato": "Foi o prédio mais alto do mundo de 2004 a 2010, até ser superado pelo Burj Khalifa.",
+      "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Taipei_101_from_Xiangshan_20250905.jpg?width=400"
     },
     {
       "nome": "Shanghai World Financial Center (Xangai)",
-      "valor": 492
+      "valor": 492,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Shanghai_World_Financial_Center_Far.jpg/330px-Shanghai_World_Financial_Center_Far.jpg"
     },
     {
       "nome": "International Commerce Centre (Hong Kong)",
-      "valor": 484
+      "valor": 484,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/f/f7/International_Commerce_Centre.png/330px-International_Commerce_Centre.png"
     },
     {
       "nome": "Central Park Tower (Nova York)",
       "valor": 472,
-      "fato": "É o prédio residencial mais alto do mundo."
+      "fato": "É o prédio residencial mais alto do mundo.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Central_Park_Tower_April_2023_1_%28cropped%29.jpg/330px-Central_Park_Tower_April_2023_1_%28cropped%29.jpg"
     },
     {
       "nome": "Lakhta Center (São Petersburgo)",
-      "valor": 462
+      "valor": 462,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Gazprom_tower_%28Lakhta_Center%29_St_Petersburg._Russia.jpg/330px-Gazprom_tower_%28Lakhta_Center%29_St_Petersburg._Russia.jpg"
     },
     {
       "nome": "Landmark 81 (Cidade de Ho Chi Minh)",
-      "valor": 461
+      "valor": 461,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Ho_Chi_Minh_City_panorama_2019_%28cropped%29.jpg/330px-Ho_Chi_Minh_City_panorama_2019_%28cropped%29.jpg"
     },
     {
       "nome": "Petronas Tower 1 (Kuala Lumpur)",
       "valor": 452,
-      "fato": "As Torres Petronas foram os prédios mais altos do mundo de 1998 a 2004."
+      "fato": "As Torres Petronas foram os prédios mais altos do mundo de 1998 a 2004.",
+      "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2016_Kuala_Lumpur%2C_Park_KLCC_i_Suria_KLCC_(cropped).jpg?width=400"
     },
     {
       "nome": "Willis Tower (Chicago)",
-      "valor": 442
+      "valor": 442,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/America%27s_tallest_building%2C_the_Sears_Tower%2C_Chicago%2C_Illinois_LCCN2011630449_%28cropped%29.tif/lossless-page1-330px-America%27s_tallest_building%2C_the_Sears_Tower%2C_Chicago%2C_Illinois_LCCN2011630449_%28cropped%29.tif.png"
     },
     {
       "nome": "Empire State Building (Nova York)",
       "valor": 381,
-      "fato": "Foi o prédio mais alto do mundo por quase 40 anos, de 1931 a 1970."
+      "fato": "Foi o prédio mais alto do mundo por quase 40 anos, de 1931 a 1970.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Empire_State_Building_%28aerial_view%29.jpg/330px-Empire_State_Building_%28aerial_view%29.jpg"
     },
     {
       "nome": "Chrysler Building (Nova York)",
-      "valor": 319
+      "valor": 319,
+      "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chrysler_Building_2005_4.jpg?width=400"
     },
     {
       "nome": "The Shard (Londres)",
       "valor": 310,
-      "fato": "É o prédio mais alto do Reino Unido, projetado por Renzo Piano."
+      "fato": "É o prédio mais alto do Reino Unido, projetado por Renzo Piano.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/The_Shard_from_the_Sky_Garden_2015_%28cropped%29.jpg/330px-The_Shard_from_the_Sky_Garden_2015_%28cropped%29.jpg"
     }
   ]
 }

@@ -8,25 +8,125 @@
   "fonte_url": "https://censo2022.ibge.gov.br",
   "atualizado_em": "2023-06-28",
   "itens": [
-    { "nome": "São Paulo (SP)", "valor": 11451245, "fato": "A maior cidade do país e das Américas." },
-    { "nome": "Rio de Janeiro (RJ)", "valor": 6211423, "fato": "Perdeu população de 2010 a 2022." },
-    { "nome": "Brasília (DF)", "valor": 2817381, "fato": "Capital federal, planejada nos anos 1950." },
-    { "nome": "Fortaleza (CE)", "valor": 2428708, "fato": "A mais populosa do Nordeste." },
-    { "nome": "Salvador (BA)", "valor": 2417678, "fato": "Foi a primeira capital do Brasil." },
-    { "nome": "Belo Horizonte (MG)", "valor": 2315560, "fato": "Primeira capital planejada da República." },
-    { "nome": "Manaus (AM)", "valor": 2063547, "fato": "A grande metrópole da Amazônia." },
-    { "nome": "Curitiba (PR)", "valor": 1773718, "fato": "Referência em transporte urbano." },
-    { "nome": "Recife (PE)", "valor": 1488920, "fato": "Cortada por rios e pontes." },
-    { "nome": "Goiânia (GO)", "valor": 1437237, "fato": "Também nasceu planejada, nos anos 1930." },
-    { "nome": "Belém (PA)", "valor": 1303403, "fato": "Porta de entrada da Amazônia oriental." },
-    { "nome": "Porto Alegre (RS)", "valor": 1332570, "fato": "Capital mais ao sul entre as grandes." },
-    { "nome": "Guarulhos (SP)", "valor": 1291771, "fato": "Abriga o maior aeroporto do país." },
-    { "nome": "Campinas (SP)", "valor": 1139047, "fato": "Polo de tecnologia e pesquisa." },
-    { "nome": "São Luís (MA)", "valor": 1037775, "fato": "Fundada por franceses em 1612." },
-    { "nome": "Maceió (AL)", "valor": 957916, "fato": "Litoral de águas verdes." },
-    { "nome": "Natal (RN)", "valor": 751300, "fato": "Perto do ponto mais a leste do país." },
-    { "nome": "Teresina (PI)", "valor": 866300, "fato": "Única capital nordestina fora do litoral." },
-    { "nome": "Campo Grande (MS)", "valor": 897938, "fato": "Portal do Pantanal." },
-    { "nome": "João Pessoa (PB)", "valor": 833932, "fato": "Perto do ponto mais oriental das Américas." }
+    {
+      "nome": "São Paulo (SP)",
+      "valor": 11451245,
+      "fato": "A maior cidade do país e das Américas.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Marginal_Pinheiros_e_Jockey_Club.jpg/330px-Marginal_Pinheiros_e_Jockey_Club.jpg"
+    },
+    {
+      "nome": "Rio de Janeiro (RJ)",
+      "valor": 6211423,
+      "fato": "Perdeu população de 2010 a 2022.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Cidade_Maravilhosa.jpg/330px-Cidade_Maravilhosa.jpg"
+    },
+    {
+      "nome": "Brasília (DF)",
+      "valor": 2817381,
+      "fato": "Capital federal, planejada nos anos 1950.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Planalto_Central_%28cropped%29.jpg/330px-Planalto_Central_%28cropped%29.jpg"
+    },
+    {
+      "nome": "Fortaleza (CE)",
+      "valor": 2428708,
+      "fato": "A mais populosa do Nordeste.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Fortaleza%2C_Brazil_%284%29_%28cropped%29.jpg/330px-Fortaleza%2C_Brazil_%284%29_%28cropped%29.jpg"
+    },
+    {
+      "nome": "Salvador (BA)",
+      "valor": 2417678,
+      "fato": "Foi a primeira capital do Brasil.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Salvador_BA_%28cropped%29_2.jpg/330px-Salvador_BA_%28cropped%29_2.jpg"
+    },
+    {
+      "nome": "Belo Horizonte (MG)",
+      "valor": 2315560,
+      "fato": "Primeira capital planejada da República.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Praca_do_Papa%2C_Belo_Horizonte_%28cropped%292.jpg/330px-Praca_do_Papa%2C_Belo_Horizonte_%28cropped%292.jpg"
+    },
+    {
+      "nome": "Manaus (AM)",
+      "valor": 2063547,
+      "fato": "A grande metrópole da Amazônia.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Manaus_amazonas.jpg/330px-Manaus_amazonas.jpg"
+    },
+    {
+      "nome": "Curitiba (PR)",
+      "valor": 1773718,
+      "fato": "Referência em transporte urbano.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Tangu%C3%A1_Curitiba.jpg/330px-Tangu%C3%A1_Curitiba.jpg"
+    },
+    {
+      "nome": "Recife (PE)",
+      "valor": 1488920,
+      "fato": "Cortada por rios e pontes.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Antonio_Vaz_island_-_Recife%2C_Pernambuco%2C_Brazil_%28cropped%29.jpg/330px-Antonio_Vaz_island_-_Recife%2C_Pernambuco%2C_Brazil_%28cropped%29.jpg"
+    },
+    {
+      "nome": "Goiânia (GO)",
+      "valor": 1437237,
+      "fato": "Também nasceu planejada, nos anos 1930.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Panomara_Goi%C3%A2nia_2022.jpg/330px-Panomara_Goi%C3%A2nia_2022.jpg"
+    },
+    {
+      "nome": "Belém (PA)",
+      "valor": 1303403,
+      "fato": "Porta de entrada da Amazônia oriental.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/L1010748-L1010765_copie_%28cropped%29.jpg/330px-L1010748-L1010765_copie_%28cropped%29.jpg"
+    },
+    {
+      "nome": "Porto Alegre (RS)",
+      "valor": 1332570,
+      "fato": "Capital mais ao sul entre as grandes.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/IBPA_17398_-_Vista_a%C3%A9rea_da_Orla_Moacyr_Scliar%2C_na_capital._O_-_2018-10-02_-_Luciano_Lanes-PMPA_%28cropped%29.jpg/330px-IBPA_17398_-_Vista_a%C3%A9rea_da_Orla_Moacyr_Scliar%2C_na_capital._O_-_2018-10-02_-_Luciano_Lanes-PMPA_%28cropped%29.jpg"
+    },
+    {
+      "nome": "Guarulhos (SP)",
+      "valor": 1291771,
+      "fato": "Abriga o maior aeroporto do país.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Lago_do_Bosque_Maia%2C_Guarulhos_%28SP%29.jpg/330px-Lago_do_Bosque_Maia%2C_Guarulhos_%28SP%29.jpg"
+    },
+    {
+      "nome": "Campinas (SP)",
+      "valor": 1139047,
+      "fato": "Polo de tecnologia e pesquisa.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/250717_Fotos_Centro_de_Campinas_foto_Carlos_Bassan_004_%2836029962481%29.jpg/330px-250717_Fotos_Centro_de_Campinas_foto_Carlos_Bassan_004_%2836029962481%29.jpg"
+    },
+    {
+      "nome": "São Luís (MA)",
+      "valor": 1037775,
+      "fato": "Fundada por franceses em 1612.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/S%C3%A3o_Lu%C3%ADs_A%C3%A9rea_%28cropped%29.jpg/330px-S%C3%A3o_Lu%C3%ADs_A%C3%A9rea_%28cropped%29.jpg"
+    },
+    {
+      "nome": "Maceió (AL)",
+      "valor": 957916,
+      "fato": "Litoral de águas verdes.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Ponta_Verde_Lighthouse_landscape_-_Macei%C3%B3%2C_Brazil_%28edited%29.jpg/330px-Ponta_Verde_Lighthouse_landscape_-_Macei%C3%B3%2C_Brazil_%28edited%29.jpg"
+    },
+    {
+      "nome": "Natal (RN)",
+      "valor": 751300,
+      "fato": "Perto do ponto mais a leste do país.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Natal%2C_capital_do_Rio_Grande_do_Norte%2C_Brasil.jpg/330px-Natal%2C_capital_do_Rio_Grande_do_Norte%2C_Brasil.jpg"
+    },
+    {
+      "nome": "Teresina (PI)",
+      "valor": 866300,
+      "fato": "Única capital nordestina fora do litoral.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ponte_Estaiada_-_Teresina.jpg/330px-Ponte_Estaiada_-_Teresina.jpg"
+    },
+    {
+      "nome": "Campo Grande (MS)",
+      "valor": 897938,
+      "fato": "Portal do Pantanal.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/VA_Avenida_Afonso_Pena.jpg/330px-VA_Avenida_Afonso_Pena.jpg"
+    },
+    {
+      "nome": "João Pessoa (PB)",
+      "valor": 833932,
+      "fato": "Perto do ponto mais oriental das Américas.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Centro_Hist%C3%B3rico_de_Jo%C3%A3o_Pessoa.jpg/330px-Centro_Hist%C3%B3rico_de_Jo%C3%A3o_Pessoa.jpg"
+    }
   ]
 }
