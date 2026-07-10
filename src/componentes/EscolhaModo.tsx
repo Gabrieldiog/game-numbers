@@ -10,6 +10,7 @@ interface Props {
 const MODOS: { modo: ModoPartida; emoji: string; nome: string; desc: string }[] = [
   { modo: "classico", emoji: "🎯", nome: "Clássico", desc: "Um erro e acabou. Vai o quão longe conseguir." },
   { modo: "vidas", emoji: "❤️", nome: "3 Vidas", desc: "Três chances. Erra três vezes e acaba." },
+  { modo: "blitz", emoji: "⏱️", nome: "Blitz", desc: "Contra o relógio: 30s, e o combo multiplica os pontos." },
 ];
 
 export function EscolhaModo({ deck, onEscolher, onVoltar }: Props) {

@@ -1,5 +1,5 @@
 import type { Deck } from "../lib/jogo";
-import { useJogo, type ModoPartida } from "../hooks/useJogo";
+import { useJogo, type ModoPartida, TEMPO_BLITZ } from "../hooks/useJogo";
 import { useSom } from "../som/useSom";
 import { Hud } from "./Hud";
 import { Carta } from "./Carta";
@@ -22,6 +22,8 @@ export function Jogo({ deck, modo, onTrocar }: Props) {
     pontos,
     recorde,
     vidas,
+    tempo,
+    combo,
     fase,
     resultado,
     desfechoVisivel,
@@ -46,6 +48,7 @@ export function Jogo({ deck, modo, onTrocar }: Props) {
 
   const treme = fase === "revelando" && desfechoVisivel && resultado?.acerto === false;
   const ancoraLimpa = ancora.nome.replace(/\s*\(.*?\)/g, "").trim();
+  const duracaoReveal = modo === "blitz" ? 600 : 1200;
 
   return (
     <div className="app">
@@ -61,7 +64,7 @@ export function Jogo({ deck, modo, onTrocar }: Props) {
         </div>
       </header>
 
-      <Hud pontos={pontos} recorde={recorde} />
+      <Hud pontos={pontos} recorde={recorde} rotulo={modo === "blitz" ? "Pontos" : "Sequência"} />
 
       {modo === "vidas" ? (
         <div className="vidas" aria-label={`${vidas} de 3 vidas`}>
@@ -70,6 +73,18 @@ export function Jogo({ deck, modo, onTrocar }: Props) {
               ♥
             </span>
           ))}
+        </div>
+      ) : null}
+
+      {modo === "blitz" ? (
+        <div className="blitz-hud">
+          <div className={`blitz-barra ${tempo <= 8 ? "blitz-barra--urgente" : ""}`}>
+            <div className="blitz-barra__trilho">
+              <span style={{ width: `${(tempo / TEMPO_BLITZ) * 100}%` }} />
+            </div>
+            <span className="blitz-barra__tempo tnum">{tempo}s</span>
+          </div>
+          {combo > 1 ? <span className="blitz-combo">combo ×{combo}</span> : null}
         </div>
       ) : null}
 
@@ -98,6 +113,7 @@ export function Jogo({ deck, modo, onTrocar }: Props) {
               <NumeroAnimado
                 key={`${pontos}-${desafiante.nome}`}
                 valor={desafiante.valor}
+                duracao={duracaoReveal}
                 comSom
                 onDone={concluirContagem}
                 className="tnum"
