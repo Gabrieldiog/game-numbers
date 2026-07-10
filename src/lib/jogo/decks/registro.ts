@@ -1,7 +1,7 @@
-// O índice de categorias do jogo. Cada deck é um JSON; aqui eles ganham um pouco
-// de metadado de vitrine (emoji e grupo) pra tela de seleção. Todo deck é
-// VALIDADO na carga — se algum JSON estiver torto, o parseDeck estoura já aqui,
-// falhando cedo em vez de quebrar no meio de uma partida.
+// O índice de categorias do jogo. Cada deck é um JSON; aqui eles ganham o grupo
+// da vitrine pra tela de seleção (o ícone vem do id do deck, em Icones.tsx). Todo
+// deck é VALIDADO na carga — se algum JSON estiver torto, o parseDeck estoura já
+// aqui, falhando cedo em vez de quebrar no meio de uma partida.
 
 import type { Deck } from "../tipos";
 import { parseDeck } from "../schema";
@@ -20,26 +20,24 @@ export type GrupoDeck = "Brasil" | "Mundo" | "Diversão";
 
 export interface DeckRegistrado {
   deck: Deck;
-  emoji: string;
   grupo: GrupoDeck;
 }
 
-const cru: { fonte: unknown; emoji: string; grupo: GrupoDeck }[] = [
-  { fonte: populacaoMunicipios, emoji: "🏙️", grupo: "Brasil" },
-  { fonte: areaEstados, emoji: "🗺️", grupo: "Brasil" },
-  { fonte: paisesPopulacao, emoji: "🌎", grupo: "Mundo" },
-  { fonte: paisesArea, emoji: "📐", grupo: "Mundo" },
-  { fonte: paisesPib, emoji: "💰", grupo: "Mundo" },
-  { fonte: animaisVelocidade, emoji: "🐆", grupo: "Diversão" },
-  { fonte: filmesBilheteria, emoji: "🎬", grupo: "Diversão" },
-  { fonte: montanhasAltura, emoji: "⛰️", grupo: "Diversão" },
-  { fonte: prediosAltura, emoji: "🏢", grupo: "Diversão" },
-  { fonte: planetasDiametro, emoji: "🪐", grupo: "Diversão" },
+const cru: { fonte: unknown; grupo: GrupoDeck }[] = [
+  { fonte: populacaoMunicipios, grupo: "Brasil" },
+  { fonte: areaEstados, grupo: "Brasil" },
+  { fonte: paisesPopulacao, grupo: "Mundo" },
+  { fonte: paisesArea, grupo: "Mundo" },
+  { fonte: paisesPib, grupo: "Mundo" },
+  { fonte: animaisVelocidade, grupo: "Diversão" },
+  { fonte: filmesBilheteria, grupo: "Diversão" },
+  { fonte: montanhasAltura, grupo: "Diversão" },
+  { fonte: prediosAltura, grupo: "Diversão" },
+  { fonte: planetasDiametro, grupo: "Diversão" },
 ];
 
 export const DECKS: DeckRegistrado[] = cru.map((c) => ({
   deck: parseDeck(c.fonte),
-  emoji: c.emoji,
   grupo: c.grupo,
 }));
 
