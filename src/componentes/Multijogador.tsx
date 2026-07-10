@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useMultiplayer, type MultiView } from "../hooks/useMultiplayer";
 import { PartidaOnline } from "./PartidaOnline";
 
@@ -10,8 +10,10 @@ export function Multijogador({ onSair }: Props) {
   const mp = useMultiplayer();
 
   if (mp.fase === "nome") return <EntrarNome onProcurar={mp.procurar} onVoltar={onSair} />;
+  if (mp.fase === "acordando") return <Acordando onCancelar={mp.cancelar} onVoltar={onSair} />;
   if (mp.fase === "procurando" || mp.fase === "esperando")
     return <Procurando oponente={mp.fase === "esperando" ? mp.oponente : null} onCancelar={mp.cancelar} onVoltar={onSair} />;
+  if (mp.fase === "cochilou") return <Cochilou onTentar={mp.procurarOutro} onVoltar={onSair} />;
   if (mp.fase === "saiu") return <OponenteSaiu onProcurarOutro={mp.procurarOutro} onVoltar={onSair} />;
   if (mp.fase === "fim") return <ResultadoOnline mp={mp} onVoltar={onSair} />;
   return <PartidaOnline mp={mp} onSair={onSair} />;
@@ -84,6 +86,62 @@ function Procurando({
             cancelar
           </button>
         ) : null}
+      </div>
+    </div>
+  );
+}
+
+// O modo online usa o Balcão (um gateway de portfólio) como backend, hospedado
+// no plano grátis do Render — que dorme quando ninguém usa e demora uns segundos
+// pra acordar. Em vez de esconder isso, a gente faz piada com a espera.
+const FRASES_ACORDANDO = [
+  "É projeto de portfólio: tudo aqui é de graça, inclusive a preguiça. 😴",
+  "O servidor grátis tava dormindo — ninguém paga hora extra pra ele.",
+  "Cutucando o coitado… free tier não tem plantão 24h.",
+  "Custo do projeto: R$ 0,00. Pressa: também. kkk",
+  "Já vai! Ele acorda devagar igual segunda-feira.",
+  "Servidor de graça esfregando os olhos… paciência que já levanta.",
+];
+
+function Acordando({ onCancelar, onVoltar }: { onCancelar: () => void; onVoltar: () => void }) {
+  const [i, setI] = useState(0);
+  useEffect(() => {
+    const t = window.setInterval(() => setI((n) => (n + 1) % FRASES_ACORDANDO.length), 2600);
+    return () => window.clearInterval(t);
+  }, []);
+  return (
+    <div className="app multi-tela">
+      <Topo onVoltar={onVoltar} />
+      <div className="multi-centro">
+        <div className="multi-spinner" aria-hidden="true" />
+        <h2 className="multi-titulo">Acordando o servidor…</h2>
+        <p className="multi-sub multi-sub--gira" key={i}>
+          {FRASES_ACORDANDO[i]}
+        </p>
+        <button className="resultado__voltar" onClick={onCancelar}>
+          cancelar
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function Cochilou({ onTentar, onVoltar }: { onTentar: () => void; onVoltar: () => void }) {
+  return (
+    <div className="app multi-tela">
+      <Topo onVoltar={onVoltar} />
+      <div className="multi-centro">
+        <div className="multi-emoji" aria-hidden="true">
+          😴
+        </div>
+        <h2 className="multi-titulo">O servidor cochilou de novo</h2>
+        <p className="multi-sub">Free tier é assim mesmo — cutuca de novo que ele levanta.</p>
+        <button className="btn btn--jogar" onClick={onTentar}>
+          Cutucar de novo
+        </button>
+        <button className="resultado__voltar" onClick={onVoltar}>
+          voltar
+        </button>
       </div>
     </div>
   );

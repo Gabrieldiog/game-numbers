@@ -33,21 +33,19 @@ npm install
 npm run dev
 ```
 
-## Multijogador 1v1 (PartyKit)
+## Multijogador 1v1
 
-O modo 1v1 em tempo real usa [PartyKit](https://partykit.io) (Cloudflare Durable Objects). O servidor vive em `party/`: `lobby.ts` faz o matchmaking (fila por nome) e `game.ts` é o **árbitro** de cada partida — gera a sequência de forma determinística pelo id da sala (reaproveitando o motor do desafio diário), guarda o valor secreto de cada carta, valida os palpites e sincroniza o placar. O cliente só manda o palpite; a verdade mora no servidor.
+O modo 1v1 em tempo real reaproveita o [Balcão](https://github.com/Gabrieldiog/gateway-) — um gateway de APIs públicas que já está no ar — como backend. Lá vive um relay WebSocket (`/ws/1v1`) que faz só duas coisas: junta dois jogadores (matchmaking de fila de um) e repassa mensagens de um pro outro, sem ler o conteúdo.
 
-```bash
-npm run party:dev      # servidor local em http://127.0.0.1:1999
-npm run party:deploy   # publica na sua conta Cloudflare
-```
+Quem gera as rodadas e conta o placar é o **cliente**: as duas pontas geram a mesma sequência a partir da semente da sala (o mesmo motor determinístico do desafio diário), então ambos veem exatamente as mesmas cartas. Pelo relay trafegam só placar, fim e rematch. É casual e client-side de propósito — mantém o gateway leve e dispensa subir mais um serviço.
+
+Como o Balcão fica no plano grátis do Render (dorme quando ninguém usa), a primeira conexão do dia acorda o servidor e demora alguns segundos. A tela "Acordando o servidor…" cobre essa espera com bom humor em vez de esconder.
 
 ## Publicar
 
-São dois deploys (o frontend estático + o servidor de tempo real do multijogador):
+O frontend é estático; o backend do 1v1 é o Balcão, que já está publicado à parte. Então aqui é um deploy só:
 
-1. **Servidor (PartyKit):** `npm run party:deploy` — pede login na primeira vez e imprime o host publicado (ex.: `maior-ou-menor.<usuario>.partykit.dev`).
-2. **Frontend (Netlify):** conecte o repositório ao Netlify (build `npm run build`, publish `dist` — já no `netlify.toml`) e defina a variável de ambiente **`VITE_PARTY_HOST`** com o host do passo 1. O Vite lê essa variável no build.
+- **Frontend (Netlify):** conecte o repositório ao Netlify (build `npm run build`, publish `dist` — já no `netlify.toml`) e defina a variável de ambiente **`VITE_BALCAO_WS`** com a URL WebSocket do relay, ex.: `wss://SEU-BALCAO.onrender.com/ws/1v1`. O Vite lê essa variável no build.
 
 ## Fases
 
