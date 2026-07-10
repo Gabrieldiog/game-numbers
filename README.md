@@ -33,6 +33,15 @@ npm install
 npm run dev
 ```
 
+## Multijogador 1v1 (PartyKit)
+
+O modo 1v1 em tempo real usa [PartyKit](https://partykit.io) (Cloudflare Durable Objects). O servidor vive em `party/`: `lobby.ts` faz o matchmaking (fila por nome) e `game.ts` é o **árbitro** de cada partida — gera a sequência de forma determinística pelo id da sala (reaproveitando o motor do desafio diário), guarda o valor secreto de cada carta, valida os palpites e sincroniza o placar. O cliente só manda o palpite; a verdade mora no servidor.
+
+```bash
+npm run party:dev      # servidor local em http://127.0.0.1:1999
+npm run party:deploy   # publica na sua conta Cloudflare
+```
+
 ## Fases
 
 - **Fase 1 (atual):** motor + deck de população + modo clássico + reveal animado com som.

@@ -1,0 +1,8 @@
+{
+  "$schema": "https://www.partykit.io/schema.json",
+  "name": "maior-ou-menor",
+  "main": "party/game.ts",
+  "parties": {
+    "lobby": "party/lobby.ts"
+  }
+}
