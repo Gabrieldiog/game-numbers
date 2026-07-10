@@ -143,14 +143,22 @@
   height: 100%;
   object-fit: cover;
 }
-/* quando o item tem foto (deck da fama), o medalhão vira um retrato maior */
+/* quando o item tem foto (fama, bandeiras, capas, logos...) o medalhão vira um
+   retrato maior. Fundo branco: fotos opacas cobrem tudo (não muda nada), e logos
+   com fundo transparente e tinta escura (Nike, marcas) passam a aparecer. */
 .carta__medalhao--foto {
   width: clamp(78px, 22vw, 96px);
   height: clamp(78px, 22vw, 96px);
   border-radius: 18px;
   border-color: color-mix(in srgb, var(--nevoa) 14%, transparent);
-  background: color-mix(in srgb, var(--nevoa) 6%, transparent);
+  background: #fff;
   box-shadow: 0 10px 26px -14px #000;
+}
+/* deck de logos (marcas): mostra o logo INTEIRO (contain) com respiro, em vez de
+   cortar como faz o cover das fotos */
+.carta__medalhao--logo img {
+  object-fit: contain;
+  padding: 14%;
 }
 
 .carta__nome {

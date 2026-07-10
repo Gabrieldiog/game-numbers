@@ -12,6 +12,7 @@ export interface RodadaDiaria {
   pergunta: string;
   fonte: string;
   fonteUrl: string;
+  logo: boolean; // o deck é de logos (fundo branco + contain na carta)?
   ancora: ItemDeck;
   desafiante: ItemDeck;
 }
@@ -81,6 +82,7 @@ export function montarDesafioDiario(decks: Deck[], iso: string, total: number = 
       pergunta: deck.pergunta,
       fonte: deck.fonte,
       fonteUrl: deck.fonte_url,
+      logo: deck.imagem === "logo",
       ancora,
       desafiante,
     });

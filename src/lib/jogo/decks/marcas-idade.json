@@ -1,0 +1,169 @@
+{
+  "id": "marcas-idade",
+  "titulo": "Idade das marcas",
+  "descricao": "Há quantos anos existe cada marca famosa.",
+  "unidade": "anos de existência",
+  "pergunta": "Existe há MAIS ou MENOS tempo?",
+  "fonte": "Wikidata / Wikipédia",
+  "fonte_url": "https://www.wikidata.org",
+  "atualizado_em": "2026-07-01",
+  "imagem": "logo",
+  "itens": [
+    {
+      "nome": "Peugeot",
+      "valor": 216,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/PSA_Peugeot_Citro%C3%ABn_logo.svg/330px-PSA_Peugeot_Citro%C3%ABn_logo.svg.png",
+      "fato": "Fundada em 1810 como uma metalúrgica familiar na França; só virou fabricante de carros em 1896."
+    },
+    {
+      "nome": "Siemens",
+      "valor": 179,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Siemens-logo.svg/330px-Siemens-logo.svg.png",
+      "fato": "Fundada em 1847 em Berlim por Werner von Siemens, começou fabricando telégrafos."
+    },
+    {
+      "nome": "Levi's",
+      "valor": 173,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Levi%27s_logo.svg/330px-Levi%27s_logo.svg.png",
+      "fato": "Fundada em 1853 por Levi Strauss em São Francisco; criou o jeans com rebites em 1873."
+    },
+    {
+      "nome": "Heineken",
+      "valor": 162,
+      "fato": "Fundada em 1864, quando Gerard Heineken comprou uma cervejaria em Amsterdã.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Heineken_logo.svg/330px-Heineken_logo.svg.png"
+    },
+    {
+      "nome": "Nokia",
+      "valor": 161,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Nokia_Lumia_logo.svg/330px-Nokia_Lumia_logo.svg.png",
+      "fato": "Fundada em 1865 como uma fábrica de papel na Finlândia, muito antes dos celulares."
+    },
+    {
+      "nome": "Nestlé",
+      "valor": 160,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Nestl%C3%A9_Purina_PetCare_logo.svg/330px-Nestl%C3%A9_Purina_PetCare_logo.svg.png",
+      "fato": "Fundada em 1866 na Suíça; ficou famosa por uma farinha láctea para bebês."
+    },
+    {
+      "nome": "Coca-Cola",
+      "valor": 140,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Coca-Cola_Brasil_logo.png",
+      "fato": "Criada em 1886 pelo farmacêutico John Pemberton, em Atlanta."
+    },
+    {
+      "nome": "Nintendo",
+      "valor": 137,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Nintendo_Wi-Fi_Connection_logo.svg/330px-Nintendo_Wi-Fi_Connection_logo.svg.png",
+      "fato": "Fundada em 1889 no Japão fazendo cartas de baralho hanafuda."
+    },
+    {
+      "nome": "Gillette",
+      "valor": 125,
+      "fato": "Fundada em 1901 por King Camp Gillette, criador da lâmina descartável.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gillette_logo.svg/330px-Gillette_logo.svg.png"
+    },
+    {
+      "nome": "Ford",
+      "valor": 123,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Ford_logo_1909.png",
+      "fato": "Fundada em 1903 por Henry Ford; popularizou a linha de montagem."
+    },
+    {
+      "nome": "IBM",
+      "valor": 115,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/IBM_logo_history.PNG/330px-IBM_logo_history.PNG",
+      "fato": "Fundada em 1911 como Computing-Tabulating-Recording Company."
+    },
+    {
+      "nome": "Disney",
+      "valor": 103,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2015_Disney_XD_logo.svg/330px-2015_Disney_XD_logo.svg.png",
+      "fato": "Fundada em 1923 pelos irmãos Walt e Roy Disney como um estúdio de animação."
+    },
+    {
+      "nome": "Lego",
+      "valor": 94,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/330px-LEGO_logo.svg.png",
+      "fato": "Fundada em 1932 na Dinamarca; o nome vem de 'leg godt' (brinque bem)."
+    },
+    {
+      "nome": "Toyota",
+      "valor": 89,
+      "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_EU.svg?width=320",
+      "fato": "Fundada em 1937 no Japão, desmembrada de uma fábrica de teares."
+    },
+    {
+      "nome": "Samsung",
+      "valor": 88,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Samsung_old_logo_before_year_2015.svg/330px-Samsung_old_logo_before_year_2015.svg.png",
+      "fato": "Fundada em 1938 na Coreia como uma trading de alimentos e peixe seco."
+    },
+    {
+      "nome": "McDonald's",
+      "valor": 86,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/McDonald%27s_logo.svg/330px-McDonald%27s_logo.svg.png",
+      "fato": "Fundada em 1940 pelos irmãos McDonald na Califórnia."
+    },
+    {
+      "nome": "Sony",
+      "valor": 80,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Sony_logo.svg/330px-Sony_logo.svg.png",
+      "fato": "Fundada em 1946 no Japão como Tokyo Tsushin Kogyo."
+    },
+    {
+      "nome": "Ferrari",
+      "valor": 79,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Ferrari_World_Abu_Dhabi_logo.svg/330px-Ferrari_World_Abu_Dhabi_logo.svg.png",
+      "fato": "Fundada em 1947 por Enzo Ferrari, em Maranello."
+    },
+    {
+      "nome": "Adidas",
+      "valor": 77,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/330px-Adidas_Logo.svg.png",
+      "fato": "Fundada em 1949 por Adi Dassler, na Alemanha."
+    },
+    {
+      "nome": "Nike",
+      "valor": 62,
+      "fato": "Fundada em 1964 como Blue Ribbon Sports; virou Nike em 1971.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/330px-Logo_NIKE.svg.png"
+    },
+    {
+      "nome": "Starbucks",
+      "valor": 55,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/0/0f/Starbucks_Corporation_Logo_2011.svg.png",
+      "fato": "Fundada em 1971 em Seattle, vendendo só grãos de café no início."
+    },
+    {
+      "nome": "Microsoft",
+      "valor": 51,
+      "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_logo_(2012).svg?width=320",
+      "fato": "Fundada em 1975 por Bill Gates e Paul Allen."
+    },
+    {
+      "nome": "Apple",
+      "valor": 50,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/330px-Apple_logo_black.svg.png",
+      "fato": "Fundada em 1976 por Steve Jobs e Steve Wozniak, numa garagem."
+    },
+    {
+      "nome": "Amazon",
+      "valor": 32,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Amazon_Prime_Logo.svg/330px-Amazon_Prime_Logo.svg.png",
+      "fato": "Fundada em 1994 por Jeff Bezos, começou vendendo livros online."
+    },
+    {
+      "nome": "Google",
+      "valor": 28,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Google_logo_%282010-2013%29.svg/330px-Google_logo_%282010-2013%29.svg.png",
+      "fato": "Fundada em 1998 por Larry Page e Sergey Brin."
+    },
+    {
+      "nome": "Tesla",
+      "valor": 23,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Tesla_Motors_Logo.svg/330px-Tesla_Motors_Logo.svg.png",
+      "fato": "Fundada em 2003 na Califórnia; Elon Musk entrou como investidor em 2004."
+    }
+  ]
+}

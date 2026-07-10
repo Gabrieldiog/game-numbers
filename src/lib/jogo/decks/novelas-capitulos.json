@@ -1,0 +1,168 @@
+{
+  "id": "novelas-capitulos",
+  "titulo": "Capítulos de novela",
+  "descricao": "Quantos capítulos teve cada novela brasileira.",
+  "unidade": "capítulos",
+  "pergunta": "Teve MAIS ou MENOS capítulos?",
+  "fonte": "Wikipédia — telenovelas brasileiras",
+  "fonte_url": "https://pt.wikipedia.org/wiki/Anexo:Lista_de_telenovelas_da_TV_Globo",
+  "atualizado_em": "2026-07-01",
+  "itens": [
+    {
+      "nome": "Selva de Pedra",
+      "valor": 243,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/a/a8/Logotipo_Selva_de_Pedra_%281972%29.jpg",
+      "fato": "1972, TV Globo"
+    },
+    {
+      "nome": "Xica da Silva",
+      "valor": 231,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/a/a3/Rede_Manchete_-_Xica_da_Silva.jpg/330px-Rede_Manchete_-_Xica_da_Silva.jpg",
+      "fato": "1996, Rede Manchete"
+    },
+    {
+      "nome": "O Clone",
+      "valor": 221,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/4/48/O_clone_logo.jpg/330px-O_clone_logo.jpg",
+      "fato": "2001, TV Globo"
+    },
+    {
+      "nome": "Terra Nostra",
+      "valor": 221,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/d/dc/Logotipo_de_Terra_Nostra.png/330px-Logotipo_de_Terra_Nostra.png",
+      "fato": "1999, TV Globo"
+    },
+    {
+      "nome": "Senhora do Destino",
+      "valor": 221,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/6/6c/Logotipo_de_Senhora_do_Destino.png/330px-Logotipo_de_Senhora_do_Destino.png",
+      "fato": "2004, TV Globo"
+    },
+    {
+      "nome": "Celebridade",
+      "valor": 221,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/2/22/Logotipo_de_Celebridade.png/330px-Logotipo_de_Celebridade.png",
+      "fato": "2003, TV Globo"
+    },
+    {
+      "nome": "Pantanal",
+      "valor": 216,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/a/a6/Novela_Pantanal_%281990%29.jpg/330px-Novela_Pantanal_%281990%29.jpg",
+      "fato": "1990, Rede Manchete"
+    },
+    {
+      "nome": "Renascer",
+      "valor": 216,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/6/6f/Logotipo_de_Renascer.png/330px-Logotipo_de_Renascer.png",
+      "fato": "1993, TV Globo"
+    },
+    {
+      "nome": "Roque Santeiro",
+      "valor": 209,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Roque-santeiro.jpg/330px-Roque-santeiro.jpg",
+      "fato": "1985, TV Globo"
+    },
+    {
+      "nome": "O Rei do Gado",
+      "valor": 209,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/8/83/Logotipo_O_Rei_do_Gado.jpg/330px-Logotipo_O_Rei_do_Gado.jpg",
+      "fato": "1996, TV Globo"
+    },
+    {
+      "nome": "Vale Tudo",
+      "valor": 204,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/09/Logotipo_de_Vale_Tudo.png/330px-Logotipo_de_Vale_Tudo.png",
+      "fato": "1988, TV Globo"
+    },
+    {
+      "nome": "Império",
+      "valor": 203,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/e/e7/Imp%C3%A9rio.png/330px-Imp%C3%A9rio.png",
+      "fato": "2014, TV Globo"
+    },
+    {
+      "nome": "A Indomada",
+      "valor": 203,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/e/e0/A_Indomada.JPG/330px-A_Indomada.JPG",
+      "fato": "1997, TV Globo"
+    },
+    {
+      "nome": "Mulheres de Areia",
+      "valor": 203,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/Mulheres_de_Areia_%281993%29.png/330px-Mulheres_de_Areia_%281993%29.png",
+      "fato": "1993, TV Globo"
+    },
+    {
+      "nome": "Tieta",
+      "valor": 197,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/3/3a/Logotipo_de_Tieta.png/330px-Logotipo_de_Tieta.png",
+      "fato": "1989, TV Globo"
+    },
+    {
+      "nome": "A Favorita",
+      "valor": 197,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/b/bf/Logotipo_de_A_Favorita.png/330px-Logotipo_de_A_Favorita.png",
+      "fato": "2008, TV Globo"
+    },
+    {
+      "nome": "Que Rei Sou Eu?",
+      "valor": 185,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/8/80/Que_Rei_Sou_Eu%3F.jpg/330px-Que_Rei_Sou_Eu%3F.jpg",
+      "fato": "1989, TV Globo"
+    },
+    {
+      "nome": "Fina Estampa",
+      "valor": 185,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/2/2e/Fina-Estampa.jpg/330px-Fina-Estampa.jpg",
+      "fato": "2011, TV Globo"
+    },
+    {
+      "nome": "Da Cor do Pecado",
+      "valor": 185,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/92/Da_Cor_do_Pecado_%28novela_-_2004%29.jpg/330px-Da_Cor_do_Pecado_%28novela_-_2004%29.jpg",
+      "fato": "2004, TV Globo"
+    },
+    {
+      "nome": "Avenida Brasil",
+      "valor": 179,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b2/Avenida-brasil-logo-300x225.jpg/330px-Avenida-brasil-logo-300x225.jpg",
+      "fato": "2012, TV Globo"
+    },
+    {
+      "nome": "Deus Salve o Rei",
+      "valor": 174,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/f/ff/Logotipo_de_Deus_Salve_o_Rei.png/330px-Logotipo_de_Deus_Salve_o_Rei.png",
+      "fato": "2018, TV Globo"
+    },
+    {
+      "nome": "Velho Chico",
+      "valor": 172,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/b/ba/Velho_Chico_%28telenovela%29.png/330px-Velho_Chico_%28telenovela%29.png",
+      "fato": "2016, TV Globo"
+    },
+    {
+      "nome": "A Regra do Jogo",
+      "valor": 167,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/f/fb/A_Regra_do_Jogo_%28telenovela%29.png/330px-A_Regra_do_Jogo_%28telenovela%29.png",
+      "fato": "2015, TV Globo"
+    },
+    {
+      "nome": "Cheias de Charme",
+      "valor": 143,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8d/Logotipo_de_Cheias_de_Charme.jpg/330px-Logotipo_de_Cheias_de_Charme.jpg",
+      "fato": "2012, TV Globo"
+    },
+    {
+      "nome": "Gabriela",
+      "valor": 132,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Gabriela_logo.jpg/330px-Gabriela_logo.jpg",
+      "fato": "1975, TV Globo"
+    },
+    {
+      "nome": "Escrava Isaura",
+      "valor": 100,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/8/88/Escrava_Isaura.jpg/330px-Escrava_Isaura.jpg",
+      "fato": "1976, TV Globo"
+    }
+  ]
+}

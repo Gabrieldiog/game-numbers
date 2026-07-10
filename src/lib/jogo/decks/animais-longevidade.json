@@ -1,0 +1,168 @@
+{
+  "id": "animais-longevidade",
+  "titulo": "Longevidade dos animais",
+  "descricao": "Quanto tempo cada bicho vive (recorde de longevidade).",
+  "unidade": "anos",
+  "pergunta": "Vive MAIS ou MENOS tempo?",
+  "fonte": "AnAge — Animal Ageing Database / Wikipédia",
+  "fonte_url": "https://genomics.senescence.info/species/",
+  "atualizado_em": "2026-07-01",
+  "itens": [
+    {
+      "nome": "Ming (amêijoa)",
+      "valor": 507,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Ming_clam_shell_WG061294R.jpg",
+      "fato": "A amêijoa Ming viveu 507 anos, o animal individual mais velho já datado com precisão."
+    },
+    {
+      "nome": "Tubarão-da-groenlândia",
+      "valor": 392,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Somniosus_microcephalus_okeanos.jpg/330px-Somniosus_microcephalus_okeanos.jpg",
+      "fato": "O vertebrado mais longevo conhecido; uma fêmea foi datada em ~392 anos pelo cristalino."
+    },
+    {
+      "nome": "Baleia-da-groenlândia",
+      "valor": 211,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Bowhead_Whale_NOAA.jpg/330px-Bowhead_Whale_NOAA.jpg",
+      "fato": "O mamífero mais longevo: um macho foi estimado em cerca de 211 anos pelo cristalino do olho."
+    },
+    {
+      "nome": "Ouriço-do-mar-vermelho",
+      "valor": 200,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Strongylocentrotus_franciscanus.jpg/330px-Strongylocentrotus_franciscanus.jpg",
+      "fato": "Pode ultrapassar os 200 anos sem sinais visíveis de envelhecimento."
+    },
+    {
+      "nome": "Tartaruga-gigante-de-aldabra",
+      "valor": 190,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Giant_Tortoise.JPG/330px-Giant_Tortoise.JPG",
+      "fato": "Jonathan, na ilha de Santa Helena, é o animal terrestre vivo mais velho, com ~190 anos."
+    },
+    {
+      "nome": "Tartaruga-gigante-de-galápagos",
+      "valor": 175,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Galapagos_giant_tortoise_Geochelone_elephantopus.jpg/330px-Galapagos_giant_tortoise_Geochelone_elephantopus.jpg",
+      "fato": "Harriet, coletada nos tempos de Darwin, morreu no zoo de Steve Irwin aos ~175 anos."
+    },
+    {
+      "nome": "Ser humano",
+      "valor": 122,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/World_human_population_density_map.png/330px-World_human_population_density_map.png",
+      "fato": "Jeanne Calment viveu 122 anos e 164 dias, o maior tempo de vida humano verificado."
+    },
+    {
+      "nome": "Crocodilo-de-água-salgada",
+      "valor": 120,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/SaltwaterCrocodile%28%27Maximo%27%29.jpg/330px-SaltwaterCrocodile%28%27Maximo%27%29.jpg",
+      "fato": "Cassius, o maior crocodilo em cativeiro, é estimado em mais de 110 anos."
+    },
+    {
+      "nome": "Tuatara",
+      "valor": 111,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Tuatara_%285205719005%29.jpg/330px-Tuatara_%285205719005%29.jpg",
+      "fato": "Henry, um réptil da Nova Zelândia, virou pai pela primeira vez aos 111 anos."
+    },
+    {
+      "nome": "Lagosta-americana",
+      "valor": 100,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Bugre_americanu.jpg/330px-Bugre_americanu.jpg",
+      "fato": "Podem passar dos 100 anos e quase não mostram sinais de envelhecimento."
+    },
+    {
+      "nome": "Elefante-asiático",
+      "valor": 86,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Asiatic_Elephant_Kabini.jpg/330px-Asiatic_Elephant_Kabini.jpg",
+      "fato": "Lin Wang, elefante de guerra que virou atração no zoo de Taipei, morreu aos 86 anos."
+    },
+    {
+      "nome": "Cacatua-rosa",
+      "valor": 83,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Major_Mitchell%27s_Cockatoo_-_Mt_Grenfell.jpg/330px-Major_Mitchell%27s_Cockatoo_-_Mt_Grenfell.jpg",
+      "fato": "Cookie, do zoo de Brookfield, viveu 83 anos, o papagaio mais velho já documentado."
+    },
+    {
+      "nome": "Chimpanzé",
+      "valor": 79,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg/330px-015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg",
+      "fato": "Little Mama, a chimpanzé mais velha conhecida, chegou a cerca de 79 anos."
+    },
+    {
+      "nome": "Cavalo",
+      "valor": 62,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Nokota_Horses_cropped.jpg/330px-Nokota_Horses_cropped.jpg",
+      "fato": "Old Billy, um cavalo de sirga inglês do século 18, viveu 62 anos."
+    },
+    {
+      "nome": "Golfinho-roaz",
+      "valor": 61,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tursiops_truncatus_01-cropped.jpg/330px-Tursiops_truncatus_01-cropped.jpg",
+      "fato": "Nellie, uma golfinha em cativeiro na Flórida, chegou aos 61 anos."
+    },
+    {
+      "nome": "Vaca",
+      "valor": 48,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Hereford_bull_large.jpg/330px-Hereford_bull_large.jpg",
+      "fato": "Big Bertha, uma vaca irlandesa, viveu quase 49 anos e teve 39 bezerros."
+    },
+    {
+      "nome": "Peixe-dourado",
+      "valor": 43,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Katri.jpg/330px-Katri.jpg",
+      "fato": "Tish, ganho numa quermesse em 1956, viveu 43 anos e teve as escamas prateadas com a idade."
+    },
+    {
+      "nome": "Urso-pardo",
+      "valor": 40,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Brown_bear.jpg/330px-Brown_bear.jpg",
+      "fato": "Na natureza raramente passam dos 30, mas em cativeiro chegam aos 40 anos."
+    },
+    {
+      "nome": "Gato",
+      "valor": 38,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Siamese_cat.jpg/330px-Siamese_cat.jpg",
+      "fato": "Creme Puff, o gato mais velho já registrado, viveu 38 anos no Texas."
+    },
+    {
+      "nome": "Rato-toupeira-pelado",
+      "valor": 37,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Nacktmull.jpg/330px-Nacktmull.jpg",
+      "fato": "Quase não envelhece: vive cerca de 37 anos, um recorde absurdo para um roedor."
+    },
+    {
+      "nome": "Cão",
+      "valor": 29,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Adult_male_German_shepherd_dog_standing_at_the_beach_%28retouched%29.jpg/330px-Adult_male_German_shepherd_dog_standing_at_the_beach_%28retouched%29.jpg",
+      "fato": "Bluey, uma cadela boiadeira australiana, viveu 29 anos, o recorde canino."
+    },
+    {
+      "nome": "Leão",
+      "valor": 27,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/330px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+      "fato": "Alguns leões em cativeiro chegam perto dos 27 anos."
+    },
+    {
+      "nome": "Tigre",
+      "valor": 26,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Panthera_tigris_tigris.jpg/330px-Panthera_tigris_tigris.jpg",
+      "fato": "Em cativeiro, tigres costumam passar dos 25 anos, bem mais que na natureza."
+    },
+    {
+      "nome": "Galinha",
+      "valor": 23,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Male_and_female_chicken_sitting_together.jpg/330px-Male_and_female_chicken_sitting_together.jpg",
+      "fato": "Muffy, a galinha mais longeva conhecida, chegou aos 23 anos."
+    },
+    {
+      "nome": "Coelho-europeu",
+      "valor": 18,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Oryctolagus_cuniculus_Rcdo.jpg/330px-Oryctolagus_cuniculus_Rcdo.jpg",
+      "fato": "Flopsy, o coelho mais velho já registrado, viveu 18 anos na Austrália."
+    },
+    {
+      "nome": "Camundongo",
+      "valor": 4,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Mouse_white_background.jpg",
+      "fato": "O recorde de um camundongo de laboratório é cerca de 4 anos; na natureza vivem só alguns meses."
+    }
+  ]
+}

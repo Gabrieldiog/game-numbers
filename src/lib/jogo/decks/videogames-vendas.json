@@ -1,0 +1,180 @@
+{
+  "id": "videogames-vendas",
+  "titulo": "Videogames mais vendidos",
+  "descricao": "Cópias vendidas dos jogos mais vendidos de todos os tempos.",
+  "unidade": "milhões de cópias",
+  "pergunta": "Vendeu MAIS ou MENOS?",
+  "fonte": "Wikipedia — Best-selling video games",
+  "fonte_url": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games",
+  "atualizado_em": "2026-07-01",
+  "itens": [
+    {
+      "nome": "Minecraft",
+      "valor": 400,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/9/9c/Minecraft_capa.png",
+      "fato": "Sandbox da Mojang, 2011"
+    },
+    {
+      "nome": "Grand Theft Auto V",
+      "valor": 230,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/8/80/Grand_Theft_Auto_V_capa.png/330px-Grand_Theft_Auto_V_capa.png",
+      "fato": "Rockstar Games, 2013"
+    },
+    {
+      "nome": "Tetris (versão EA)",
+      "valor": 100,
+      "img": "https://upload.wikimedia.org/wikipedia/en/5/50/Tetris_%28iPhone%29_cover_art.png",
+      "fato": "Versão mobile da EA, 2006"
+    },
+    {
+      "nome": "Red Dead Redemption 2",
+      "valor": 85,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/e/e7/Red_Dead_Redemption_2.png/330px-Red_Dead_Redemption_2.png",
+      "fato": "Rockstar Games, 2018"
+    },
+    {
+      "nome": "Wii Sports",
+      "valor": 83,
+      "img": "https://upload.wikimedia.org/wikipedia/en/e/e0/Wii_Sports_Europe.jpg",
+      "fato": "Nintendo, 2006"
+    },
+    {
+      "nome": "Mario Kart 8",
+      "valor": 80,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/0/0d/MarioKart8.jpg",
+      "fato": "Nintendo, 2014 (Deluxe em 2017)"
+    },
+    {
+      "nome": "PUBG: Battlegrounds",
+      "valor": 75,
+      "img": "https://upload.wikimedia.org/wikipedia/en/9/9f/Pubgbattlegrounds.png",
+      "fato": "PUBG Studios, 2017"
+    },
+    {
+      "nome": "Terraria",
+      "valor": 70,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/e/ee/Terraria_capa.png/330px-Terraria_capa.png",
+      "fato": "Re-Logic, 2011"
+    },
+    {
+      "nome": "The Witcher 3: Wild Hunt",
+      "valor": 65,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/06/TW3_Wild_Hunt.png/330px-TW3_Wild_Hunt.png",
+      "fato": "CD Projekt Red, 2015"
+    },
+    {
+      "nome": "Super Mario Bros.",
+      "valor": 58,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/0/03/Super_Mario_Bros._box.png",
+      "fato": "Nintendo, 1985"
+    },
+    {
+      "nome": "Stardew Valley",
+      "valor": 50,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/f/fd/Logo_of_Stardew_Valley.png/330px-Logo_of_Stardew_Valley.png",
+      "fato": "ConcernedApe, 2016"
+    },
+    {
+      "nome": "Animal Crossing: New Horizons",
+      "valor": 48,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/c/c0/Animal_Crossing_New_Horizons_capa.png",
+      "fato": "Nintendo, 2020"
+    },
+    {
+      "nome": "Pokémon Red & Blue",
+      "valor": 47,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/5/57/Pok%C3%A9mon_RB_cover.png",
+      "fato": "Game Freak, 1996"
+    },
+    {
+      "nome": "Cyberpunk 2077",
+      "valor": 40,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/f/f7/Cyberpunk_2077_capa.png/330px-Cyberpunk_2077_capa.png",
+      "fato": "CD Projekt Red, 2020"
+    },
+    {
+      "nome": "Hogwarts Legacy",
+      "valor": 40,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/5a/Hogwarts_Legacy_capa.jpeg/330px-Hogwarts_Legacy_capa.jpeg",
+      "fato": "Avalanche Software, 2023"
+    },
+    {
+      "nome": "Super Smash Bros. Ultimate",
+      "valor": 37,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/7/7f/Super_Smash_Bros._Ultimate_capa.png/330px-Super_Smash_Bros._Ultimate_capa.png",
+      "fato": "Nintendo, 2018"
+    },
+    {
+      "nome": "The Legend of Zelda: Breath of the Wild",
+      "valor": 35,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/0/0f/Legend_of_Zelda_Breath_of_the_Wild_capa.png",
+      "fato": "Nintendo, 2017"
+    },
+    {
+      "nome": "Wii Sports Resort",
+      "valor": 33,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/2/20/Wii_Sports_Resort_cover.png",
+      "fato": "Nintendo, 2009"
+    },
+    {
+      "nome": "Super Mario Odyssey",
+      "valor": 31,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/9/99/Super_Mario_Odyssey_Capa.png",
+      "fato": "Nintendo, 2017"
+    },
+    {
+      "nome": "The Elder Scrolls V: Skyrim",
+      "valor": 30,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/a/aa/The_Elder_Scrolls_5_Skyrim_capa.png/330px-The_Elder_Scrolls_5_Skyrim_capa.png",
+      "fato": "Bethesda, 2011"
+    },
+    {
+      "nome": "Elden Ring",
+      "valor": 30,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/0d/Elden_Ring_capa.jpg/330px-Elden_Ring_capa.jpg",
+      "fato": "FromSoftware, 2022"
+    },
+    {
+      "nome": "Grand Theft Auto: San Andreas",
+      "valor": 28,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/d/d3/Grand_Theft_Auto_San_Andreas_capa.png/330px-Grand_Theft_Auto_San_Andreas_capa.png",
+      "fato": "Rockstar Games, 2004"
+    },
+    {
+      "nome": "Duck Hunt",
+      "valor": 28,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/DuckHunt.jpg/330px-DuckHunt.jpg",
+      "fato": "Nintendo, 1984"
+    },
+    {
+      "nome": "Pokémon Sword e Shield",
+      "valor": 27,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/56/Pok%C3%A9mon_Sword_Shield_capas.png/330px-Pok%C3%A9mon_Sword_Shield_capas.png",
+      "fato": "Game Freak, 2019"
+    },
+    {
+      "nome": "Grand Theft Auto IV",
+      "valor": 25,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/91/Grand_Theft_Auto_IV_capa.png/330px-Grand_Theft_Auto_IV_capa.png",
+      "fato": "Rockstar Games, 2008"
+    },
+    {
+      "nome": "God of War (2018)",
+      "valor": 23,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/8/82/God_of_War_2018_capa.png/330px-God_of_War_2018_capa.png",
+      "fato": "Santa Monica Studio, 2018"
+    },
+    {
+      "nome": "Monster Hunter: World",
+      "valor": 22,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/3/34/Monster_Hunter_World_capa.jpg/330px-Monster_Hunter_World_capa.jpg",
+      "fato": "Capcom, 2018"
+    },
+    {
+      "nome": "Final Fantasy VII",
+      "valor": 16,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/2/29/FFVII.jpg/330px-FFVII.jpg",
+      "fato": "Square, 1997 (original)"
+    }
+  ]
+}

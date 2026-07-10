@@ -133,6 +133,7 @@ export function useMultiplayer(): MultiView {
       unidade: r.unidade,
       fonte: r.fonte,
       fonteUrl: r.fonteUrl,
+      logo: r.logo,
       ancora: { nome: r.ancora.nome, valor: r.ancora.valor, img: r.ancora.img },
       desafiante: { nome: r.desafiante.nome, img: r.desafiante.img },
     };

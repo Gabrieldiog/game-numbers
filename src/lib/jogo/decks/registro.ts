@@ -17,6 +17,10 @@ import prediosAltura from "./predios-altura.json";
 import planetasDiametro from "./planetas-diametro.json";
 import wikiMaisVisto from "./wiki-mais-visto.json";
 import instagramSeguidores from "./instagram-seguidores.json";
+import animaisLongevidade from "./animais-longevidade.json";
+import novelasCapitulos from "./novelas-capitulos.json";
+import videogamesVendas from "./videogames-vendas.json";
+import marcasIdade from "./marcas-idade.json";
 
 export type GrupoDeck = "Fama" | "Brasil" | "Mundo" | "Diversão";
 
@@ -38,6 +42,10 @@ const cru: { fonte: unknown; grupo: GrupoDeck }[] = [
   { fonte: planetasDiametro, grupo: "Diversão" },
   { fonte: wikiMaisVisto, grupo: "Fama" },
   { fonte: instagramSeguidores, grupo: "Fama" },
+  { fonte: novelasCapitulos, grupo: "Brasil" },
+  { fonte: animaisLongevidade, grupo: "Diversão" },
+  { fonte: videogamesVendas, grupo: "Diversão" },
+  { fonte: marcasIdade, grupo: "Diversão" },
 ];
 
 export const DECKS: DeckRegistrado[] = cru.map((c) => ({
