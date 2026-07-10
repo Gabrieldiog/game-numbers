@@ -1,0 +1,487 @@
+.app {
+  position: relative;
+  z-index: 1;
+  max-width: 520px;
+  margin: 0 auto;
+  min-height: 100dvh;
+  padding: 18px 18px calc(24px + env(safe-area-inset-bottom));
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ---------- topo ---------- */
+.topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.marca {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-size: 1.15rem;
+  color: var(--nevoa);
+  text-shadow: 0 0 12px color-mix(in srgb, var(--voltagem) 45%, transparent);
+}
+.marca em {
+  color: var(--muted);
+  font-style: normal;
+  font-weight: 500;
+}
+.som-btn {
+  background: color-mix(in srgb, var(--aco) 70%, transparent);
+  border: 1px solid var(--linha);
+  border-radius: 12px;
+  width: 40px;
+  height: 40px;
+  font-size: 1.05rem;
+  display: grid;
+  place-items: center;
+}
+
+/* ---------- hud ---------- */
+.hud {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.hud__bloco {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.hud__bloco--dir {
+  text-align: right;
+  align-items: flex-end;
+}
+.hud__label {
+  font-family: "Martian Mono", monospace;
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+}
+.hud__valor {
+  font-family: "Martian Mono", monospace;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--nevoa);
+}
+
+.kicker {
+  font-family: "Martian Mono", monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--voltagem);
+  text-align: center;
+}
+
+/* ---------- palco / cartas ---------- */
+.palco {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.carta {
+  position: relative;
+  background: color-mix(in srgb, var(--aco) 82%, transparent);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--linha);
+  border-radius: 22px;
+  padding: 20px 18px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 12px 44px -26px rgba(0, 0, 0, 0.9);
+  transition:
+    border-color 0.25s var(--ease),
+    box-shadow 0.25s var(--ease);
+  animation: entra 0.3s var(--ease) both;
+}
+
+.carta--ancora {
+  border-color: color-mix(in srgb, var(--voltagem) 45%, var(--linha));
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--voltagem) 22%, transparent),
+    0 12px 44px -26px rgba(0, 0, 0, 0.9);
+}
+.carta--acerto {
+  border-color: var(--pulso);
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--pulso) 60%, transparent),
+    0 0 34px -6px color-mix(in srgb, var(--pulso) 45%, transparent);
+}
+.carta--erro {
+  border-color: var(--coral);
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--coral) 60%, transparent),
+    0 0 34px -6px color-mix(in srgb, var(--coral) 45%, transparent);
+}
+
+.carta__medalhao {
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--voltagem);
+  background: color-mix(in srgb, var(--voltagem) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--voltagem) 30%, transparent);
+  overflow: hidden;
+}
+.carta__medalhao img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carta__nome {
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  font-size: clamp(1rem, 4.4vw, 1.3rem);
+  line-height: 1.15;
+  text-align: center;
+}
+
+.carta__numero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  min-height: clamp(3rem, 13vw, 4.6rem);
+  justify-content: center;
+}
+.carta__numero .tnum {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-size: clamp(2.4rem, 12vw, 4rem);
+  line-height: 0.95;
+  letter-spacing: -0.01em;
+  color: var(--nevoa);
+}
+.carta--revelando .carta__numero .tnum {
+  text-shadow:
+    0 0 10px color-mix(in srgb, var(--voltagem) 45%, transparent),
+    0 0 26px color-mix(in srgb, var(--voltagem) 22%, transparent);
+}
+.carta--acerto .carta__numero .tnum {
+  color: var(--pulso);
+  text-shadow:
+    0 0 12px color-mix(in srgb, var(--pulso) 55%, transparent),
+    0 0 30px color-mix(in srgb, var(--pulso) 30%, transparent);
+  animation: pop 0.32s var(--ease);
+}
+.carta--erro .carta__numero .tnum {
+  color: var(--coral);
+  text-shadow:
+    0 0 12px color-mix(in srgb, var(--coral) 55%, transparent),
+    0 0 30px color-mix(in srgb, var(--coral) 30%, transparent);
+  animation: pop 0.32s var(--ease);
+}
+.carta__unidade {
+  font-family: "Martian Mono", monospace;
+  font-size: 0.64rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+}
+.carta__interro {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-size: clamp(2.6rem, 13vw, 4rem);
+  color: color-mix(in srgb, var(--nevoa) 30%, transparent);
+}
+.carta__fato {
+  font-family: "Sora", sans-serif;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  color: var(--muted);
+  max-width: 30ch;
+  margin-top: 2px;
+}
+
+.versus {
+  align-self: center;
+  margin: -4px 0;
+  z-index: 2;
+}
+.versus span {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  color: var(--coral);
+  background: color-mix(in srgb, var(--coral) 14%, var(--breu));
+  border: 1px solid color-mix(in srgb, var(--coral) 35%, transparent);
+  padding: 5px 12px;
+  border-radius: 999px;
+}
+
+/* ---------- prompt + botões ---------- */
+.prompt-area {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.prompt {
+  margin: 0;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.prompt strong {
+  color: var(--nevoa);
+  font-weight: 600;
+}
+.palpite {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.btn {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: clamp(1.1rem, 4.6vw, 1.4rem);
+  padding: 16px 12px;
+  border-radius: 16px;
+  border: 2px solid;
+  background: color-mix(in srgb, var(--aco) 70%, transparent);
+  color: var(--nevoa);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition:
+    transform 0.12s var(--ease),
+    box-shadow 0.2s var(--ease),
+    background 0.2s var(--ease);
+}
+.btn__seta {
+  font-size: 0.78em;
+}
+.btn--maior {
+  border-color: var(--pulso);
+  color: var(--pulso);
+}
+.btn--maior:hover {
+  background: color-mix(in srgb, var(--pulso) 12%, transparent);
+  box-shadow: 0 0 26px -6px color-mix(in srgb, var(--pulso) 60%, transparent);
+}
+.btn--menor {
+  border-color: var(--coral);
+  color: var(--coral);
+}
+.btn--menor:hover {
+  background: color-mix(in srgb, var(--coral) 12%, transparent);
+  box-shadow: 0 0 26px -6px color-mix(in srgb, var(--coral) 60%, transparent);
+}
+.btn:active {
+  transform: translateY(1px) scale(0.98);
+}
+.btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.fonte {
+  margin: auto 0 0;
+  text-align: center;
+  font-family: "Martian Mono", monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.fonte a {
+  color: var(--voltagem);
+}
+
+/* ---------- flash de tela ---------- */
+.flash {
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  pointer-events: none;
+  animation: flashfade 0.5s var(--ease) forwards;
+}
+.flash--ok {
+  background: radial-gradient(circle at 50% 62%, color-mix(in srgb, var(--pulso) 28%, transparent), transparent 62%);
+}
+.flash--erro {
+  background: radial-gradient(circle at 50% 62%, color-mix(in srgb, var(--coral) 30%, transparent), transparent 62%);
+}
+
+/* ---------- fim de jogo ---------- */
+.fim {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: color-mix(in srgb, var(--breu) 72%, transparent);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  animation: fadein 0.25s var(--ease);
+}
+.fim__card {
+  width: 100%;
+  max-width: 340px;
+  text-align: center;
+  background: color-mix(in srgb, var(--aco) 92%, transparent);
+  border: 1px solid var(--linha);
+  border-radius: 24px;
+  padding: 28px 24px;
+  box-shadow: 0 30px 80px -30px rgba(0, 0, 0, 0.9);
+  animation: pop 0.3s var(--ease);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.fim__recorde {
+  font-family: "Martian Mono", monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--pulso);
+}
+.fim__titulo {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 9vw, 2.6rem);
+  color: var(--nevoa);
+}
+.fim__placar {
+  display: flex;
+  gap: 28px;
+}
+.fim__stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.fim__num {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--voltagem);
+  text-shadow: 0 0 16px color-mix(in srgb, var(--voltagem) 40%, transparent);
+}
+.fim__cap {
+  font-family: "Martian Mono", monospace;
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+}
+.btn--jogar {
+  width: 100%;
+  border-color: var(--voltagem);
+  color: var(--voltagem);
+}
+.btn--jogar:hover {
+  background: color-mix(in srgb, var(--voltagem) 12%, transparent);
+  box-shadow: 0 0 26px -6px color-mix(in srgb, var(--voltagem) 60%, transparent);
+}
+
+/* ---------- animações ---------- */
+.palco--treme {
+  animation: treme 0.4s var(--ease);
+}
+@keyframes treme {
+  10%,
+  90% {
+    transform: translateX(-2px);
+  }
+  20%,
+  80% {
+    transform: translateX(3px);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translateX(-7px);
+  }
+  40%,
+  60% {
+    transform: translateX(7px);
+  }
+}
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.12);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes entra {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes flashfade {
+  from {
+    opacity: 0.85;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* guardas contra overflow horizontal no mobile: filhos de flex/grid precisam
+   poder encolher abaixo do min-content (o default min-width:auto estoura a tela) */
+.app {
+  overflow-x: clip;
+}
+.palco,
+.prompt-area,
+.palpite,
+.carta,
+.carta__numero,
+.btn {
+  min-width: 0;
+}
+.prompt,
+.carta__nome {
+  overflow-wrap: anywhere;
+}

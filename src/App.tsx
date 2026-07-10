@@ -1,75 +1,118 @@
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import bruto from "./lib/jogo/decks/ibge-populacao-municipios.json";
-import { itemAncora, itemDesafiante, jogar, novoJogo, parseDeck } from "./lib/jogo";
-import type { EstadoJogo, Palpite } from "./lib/jogo";
+import { parseDeck } from "./lib/jogo";
+import { useJogo } from "./hooks/useJogo";
+import { useSom } from "./som/useSom";
+import { Hud } from "./componentes/Hud";
+import { Carta } from "./componentes/Carta";
+import { NumeroAnimado } from "./componentes/NumeroAnimado";
+import { BotoesPalpite } from "./componentes/BotoesPalpite";
+import { FimDeJogo } from "./componentes/FimDeJogo";
+import { BotaoSom } from "./componentes/BotaoSom";
 import { inteiroBR } from "./util/formato";
-
-// Harness mínimo do PR #1: só prova que o motor agnóstico + o deck + a validação
-// de schema funcionam ponta a ponta. A tela de verdade (neon, som, reveal animado)
-// entra no PR seguinte, reaproveitando este mesmo motor.
-
-const caixa: React.CSSProperties = {
-  padding: 16,
-  border: "1px solid var(--linha)",
-  borderRadius: 12,
-  marginBottom: 12,
-  textAlign: "center",
-};
+import "./App.css";
 
 export default function App() {
   const deck = useMemo(() => parseDeck(bruto), []);
-  const [estado, setEstado] = useState<EstadoJogo>(() => novoJogo(deck, { aoEsgotar: "reembaralhar" }));
-  const ancora = itemAncora(estado);
-  const desafiante = itemDesafiante(estado);
+  const {
+    ancora,
+    desafiante,
+    pontos,
+    recorde,
+    fase,
+    resultado,
+    desfechoVisivel,
+    recordeBatido,
+    unidade,
+    palpitar,
+    concluirContagem,
+    reiniciarJogo,
+  } = useJogo(deck);
+  const { mudo, alternar } = useSom();
 
-  const palpitar = (p: Palpite) => setEstado((e) => jogar(e, p));
-  const reiniciar = () => setEstado(novoJogo(deck, { aoEsgotar: "reembaralhar", recorde: estado.recorde }));
+  const estadoDesafiante =
+    fase === "jogando"
+      ? "oculto"
+      : fase === "fim"
+        ? "erro"
+        : desfechoVisivel
+          ? resultado?.acerto
+            ? "acerto"
+            : "erro"
+          : "revelando";
+
+  const treme = fase === "revelando" && desfechoVisivel && resultado?.acerto === false;
+  const ancoraLimpa = ancora.nome.replace(/\s*\(.*?\)/g, "").trim();
 
   return (
-    <div style={{ maxWidth: 420, margin: "0 auto", padding: 20, color: "var(--nevoa)" }}>
-      <h1 style={{ fontSize: 20 }}>Maior ou Menor?</h1>
-      <p style={{ color: "var(--muted)" }}>{deck.titulo}</p>
-      <p style={{ color: "var(--muted)" }}>
-        Sequência: {estado.pontos} · Recorde: {estado.recorde}
-      </p>
+    <div className="app">
+      <header className="topo">
+        <div className="marca">
+          Maior <em>ou</em> Menor?
+        </div>
+        <BotaoSom mudo={mudo} onAlternar={alternar} />
+      </header>
 
-      {estado.fim ? (
-        <div style={caixa}>
-          <p>Fim! Você fez {estado.pontos} acertos.</p>
-          {estado.ultima ? (
-            <p style={{ color: "var(--muted)" }}>
-              {desafiante.nome} tinha {inteiroBR(estado.ultima.valorDesafiante)} {deck.unidade}.
-            </p>
-          ) : null}
-          <button onClick={reiniciar}>Jogar de novo</button>
+      <Hud pontos={pontos} recorde={recorde} />
+
+      <div className="kicker">{deck.titulo}</div>
+
+      <main className={`palco ${treme ? "palco--treme" : ""}`}>
+        <Carta item={ancora} papel="ancora" estado="ancora">
+          <span className="tnum">{inteiroBR(ancora.valor)}</span>
+          <span className="carta__unidade">{unidade}</span>
+        </Carta>
+
+        <div className="versus">
+          <span>vs</span>
+        </div>
+
+        <Carta item={desafiante} papel="desafiante" estado={estadoDesafiante}>
+          {fase === "jogando" ? (
+            <span className="carta__interro">?</span>
+          ) : fase === "fim" ? (
+            <>
+              <span className="tnum">{inteiroBR(desafiante.valor)}</span>
+              <span className="carta__unidade">{unidade}</span>
+            </>
+          ) : (
+            <>
+              <NumeroAnimado
+                key={`${pontos}-${desafiante.nome}`}
+                valor={desafiante.valor}
+                comSom
+                onDone={concluirContagem}
+                className="tnum"
+              />
+              <span className="carta__unidade">{unidade}</span>
+            </>
+          )}
+        </Carta>
+      </main>
+
+      {fase === "jogando" ? (
+        <div className="prompt-area">
+          <p className="prompt">
+            <strong>{desafiante.nome}</strong> tem mais ou menos que <strong>{ancoraLimpa}</strong>?
+          </p>
+          <BotoesPalpite onPalpite={palpitar} />
         </div>
       ) : (
-        <>
-          <div style={caixa}>
-            <strong>{ancora.nome}</strong>
-            <div style={{ fontSize: 32 }}>{inteiroBR(ancora.valor)}</div>
-            <small style={{ color: "var(--muted)" }}>{deck.unidade}</small>
-          </div>
-          <div style={caixa}>
-            <strong>{desafiante.nome}</strong>
-            <div style={{ fontSize: 32 }}>?</div>
-          </div>
-          <p style={{ textAlign: "center" }}>
-            {desafiante.nome} tem mais ou menos que {ancora.nome}?
-          </p>
-          <div style={{ display: "flex", gap: 8, justifyContent: "center" }}>
-            <button onClick={() => palpitar("maior")}>Maior</button>
-            <button onClick={() => palpitar("menor")}>Menor</button>
-          </div>
-        </>
+        <p className="fonte">
+          {deck.fonte} ·{" "}
+          <a href={deck.fonte_url} target="_blank" rel="noreferrer">
+            fonte
+          </a>
+        </p>
       )}
 
-      <p style={{ marginTop: 20, fontSize: 12, color: "var(--muted)" }}>
-        {deck.fonte} ·{" "}
-        <a href={deck.fonte_url} target="_blank" rel="noreferrer">
-          fonte
-        </a>
-      </p>
+      {fase !== "jogando" && desfechoVisivel && resultado ? (
+        <div className={`flash flash--${resultado.acerto ? "ok" : "erro"}`} aria-hidden="true" />
+      ) : null}
+
+      {fase === "fim" ? (
+        <FimDeJogo pontos={pontos} recorde={recorde} recordeBatido={recordeBatido} onReiniciar={reiniciarJogo} />
+      ) : null}
     </div>
   );
 }
