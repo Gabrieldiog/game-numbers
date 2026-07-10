@@ -10,7 +10,7 @@ export type {
   Resultado,
 } from "./tipos";
 
-export { avancar, comparar, itemAncora, itemDesafiante, jogar, novoJogo, reiniciar, sortearPar } from "./motor";
+export { avancar, comparar, itemAncora, itemDesafiante, jogar, novoJogo, proximoPar, reiniciar, sortearPar } from "./motor";
 
 export {
   ITENS_RECOMENDADO,

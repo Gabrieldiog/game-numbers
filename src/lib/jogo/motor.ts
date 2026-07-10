@@ -163,6 +163,26 @@ export function reiniciar(estado: EstadoJogo, semente?: number): EstadoJogo {
   return novoJogo(estado.deck, opcoes);
 }
 
+/**
+ * Avança só o PAR (o desafiante vira âncora e sorteia um novo desafiante), sem
+ * mexer em pontos nem encerrar — é a base pros modos que continuam depois de um
+ * erro (ex.: 3 vidas). Reembaralha se o baralho esgotar.
+ */
+export function proximoPar(estado: EstadoJogo): EstadoJogo {
+  const total = estado.deck.itens.length;
+  const novaAncora = estado.desafiante;
+  const usados = new Set(estado.usados);
+  usados.add(novaAncora);
+  let proximo = sortearIndice(total, usados, estado.semente);
+  if (!proximo) {
+    usados.clear();
+    usados.add(novaAncora);
+    proximo = sortearIndice(total, usados, estado.semente)!;
+  }
+  usados.add(proximo.indice);
+  return { ...estado, ancora: novaAncora, desafiante: proximo.indice, usados: [...usados], semente: proximo.semente };
+}
+
 // atalhos pra view não indexar o deck na mão
 export const itemAncora = (e: EstadoJogo): ItemDeck => e.deck.itens[e.ancora];
 export const itemDesafiante = (e: EstadoJogo): ItemDeck => e.deck.itens[e.desafiante];
