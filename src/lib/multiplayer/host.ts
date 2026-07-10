@@ -5,7 +5,19 @@
 // inclui o caminho /ws/1v1; o hook só anexa ?nome=... na hora de conectar.
 const env = import.meta.env as unknown as Record<string, string | undefined>;
 
-export const BALCAO_WS = env.VITE_BALCAO_WS ?? "wss://balcao-api.onrender.com/ws/1v1";
+// Garante um esquema ws:// ou wss:// na URL. Sem isso, um valor tipo
+// "balcao-api.onrender.com/ws/1v1" (sem esquema) seria tratado pelo new WebSocket()
+// como caminho RELATIVO à página — virava "wss://<site>/balcao-api.onrender.com/..."
+// e o online quebrava. Aqui a gente conserta qualquer forma razoável de env var.
+function normalizaWs(bruto: string): string {
+  const u = bruto.trim().replace(/\/+$/, "");
+  if (/^wss?:\/\//i.test(u)) return u;
+  if (/^https:\/\//i.test(u)) return "wss://" + u.slice("https://".length);
+  if (/^http:\/\//i.test(u)) return "ws://" + u.slice("http://".length);
+  return "wss://" + u.replace(/^\/+/, "");
+}
+
+export const BALCAO_WS = normalizaWs(env.VITE_BALCAO_WS ?? "balcao-api.onrender.com/ws/1v1");
 
 // URL http(s) do /health do mesmo Balcão, derivada da do WebSocket. Serve pra
 // "pré-aquecer" o servidor antes de conectar: o free tier do Render dorme, e um
