@@ -1,0 +1,61 @@
+{
+  "id": "planetas-diametro",
+  "titulo": "Tamanho no espaço",
+  "unidade": "km",
+  "pergunta": "Tem MAIS ou MENOS diâmetro?",
+  "fonte": "NASA",
+  "fonte_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+  "atualizado_em": "2024",
+  "itens": [
+    {
+      "nome": "Sol",
+      "valor": 1391000,
+      "fato": "Cabem mais de um milhão de Terras dentro dele."
+    },
+    {
+      "nome": "Júpiter",
+      "valor": 139820,
+      "fato": "É o maior planeta: caberiam todos os outros dentro dele."
+    },
+    {
+      "nome": "Saturno",
+      "valor": 116460,
+      "fato": "É tão pouco denso que flutuaria na água."
+    },
+    {
+      "nome": "Urano",
+      "valor": 50724
+    },
+    {
+      "nome": "Netuno",
+      "valor": 49244
+    },
+    {
+      "nome": "Terra",
+      "valor": 12742,
+      "fato": "Único planeta conhecido com vida."
+    },
+    {
+      "nome": "Vênus",
+      "valor": 12104
+    },
+    {
+      "nome": "Marte",
+      "valor": 6779
+    },
+    {
+      "nome": "Mercúrio",
+      "valor": 4879
+    },
+    {
+      "nome": "Lua",
+      "valor": 3474,
+      "fato": "Único lugar além da Terra onde humanos já pisaram."
+    },
+    {
+      "nome": "Plutão",
+      "valor": 2377,
+      "fato": "Perdeu o posto de planeta em 2006 e virou planeta anão."
+    }
+  ]
+}

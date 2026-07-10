@@ -1,0 +1,118 @@
+{
+  "id": "animais-velocidade",
+  "titulo": "Velocidade dos animais",
+  "unidade": "km/h",
+  "pergunta": "É MAIS ou MENOS rápido?",
+  "fonte": "Wikipédia — animais mais rápidos",
+  "fonte_url": "https://pt.wikipedia.org/wiki/Lista_de_animais_por_velocidade",
+  "atualizado_em": "2024",
+  "itens": [
+    {
+      "nome": "Falcão-peregrino",
+      "valor": 389,
+      "fato": "No mergulho de caça, é o animal mais rápido do planeta."
+    },
+    {
+      "nome": "Águia-real",
+      "valor": 240
+    },
+    {
+      "nome": "Andorinhão-de-cauda-espinhosa",
+      "valor": 169,
+      "fato": "A ave mais veloz em voo horizontal, sem contar mergulhos."
+    },
+    {
+      "nome": "Morcego-de-cauda-livre",
+      "valor": 160,
+      "fato": "O mamífero mais rápido já registrado — e ele bate o recorde voando."
+    },
+    {
+      "nome": "Pombo-correio",
+      "valor": 149
+    },
+    {
+      "nome": "Marlim-negro",
+      "valor": 129
+    },
+    {
+      "nome": "Albatroz",
+      "valor": 127
+    },
+    {
+      "nome": "Guepardo",
+      "valor": 120,
+      "fato": "O animal terrestre mais rápido, mas só aguenta o pique por alguns segundos."
+    },
+    {
+      "nome": "Peixe-veleiro",
+      "valor": 109
+    },
+    {
+      "nome": "Beija-flor",
+      "valor": 98
+    },
+    {
+      "nome": "Espadarte",
+      "valor": 97
+    },
+    {
+      "nome": "Antílope-americano",
+      "valor": 88,
+      "fato": "O corredor de resistência da natureza: mantém alta velocidade por vários quilômetros."
+    },
+    {
+      "nome": "Leão",
+      "valor": 80
+    },
+    {
+      "nome": "Cavalo",
+      "valor": 76
+    },
+    {
+      "nome": "Galgo",
+      "valor": 74
+    },
+    {
+      "nome": "Lebre-europeia",
+      "valor": 72
+    },
+    {
+      "nome": "Avestruz",
+      "valor": 70
+    },
+    {
+      "nome": "Canguru",
+      "valor": 68
+    },
+    {
+      "nome": "Zebra",
+      "valor": 64
+    },
+    {
+      "nome": "Girafa",
+      "valor": 60
+    },
+    {
+      "nome": "Ser humano",
+      "valor": 44
+    },
+    {
+      "nome": "Elefante",
+      "valor": 40,
+      "fato": "Mesmo apressado, nunca tira as quatro patas do chão ao mesmo tempo: não galopa."
+    },
+    {
+      "nome": "Tartaruga-gigante",
+      "valor": 0.3
+    },
+    {
+      "nome": "Bicho-preguiça",
+      "valor": 0.24,
+      "fato": "Move-se tão devagar que algas chegam a crescer no seu pelo."
+    },
+    {
+      "nome": "Caracol-de-jardim",
+      "valor": 0.05
+    }
+  ]
+}

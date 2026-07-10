@@ -1,0 +1,118 @@
+{
+  "id": "filmes-bilheteria",
+  "titulo": "Bilheteria dos filmes",
+  "unidade": "US$",
+  "pergunta": "Fez MAIS ou MENOS bilheteria?",
+  "fonte": "Wikipédia — maiores bilheterias",
+  "fonte_url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_films",
+  "atualizado_em": "2024",
+  "itens": [
+    {
+      "nome": "Avatar",
+      "valor": 2923710708,
+      "fato": "Reassumiu o posto de maior bilheteria mundial em 2021, depois de uma reestreia na China."
+    },
+    {
+      "nome": "Vingadores: Ultimato",
+      "valor": 2797501328,
+      "fato": "Teve a maior estreia da história: mais de US$ 1,2 bilhão só no primeiro fim de semana global."
+    },
+    {
+      "nome": "Avatar: O Caminho da Água",
+      "valor": 2334484620
+    },
+    {
+      "nome": "Titanic",
+      "valor": 2257906828,
+      "fato": "Foi o primeiro filme a passar de US$ 1 bilhão em bilheteria mundial."
+    },
+    {
+      "nome": "Star Wars: O Despertar da Força",
+      "valor": 2068223624
+    },
+    {
+      "nome": "Vingadores: Guerra Infinita",
+      "valor": 2048359754
+    },
+    {
+      "nome": "Homem-Aranha: Sem Volta Para Casa",
+      "valor": 1922598800
+    },
+    {
+      "nome": "Divertida Mente 2",
+      "valor": 1698863816
+    },
+    {
+      "nome": "Jurassic World: O Mundo dos Dinossauros",
+      "valor": 1671537444
+    },
+    {
+      "nome": "O Rei Leão (2019)",
+      "valor": 1656943394
+    },
+    {
+      "nome": "Os Vingadores",
+      "valor": 1518815515
+    },
+    {
+      "nome": "Velozes e Furiosos 7",
+      "valor": 1515341399
+    },
+    {
+      "nome": "Top Gun: Maverick",
+      "valor": 1503260455
+    },
+    {
+      "nome": "Frozen 2",
+      "valor": 1450026933
+    },
+    {
+      "nome": "Barbie",
+      "valor": 1447138421,
+      "fato": "Virou a maior bilheteria já dirigida por uma mulher, a americana Greta Gerwig."
+    },
+    {
+      "nome": "Pantera Negra",
+      "valor": 1347280838
+    },
+    {
+      "nome": "Harry Potter e as Relíquias da Morte: Parte 2",
+      "valor": 1342139727
+    },
+    {
+      "nome": "Frozen: Uma Aventura Congelante",
+      "valor": 1290000000
+    },
+    {
+      "nome": "Minions",
+      "valor": 1159444662
+    },
+    {
+      "nome": "Jurassic Park",
+      "valor": 1103117297,
+      "fato": "Foi a maior bilheteria do mundo até 'Titanic', em 1997."
+    },
+    {
+      "nome": "Coringa",
+      "valor": 1074458282,
+      "fato": "Primeiro filme com classificação para adultos a passar de US$ 1 bilhão."
+    },
+    {
+      "nome": "Toy Story 3",
+      "valor": 1066970811
+    },
+    {
+      "nome": "O Rei Leão (1994)",
+      "valor": 979161632,
+      "fato": "A maior bilheteria entre as animações desenhadas à mão."
+    },
+    {
+      "nome": "E.T.: O Extraterrestre",
+      "valor": 797307407
+    },
+    {
+      "nome": "Star Wars: Uma Nova Esperança",
+      "valor": 775398507
+    }
+  ]
+}

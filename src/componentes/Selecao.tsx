@@ -6,7 +6,7 @@ interface Props {
   onDiario: () => void;
 }
 
-const GRUPOS: GrupoDeck[] = ["Brasil", "Mundo"];
+const GRUPOS: GrupoDeck[] = ["Brasil", "Mundo", "Diversão"];
 
 export function Selecao({ onEscolher, onDiario }: Props) {
   return (
