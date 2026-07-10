@@ -1,0 +1,246 @@
+{
+  "id": "instagram-seguidores",
+  "titulo": "Mais seguido no Instagram",
+  "descricao": "As contas com mais seguidores no Instagram (em milhoes).",
+  "unidade": "milhões de seguidores",
+  "pergunta": "Tem MAIS ou MENOS seguidores?",
+  "fonte": "Wikipedia — Most-followed Instagram accounts",
+  "fonte_url": "https://en.wikipedia.org/wiki/List_of_most-followed_Instagram_accounts",
+  "atualizado_em": "2026-07-01",
+  "itens": [
+    {
+      "nome": "Cristiano Ronaldo",
+      "valor": 674,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Cristiano_Ronaldo_2275_%28cropped%29.jpg/330px-Cristiano_Ronaldo_2275_%28cropped%29.jpg",
+      "fato": "Futebolista português"
+    },
+    {
+      "nome": "Lionel Messi",
+      "valor": 512,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Lionel_Messi_NE_Revolution_Inter_Miami_7.9.25-178.jpg/330px-Lionel_Messi_NE_Revolution_Inter_Miami_7.9.25-178.jpg",
+      "fato": "Futebolista argentino"
+    },
+    {
+      "nome": "Selena Gomez",
+      "valor": 404,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Selena_Gomez_at_the_2024_Golden_Globes_00002.jpg/330px-Selena_Gomez_at_the_2024_Golden_Globes_00002.jpg",
+      "fato": "Atriz, cantora e compositora norte-americana"
+    },
+    {
+      "nome": "Dwayne Johnson",
+      "valor": 382,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Dwayne_Johnson-1809_%28cropped%29.jpg/330px-Dwayne_Johnson-1809_%28cropped%29.jpg",
+      "fato": "Ator americano"
+    },
+    {
+      "nome": "Kylie Jenner",
+      "valor": 382,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Kylie_Jenner1_%28cropped%29.png/330px-Kylie_Jenner1_%28cropped%29.png",
+      "fato": "Socialite e empresária norte-americana"
+    },
+    {
+      "nome": "Ariana Grande",
+      "valor": 363,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Ariana_Grande_promoting_Wicked_%282024%29.jpg/330px-Ariana_Grande_promoting_Wicked_%282024%29.jpg",
+      "fato": "Cantora, compositora e atriz norte-americana"
+    },
+    {
+      "nome": "Kim Kardashian",
+      "valor": 344,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/0/08/President_Trump_Meets_with_Sentencing_Commutation_Recipients_%2849624188912%29_%28cropped%29.jpg",
+      "fato": "Personalidade da televisão e das mídias sociais americana"
+    },
+    {
+      "nome": "Beyoncé",
+      "valor": 300,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%285_of_118%29_%2852945900006%29_%28cropped%29.jpg/330px-Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%285_of_118%29_%2852945900006%29_%28cropped%29.jpg",
+      "fato": "Cantora, compositora e atriz norte-americana"
+    },
+    {
+      "nome": "Khloé Kardashian",
+      "valor": 292,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Khloe_Kardashian_Glamour_2.png/330px-Khloe_Kardashian_Glamour_2.png",
+      "fato": "Empresária, influenciadora digital e socialite norte-americana"
+    },
+    {
+      "nome": "Nike, Inc.",
+      "valor": 291,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Nike_Campus%2C_Beaverton_-_DPLA_-_ffa63f1bbaf5cd21aeada3d3978db2b0.jpg/330px-Nike_Campus%2C_Beaverton_-_DPLA_-_ffa63f1bbaf5cd21aeada3d3978db2b0.jpg",
+      "fato": "Empresa estadunidense de calçados, roupas e acessórios"
+    },
+    {
+      "nome": "Justin Bieber",
+      "valor": 286,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Justin_Bieber_20161111_009-2_%28cropped%29.jpg/330px-Justin_Bieber_20161111_009-2_%28cropped%29.jpg",
+      "fato": "Cantor, compositor e dançarino canadense"
+    },
+    {
+      "nome": "Kendall Jenner",
+      "valor": 278,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/5/54/Kendall_Jenner_for_Adanola_2_%28cropped%29.jpg",
+      "fato": "Modelo e socialite norte-americana"
+    },
+    {
+      "nome": "Taylor Swift",
+      "valor": 273,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/330px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
+      "fato": "Cantora e compositora estadunidense"
+    },
+    {
+      "nome": "Virat Kohli",
+      "valor": 273,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/330px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg",
+      "fato": "Jogador de críquete indiano"
+    },
+    {
+      "nome": "National Geographic",
+      "valor": 269,
+      "img": "https://upload.wikimedia.org/wikipedia/en/a/ad/National_Geographic_Magazine_March_2017_Cover.jpg",
+      "fato": "American monthly magazine"
+    },
+    {
+      "nome": "Jennifer Lopez",
+      "valor": 240,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Jennifer_Lopez_at_the_2025_Sundance_Film_Festival_%28cropped_3%29.jpg/330px-Jennifer_Lopez_at_the_2025_Sundance_Film_Festival_%28cropped_3%29.jpg",
+      "fato": "American singer and actress (born 1969)"
+    },
+    {
+      "nome": "Neymar",
+      "valor": 240,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg/330px-Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg",
+      "fato": "Futebolista brasileiro"
+    },
+    {
+      "nome": "Nicki Minaj",
+      "valor": 224,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Nicki_Minaj_2025_%283x4_cropped%29.jpg/330px-Nicki_Minaj_2025_%283x4_cropped%29.jpg",
+      "fato": "Trinidadian rapper and singer (born 1982)"
+    },
+    {
+      "nome": "Miley Cyrus",
+      "valor": 205,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Miley_Cyrus_Primavera19_-239_%2848986302932%29_%28cropped%29.jpg/330px-Miley_Cyrus_Primavera19_-239_%2848986302932%29_%28cropped%29.jpg",
+      "fato": "Atriz, cantora e compositora estadunidense"
+    },
+    {
+      "nome": "Katy Perry",
+      "valor": 195,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/KatyPerryWestminst111224_%2881_of_95%29_%2854206733094%29_%28cropped%29.jpg/330px-KatyPerryWestminst111224_%2881_of_95%29_%2854206733094%29_%28cropped%29.jpg",
+      "fato": "Cantora e compositora norte-americana"
+    },
+    {
+      "nome": "Real Madrid Club de Fútbol",
+      "valor": 179,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/98/Real_Madrid.png/330px-Real_Madrid.png",
+      "fato": "Clube esportivo sediado em Madrid, Espanha"
+    },
+    {
+      "nome": "Zendaya",
+      "valor": 175,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Zendaya_-_2019_by_Glenn_Francis.jpg/330px-Zendaya_-_2019_by_Glenn_Francis.jpg",
+      "fato": "Atriz e cantora norte-americana"
+    },
+    {
+      "nome": "Kevin Hart",
+      "valor": 172,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kevin_Hart_2014_%28cropped_2%29.jpg/330px-Kevin_Hart_2014_%28cropped_2%29.jpg",
+      "fato": "Ator e comediante americano"
+    },
+    {
+      "nome": "Cardi B",
+      "valor": 161,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Cardi_B_2021_02.jpg/330px-Cardi_B_2021_02.jpg",
+      "fato": "Rapper, compositora, atriz e personalidade de televisão americana"
+    },
+    {
+      "nome": "LeBron James",
+      "valor": 154,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/330px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg",
+      "fato": "Basquetebolista estadunidense"
+    },
+    {
+      "nome": "Demi Lovato",
+      "valor": 148,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Demi_Lovato_Interview_Feb_2020.png/330px-Demi_Lovato_Interview_Feb_2020.png",
+      "fato": "Cantora, compositora e atriz estadunidense"
+    },
+    {
+      "nome": "Rihanna",
+      "valor": 145,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/1/16/Rihanna_visits_U.S._Embassy_in_Barbados_2024_%28cropped%29.jpg",
+      "fato": "Atriz, cantora, compositora, empresária e estilista barbadense"
+    },
+    {
+      "nome": "Futbol Club Barcelona",
+      "valor": 145,
+      "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/4/43/FCBarcelona.svg/langpt-330px-FCBarcelona.svg.png",
+      "fato": "Clube esportivo sediado em Barcelona, Espanha"
+    },
+    {
+      "nome": "Chris Brown",
+      "valor": 140,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Chris_Brown_got_INFLUENCE.jpg/330px-Chris_Brown_got_INFLUENCE.jpg",
+      "fato": "American singer (born 1989)"
+    },
+    {
+      "nome": "Drake",
+      "valor": 139,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg/330px-Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg",
+      "fato": "Canadian rapper and singer (born 1986)"
+    },
+    {
+      "nome": "Kylian Mbappé",
+      "valor": 133,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/330px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg",
+      "fato": "French footballer (born 1998)"
+    },
+    {
+      "nome": "Ellen DeGeneres",
+      "valor": 130,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ellen_DeGeneres-2009-enh5.jpg/330px-Ellen_DeGeneres-2009-enh5.jpg",
+      "fato": "American comedian and television host (born 1958)"
+    },
+    {
+      "nome": "Billie Eilish",
+      "valor": 124,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/BillieEilishO2140725-39_-_54665577407_%28cropped%29.jpg/330px-BillieEilishO2140725-39_-_54665577407_%28cropped%29.jpg",
+      "fato": "Cantora e compositora norte-americana"
+    },
+    {
+      "nome": "UEFA Champions League",
+      "valor": 119,
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/UEFA_Champions_League.svg/330px-UEFA_Champions_League.svg.png",
+      "fato": "European association football tournament"
+    },
+    {
+      "nome": "Lisa",
+      "valor": 105,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/20240314_Lisa_Manoban_07.jpg/330px-20240314_Lisa_Manoban_07.jpg",
+      "fato": "Thai rapper and singer (born 1997)"
+    },
+    {
+      "nome": "NASA",
+      "valor": 104,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/NASA_seal.svg/330px-NASA_seal.svg.png",
+      "fato": "American space and aeronautics agency"
+    },
+    {
+      "nome": "Gal Gadot",
+      "valor": 103,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Gal_Gadot_by_Gage_Skidmore_3.jpg/330px-Gal_Gadot_by_Gage_Skidmore_3.jpg",
+      "fato": "Israeli actress (born 1985)"
+    },
+    {
+      "nome": "Vin Diesel",
+      "valor": 103,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Vin_Diesel_by_Gage_Skidmore_2.jpg/330px-Vin_Diesel_by_Gage_Skidmore_2.jpg",
+      "fato": "American actor (born 1967)"
+    },
+    {
+      "nome": "Narendra Modi",
+      "valor": 101,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/The_official_portrait_of_Shri_Narendra_Modi%2C_the_Prime_Minister_of_the_Republic_of_India.jpg/330px-The_official_portrait_of_Shri_Narendra_Modi%2C_the_Prime_Minister_of_the_Republic_of_India.jpg",
+      "fato": "Prime Minister of India since 2014"
+    }
+  ]
+}
