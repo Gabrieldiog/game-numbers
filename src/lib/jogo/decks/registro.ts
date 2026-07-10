@@ -1,5 +1,5 @@
 // O índice de categorias do jogo. Cada deck é um JSON; aqui eles ganham um pouco
-// de metadado de vitrine (emoji e grupo) pra futura tela de seleção. Todo deck é
+// de metadado de vitrine (emoji e grupo) pra tela de seleção. Todo deck é
 // VALIDADO na carga — se algum JSON estiver torto, o parseDeck estoura já aqui,
 // falhando cedo em vez de quebrar no meio de uma partida.
 
@@ -10,8 +10,13 @@ import areaEstados from "./ibge-area-estados.json";
 import paisesPopulacao from "./paises-populacao.json";
 import paisesArea from "./paises-area.json";
 import paisesPib from "./paises-pib.json";
+import animaisVelocidade from "./animais-velocidade.json";
+import filmesBilheteria from "./filmes-bilheteria.json";
+import montanhasAltura from "./montanhas-altura.json";
+import prediosAltura from "./predios-altura.json";
+import planetasDiametro from "./planetas-diametro.json";
 
-export type GrupoDeck = "Brasil" | "Mundo";
+export type GrupoDeck = "Brasil" | "Mundo" | "Diversão";
 
 export interface DeckRegistrado {
   deck: Deck;
@@ -25,6 +30,11 @@ const cru: { fonte: unknown; emoji: string; grupo: GrupoDeck }[] = [
   { fonte: paisesPopulacao, emoji: "🌎", grupo: "Mundo" },
   { fonte: paisesArea, emoji: "📐", grupo: "Mundo" },
   { fonte: paisesPib, emoji: "💰", grupo: "Mundo" },
+  { fonte: animaisVelocidade, emoji: "🐆", grupo: "Diversão" },
+  { fonte: filmesBilheteria, emoji: "🎬", grupo: "Diversão" },
+  { fonte: montanhasAltura, emoji: "⛰️", grupo: "Diversão" },
+  { fonte: prediosAltura, emoji: "🏢", grupo: "Diversão" },
+  { fonte: planetasDiametro, emoji: "🪐", grupo: "Diversão" },
 ];
 
 export const DECKS: DeckRegistrado[] = cru.map((c) => ({

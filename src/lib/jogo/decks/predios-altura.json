@@ -1,0 +1,99 @@
+{
+  "id": "predios-altura",
+  "titulo": "Altura dos prédios",
+  "unidade": "m",
+  "pergunta": "É MAIS ou MENOS alto?",
+  "fonte": "Wikipédia — arranha-céus mais altos",
+  "fonte_url": "https://pt.wikipedia.org/wiki/Lista_de_arranha-c%C3%A9us_mais_altos_do_mundo",
+  "atualizado_em": "2024",
+  "itens": [
+    {
+      "nome": "Burj Khalifa (Dubai)",
+      "valor": 828,
+      "fato": "É o prédio mais alto do mundo, com 163 andares habitáveis."
+    },
+    {
+      "nome": "Merdeka 118 (Kuala Lumpur)",
+      "valor": 679,
+      "fato": "Inaugurado em 2023, é o segundo prédio mais alto do mundo."
+    },
+    {
+      "nome": "Shanghai Tower (Xangai)",
+      "valor": 632
+    },
+    {
+      "nome": "Torre do Relógio Real de Meca",
+      "valor": 601
+    },
+    {
+      "nome": "Ping An Finance Centre (Shenzhen)",
+      "valor": 599
+    },
+    {
+      "nome": "Lotte World Tower (Seul)",
+      "valor": 555
+    },
+    {
+      "nome": "One World Trade Center (Nova York)",
+      "valor": 541,
+      "fato": "É o prédio mais alto dos Estados Unidos; sua altura de 1.776 pés lembra o ano da independência americana."
+    },
+    {
+      "nome": "Guangzhou CTF Finance Centre (Cantão)",
+      "valor": 530
+    },
+    {
+      "nome": "CITIC Tower (Pequim)",
+      "valor": 528
+    },
+    {
+      "nome": "Taipei 101 (Taipé)",
+      "valor": 508,
+      "fato": "Foi o prédio mais alto do mundo de 2004 a 2010, até ser superado pelo Burj Khalifa."
+    },
+    {
+      "nome": "Shanghai World Financial Center (Xangai)",
+      "valor": 492
+    },
+    {
+      "nome": "International Commerce Centre (Hong Kong)",
+      "valor": 484
+    },
+    {
+      "nome": "Central Park Tower (Nova York)",
+      "valor": 472,
+      "fato": "É o prédio residencial mais alto do mundo."
+    },
+    {
+      "nome": "Lakhta Center (São Petersburgo)",
+      "valor": 462
+    },
+    {
+      "nome": "Landmark 81 (Cidade de Ho Chi Minh)",
+      "valor": 461
+    },
+    {
+      "nome": "Petronas Tower 1 (Kuala Lumpur)",
+      "valor": 452,
+      "fato": "As Torres Petronas foram os prédios mais altos do mundo de 1998 a 2004."
+    },
+    {
+      "nome": "Willis Tower (Chicago)",
+      "valor": 442
+    },
+    {
+      "nome": "Empire State Building (Nova York)",
+      "valor": 381,
+      "fato": "Foi o prédio mais alto do mundo por quase 40 anos, de 1931 a 1970."
+    },
+    {
+      "nome": "Chrysler Building (Nova York)",
+      "valor": 319
+    },
+    {
+      "nome": "The Shard (Londres)",
+      "valor": 310,
+      "fato": "É o prédio mais alto do Reino Unido, projetado por Renzo Piano."
+    }
+  ]
+}

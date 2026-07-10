@@ -1,0 +1,102 @@
+{
+  "id": "montanhas-altura",
+  "titulo": "Altura das montanhas",
+  "unidade": "m",
+  "pergunta": "É MAIS ou MENOS alta?",
+  "fonte": "Wikipédia — montanhas mais altas",
+  "fonte_url": "https://pt.wikipedia.org/wiki/Lista_das_montanhas_mais_altas_da_Terra",
+  "atualizado_em": "2024",
+  "itens": [
+    {
+      "nome": "Monte Everest",
+      "valor": 8849,
+      "fato": "A mais alta do mundo: 8.848,86 m, altura oficial anunciada por Nepal e China em 2020."
+    },
+    {
+      "nome": "K2",
+      "valor": 8611,
+      "fato": "Segunda mais alta, mas considerada bem mais difícil e mortal de escalar que o Everest."
+    },
+    {
+      "nome": "Kangchenjunga",
+      "valor": 8586
+    },
+    {
+      "nome": "Lhotse",
+      "valor": 8516
+    },
+    {
+      "nome": "Makalu",
+      "valor": 8485
+    },
+    {
+      "nome": "Cho Oyu",
+      "valor": 8188
+    },
+    {
+      "nome": "Dhaulagiri",
+      "valor": 8167
+    },
+    {
+      "nome": "Manaslu",
+      "valor": 8163
+    },
+    {
+      "nome": "Nanga Parbat",
+      "valor": 8125,
+      "fato": "Apelidada de 'Montanha Assassina' pelo grande número de mortes nas primeiras tentativas."
+    },
+    {
+      "nome": "Annapurna",
+      "valor": 8091
+    },
+    {
+      "nome": "Aconcágua",
+      "valor": 6961,
+      "fato": "A montanha mais alta das Américas e a mais alta do mundo fora da Ásia."
+    },
+    {
+      "nome": "Chimborazo",
+      "valor": 6263,
+      "fato": "Seu cume é o ponto da superfície mais distante do centro da Terra, por causa do bojo equatorial."
+    },
+    {
+      "nome": "Denali",
+      "valor": 6190
+    },
+    {
+      "nome": "Kilimanjaro",
+      "valor": 5895,
+      "fato": "Montanha mais alta da África: um vulcão isolado que se ergue sozinho sobre a savana."
+    },
+    {
+      "nome": "Monte Elbrus",
+      "valor": 5642
+    },
+    {
+      "nome": "Monte Vinson",
+      "valor": 4892
+    },
+    {
+      "nome": "Puncak Jaya",
+      "valor": 4884
+    },
+    {
+      "nome": "Mont Blanc",
+      "valor": 4808
+    },
+    {
+      "nome": "Cervino (Matterhorn)",
+      "valor": 4478
+    },
+    {
+      "nome": "Monte Fuji",
+      "valor": 3776
+    },
+    {
+      "nome": "Pico da Neblina",
+      "valor": 2995,
+      "fato": "Ponto mais alto do Brasil, na fronteira com a Venezuela, dentro do Amazonas."
+    }
+  ]
+}
