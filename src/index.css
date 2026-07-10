@@ -1,0 +1,64 @@
+:root {
+  --breu: #0a0e1a;
+  --voltagem: #1fb6ff;
+  --coral: #ff5b4a;
+  --pulso: #2df07a;
+  --nevoa: #eaf0ff;
+  --aco: #1b2236;
+  --linha: color-mix(in srgb, var(--nevoa) 12%, transparent);
+  --muted: color-mix(in srgb, var(--nevoa) 55%, transparent);
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--breu);
+  background-image:
+    radial-gradient(65% 55% at 12% -5%, color-mix(in srgb, var(--voltagem) 18%, transparent), transparent 70%),
+    radial-gradient(65% 55% at 105% 105%, color-mix(in srgb, var(--coral) 14%, transparent), transparent 70%),
+    linear-gradient(var(--linha) 1px, transparent 1px),
+    linear-gradient(90deg, var(--linha) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 44px 44px, 44px 44px;
+  background-position: center;
+  background-attachment: fixed;
+  color: var(--nevoa);
+  font-family: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  overflow-x: hidden;
+}
+
+/* vinheta: apaga o grid nas bordas, dá profundidade sem poluir */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background: radial-gradient(75% 65% at 50% 42%, transparent 45%, var(--breu) 100%);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--voltagem);
+  outline-offset: 3px;
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
