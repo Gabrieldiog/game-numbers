@@ -42,6 +42,13 @@ npm run party:dev      # servidor local em http://127.0.0.1:1999
 npm run party:deploy   # publica na sua conta Cloudflare
 ```
 
+## Publicar
+
+São dois deploys (o frontend estático + o servidor de tempo real do multijogador):
+
+1. **Servidor (PartyKit):** `npm run party:deploy` — pede login na primeira vez e imprime o host publicado (ex.: `maior-ou-menor.<usuario>.partykit.dev`).
+2. **Frontend (Netlify):** conecte o repositório ao Netlify (build `npm run build`, publish `dist` — já no `netlify.toml`) e defina a variável de ambiente **`VITE_PARTY_HOST`** com o host do passo 1. O Vite lê essa variável no build.
+
 ## Fases
 
 - **Fase 1 (atual):** motor + deck de população + modo clássico + reveal animado com som.

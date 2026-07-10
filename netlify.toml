@@ -1,0 +1,17 @@
+# Deploy do frontend no Netlify.
+#
+# IMPORTANTE: defina a variável de ambiente VITE_PARTY_HOST nas configurações do
+# site (Site configuration > Environment variables) com o host do servidor
+# PartyKit publicado — ex.: "maior-ou-menor.SEU-USUARIO.partykit.dev" (só o host,
+# sem https://). Sem isso, o multijogador aponta pro localhost e não conecta em
+# produção. O Vite lê essa variável no momento do build.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# App de página única: qualquer rota cai no index.html.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
