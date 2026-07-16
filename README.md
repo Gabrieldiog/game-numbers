@@ -2,6 +2,8 @@
 
 Um joguinho de adivinhação no estilo _higher/lower_, com dado público real e brasileiro. Aparecem duas coisas com um número escondido; você chuta qual é o **maior**. Acertou, segue a sequência. Errou, acabou. E a cada rodada o número real aparece contando na tela, com a fonte.
 
+**Jogar agora:** [game-numbers.vercel.app](https://game-numbers.vercel.app)
+
 ## A ideia de arquitetura
 
 O motor do jogo é **agnóstico ao dado**. Cada categoria é um _deck_ — um único arquivo JSON. Adicionar categoria nova = escrever um arquivo, sem tocar na lógica do jogo.
@@ -47,10 +49,14 @@ O frontend é estático; o backend do 1v1 é o Balcão, que já está publicado 
 
 - **Frontend (Vercel):** importe o repositório na Vercel (o preset Vite já é detectado — build `npm run build`, output `dist`, mais o rewrite de SPA, tudo no `vercel.json`) e defina a variável de ambiente **`VITE_BALCAO_WS`** com a URL WebSocket do relay: `wss://balcao-api.onrender.com/ws/1v1`. O Vite lê essa variável no build, então depois de definir é preciso refazer o deploy.
 
-## Fases
+## O que tem
 
-- **Fase 1 (atual):** motor + deck de população + modo clássico + reveal animado com som.
-- Próximas: mais decks (ETL do IBGE e cia.), seleção de categoria, desafio diário compartilhável, modos 3 vidas e blitz.
+- **Vários decks** de dado real — população e área de municípios/estados, indicadores de países (World Bank), além de decks de fama e de diversão com foto em cada carta.
+- **Seleção de categoria** por grupos (Fama, Brasil, Mundo, Diversão).
+- **Desafio diário** determinístico — todo mundo pega a mesma sequência no dia — com resultado compartilhável no estilo Wordle.
+- **Modos de jogo** — clássico (morte súbita), 3 vidas e blitz (cronômetro + combo).
+- **Multijogador 1v1** em tempo real (ver acima).
+- **Som e juice** — o número sobe contando na tela, com áudio sintetizado na Web Audio API.
 
 ## Fontes
 
